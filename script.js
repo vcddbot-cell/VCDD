@@ -1,4 +1,4 @@
-const URL="http://localhost:3001/api/filter-startups";
+const URL="https://cassette-ala-percent-kay.trycloudflare.com";
 
 async function run(){
  const p=document.getElementById("prompt").value;
