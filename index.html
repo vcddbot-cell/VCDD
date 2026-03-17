@@ -1,20 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sticky AI Dashboard</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenClaw Sticky Notes Prompt Board</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="app-shell">
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Startup Sticky Notes Board</h1>
+        <p>Ask for the notes you want in plain English. This version sends the prompt to your backend, which forwards it to OpenClaw.</p>
+      </div>
 
-<h1>Startup Dashboard</h1>
+      <div class="prompt-panel">
+        <label for="promptInput" class="prompt-label">What do you want to see?</label>
+        <div class="prompt-row">
+          <input
+            id="promptInput"
+            type="text"
+            placeholder='Try: "show me biotech from the last 7 days"'
+            aria-label="Prompt to filter sticky notes"
+          />
+          <button id="runPromptBtn" type="button">Show notes</button>
+        </div>
 
-<input id="prompt" placeholder="e.g. show me biotech last 3 days">
-<button onclick="run()">Run</button>
+        <div class="quick-prompts">
+          <button class="chip" type="button" data-prompt="show me all startups">All startups</button>
+          <button class="chip" type="button" data-prompt="show me the last 3 days of startup research">Last 3 days</button>
+          <button class="chip" type="button" data-prompt="show me startups only in biotech">Biotech only</button>
+          <button class="chip" type="button" data-prompt="show me climate startups from the last 7 days">Climate + 7 days</button>
+          <button class="chip" type="button" data-prompt="show me canada startups">Canada only</button>
+        </div>
 
-<div id="board"></div>
+        <div id="promptSummary" class="prompt-summary">
+          Waiting for a prompt.
+        </div>
+      </div>
+    </header>
 
-<script src="script.js"></script>
+    <main class="app">
+      <section class="board-wrap">
+        <div id="board" class="board" aria-live="polite"></div>
+      </section>
+
+      <aside class="sidebar">
+        <div id="detailPanel" class="panel">
+          <div class="empty">
+            <h2>Company details</h2>
+            <p>Click a sticky note to read the full summary, funding round, location, and links.</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
