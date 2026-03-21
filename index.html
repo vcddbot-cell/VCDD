@@ -1,28 +1,61 @@
+<index.html>
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Startup Dashboard</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenClaw Sticky Notes Prompt Board</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="app-shell">
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Startup Sticky Notes Board</h1>
+       <p>Ask for the notes you want in plain English. This version sends the prompt to your backend, which forwards it to OpenClaw.</p>
+      </div>
 
-<h1>🔍 Startup Search</h1>
+      <div class="prompt-panel">
+        <label for="promptInput" class="prompt-label">What do you want to see?</label>
+        <div class="prompt-row">
+          <input
+            id="promptInput"
+            type="text"
+            placeholder='Try: "show me biotech from the last 7 days"'
+            aria-label="Prompt to filter sticky notes"
+          />
+          <button id="runPromptBtn" type="button">Show notes</button>
+        </div>
+        <div class="quick-prompts">
+          <button class="chip" type="button" data-prompt="show me all startups">All startups</button>
+          <button class="chip" type="button" data-prompt="show me the last 3 days of startup research">Last 3 days</button>
+          <button class="chip" type="button" data-prompt="show me startups only in biotech">Biotech only</button>
+          <button class="chip" type="button" data-prompt="show me climate startups from the last 7 days">Climate + 7 days</button>
+          <button class="chip" type="button" data-prompt="show me canada startups">Canada only</button>
+        </div>
 
-<input id="prompt" placeholder="e.g. show me biotech companies, or retail startups, or Series A AI...">
-<button onclick="run()">Search</button>
+        <div id="promptSummary" class="prompt-summary">
+          Waiting for a prompt.
+        </div>
+      </div>
+    </header>
 
-<p id="summary" style="margin-top:10px;font-style:italic;color:#666;"></p>
+    <main class="app">
+      <section class="board-wrap">
+        <div id="board" class="board" aria-live="polite"></div>
+      </section>
 
-<div id="board"></div>
-
-<!-- Modal for company details -->
-<div id="modal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:1000;">
-  <div id="modal-content" style="background:white;margin:10% auto;padding:30px;max-width:600px;border-radius:8px;max-height:80vh;overflow-y:auto;"></div>
-</div>
-
-<script src="frontend-config.js"></script>
-<script src="script.js"></script>
+      <aside class="sidebar">
+        <div id="detailPanel" class="panel">
+          <div class="empty">
+            <h2>Company details</h2>
+            <p>Click a sticky note to read the full summary, funding round, location, and links.</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
