@@ -144,3 +144,8 @@ document.getElementById("prompt").addEventListener("keypress", function(e) {
 });
 
 console.log("VCDD script loaded");
+
+// Attach event listeners after DOM is ready
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("search-btn").addEventListener("click", run);
+});

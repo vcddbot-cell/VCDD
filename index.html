@@ -10,7 +10,7 @@
 
 <div id="search-container">
   <input id="prompt" placeholder="What do you want to explore?" autofocus>
-  <button onclick="run()">→</button>
+  <button id="search-btn">→</button>
 </div>
 
 <div id="summary"></div>
@@ -19,12 +19,11 @@
 <!-- Modal for company details -->
 <div id="modal">
   <div id="modal-content">
-    <button id="close-btn" onclick="closeModal()">×</button>
+    <button id="close-btn">×</button>
     <div id="modal-body"></div>
   </div>
 </div>
 
-<script src="frontend-config.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
