@@ -1,0 +1,273 @@
+[
+  {
+    "id": "ami-labs-1",
+    "name": "AMI Labs",
+    "sector": "AI",
+    "summary": "Yann LeCun's AI startup building 'world models' - AI that learns from reality, not just language. Raised $1.03B seed at $3.5B pre-money valuation.",
+    "round": "Seed",
+    "amount": "$1.03B",
+    "location": "Global",
+    "reportDate": "2026-03-16",
+    "links": [
+      {"url": "https://example.com/ami-labs", "label": "Source"}
+    ]
+  },
+  {
+    "id": "legora-1",
+    "name": "Legora",
+    "sector": "Legal AI",
+    "summary": "AI platform for lawyers, now used by 800 law firms. Valuation tripled from $1.8B to $5.55B in one year. Grew from 40 to 400 employees.",
+    "round": "Series D",
+    "amount": "$550M",
+    "location": "Sweden",
+    "reportDate": "2026-03-16",
+    "links": [
+      {"url": "https://www.reuters.com/business/finance/legal-ai-startup-legora-raises-550-million-speed-up-us-expansion-2026-03-10/", "label": "Reuters"}
+    ]
+  },
+  {
+    "id": "translucent-1",
+    "name": "Translucent",
+    "sector": "Healthcare AI",
+    "summary": "AI-powered healthcare finance platform. $27M Series A led by GV (Google Ventures).",
+    "round": "Series A",
+    "amount": "$27M",
+    "location": "US",
+    "reportDate": "2026-03-16",
+    "links": [
+      {"url": "https://example.com/translucent", "label": "Source"}
+    ]
+  },
+  {
+    "id": "nscale-1",
+    "name": "Nscale",
+    "sector": "AI Infrastructure",
+    "summary": "Largest European AI infrastructure funding ever. $2B Series C at $14.6B valuation. Major Microsoft partnership for 200K GPUs.",
+    "round": "Series C",
+    "amount": "$2B",
+    "location": "Europe",
+    "reportDate": "2026-03-15",
+    "links": [
+      {"url": "https://example.com/nscale", "label": "Source"}
+    ]
+  },
+  {
+    "id": "quince-1",
+    "name": "Quince",
+    "sector": "AI Retail",
+    "summary": "AI-powered retail platform hitting $1B revenue. $500M Series E at $10.1B valuation.",
+    "round": "Series E",
+    "amount": "$500M",
+    "location": "US",
+    "reportDate": "2026-03-14",
+    "links": [
+      {"url": "https://example.com/quince", "label": "Source"}
+    ]
+  },
+  {
+    "id": "sage-1",
+    "name": "Sage",
+    "sector": "AI Healthcare",
+    "summary": "AI-powered senior care platform. $65M Series C led by Goldman Sachs Growth Equity.",
+    "round": "Series C",
+    "amount": "$65M",
+    "location": "US",
+    "reportDate": "2026-03-13",
+    "links": [
+      {"url": "https://example.com/sage", "label": "Source"}
+    ]
+  },
+  {
+    "id": "sandbar-1",
+    "name": "Sandbar",
+    "sector": "Wearables / AI",
+    "summary": "AI note-taking ring startup. Former Meta employees Mina Fahmi and Kirak Hong built Stream ring - voice note-taking wearable with privacy-focused design. Preorders sold out, users averaging 50+ interactions/day.",
+    "round": "Series A",
+    "amount": "$23M",
+    "location": "New York, NY",
+    "reportDate": "2026-03-17",
+    "links": [{"url": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/", "label": "TechCrunch"}]
+  },
+  {
+    "id": "mind-robotics-1",
+    "name": "Mind Robotics",
+    "sector": "Industrial AI Robotics",
+    "summary": "Rivian spin-out building AI-powered industrial robots for factory floor deployment at scale. $500M Series A at $2B valuation. Total funding $615M since founding November 2025.",
+    "round": "Series A",
+    "amount": "$500M",
+    "location": "Palo Alto, CA",
+    "reportDate": "2026-03-18",
+    "links": [
+      {"url": "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/", "label": "TechCrunch"},
+      {"url": "https://www.reuters.com/business/rivian-spinout-mind-robotics-valued-2-billion-series-funding-round-2026-03-11/", "label": "Reuters"}
+    ]
+  },
+  {
+    "id": "wonderful-1",
+    "name": "Wonderful",
+    "sector": "Enterprise AI Agents",
+    "summary": "Enterprise AI agent platform founded in 2025 by Bar Winkler (CEO) and Roey Lalazar (CTO). $150M Series B at $2B valuation. 350 employees scaling to 900. Traction: 70% enterprise expansion within 3 months, 60% reduction in handling times, 80%+ containment rates.",
+    "round": "Series B",
+    "amount": "$150M",
+    "location": "Israel",
+    "reportDate": "2026-03-18",
+    "links": [
+      {"url": "https://www.calcalistech.com/ctechnews/article/mzl1gy8tx", "label": "Calcalistech"}
+    ]
+  },
+  {
+    "id": "gestala-1",
+    "name": "Gestala",
+    "sector": "Brain-Computer Interface / Neurotech",
+    "summary": "Chinese BCI startup developing non-invasive ultrasound-based brain-computer interfaces. $21.6M raised just 2 months after launch at $100M-$200M valuation. First ultrasound BCI company in China. Lead program: chronic pain management. Also researching depression, PTSD, autism, stroke rehab.",
+    "round": "Seed",
+    "amount": "$21.6M",
+    "location": "China",
+    "reportDate": "2026-03-18",
+    "links": [
+      {"url": "https://techcrunch.com/2026/03/11/bci-startup-gestala-raises-21-million-for-non-invasive-ultrasound-brain-tech/", "label": "TechCrunch"}
+    ]
+  },
+  {
+    "id": "runsybil-1",
+    "name": "RunSybil",
+    "sector": "AI Cybersecurity / Offensive Security",
+    "summary": "AI cybersecurity startup using AI agents to automatically hack company software to find security weaknesses. Co-founded by Ari Herbert-Voss (OpenAI's first security hire) and Vlad Ionescu (former Meta red team lead). AI agent Sybil conducts continuous autonomous penetration tests against live applications. Works with Cursor, Turbopuffer, Notion, Baseten, Thinking Machines Lab, plus major financial institutions and Fortune 500 companies.",
+    "round": "Series A",
+    "amount": "$40M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-03-19",
+    "links": [
+      {"url": "https://fortune.com/2026/03/18/exclusive-ai-cybersecurity-startup-runsybil-founded-by-openais-first-security-hire-raises-40-million-led-by-khosla-ventures/", "label": "Fortune"}
+    ]
+  },
+  {
+    "id": "andromeda-1",
+    "name": "Andromeda AI",
+    "sector": "AI Infrastructure / On-Demand GPU Cloud",
+    "summary": "Startup helping companies rent AI infrastructure (GPUs) on-demand without long-term contracts. Platform aggregates unused GPUs from data centers of internet providers, crypto miners, etc. 100+ provider network. Annualized revenue grew from $50M (2024) to $100M (2025). Profitable since launch. Processed 1,000+ GPU transactions since launching ~2 years ago. Customers include notable AI startups and labs spending $250M-$500M/year on infrastructure.",
+    "round": "Growth",
+    "amount": "$60M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-03-19",
+    "links": [
+      {"url": "https://siliconangle.com/2026/03/18/demand-gpu-startup-andromeda-raises-funding-1-5b-valuation/", "label": "SiliconANGLE"}
+    ]
+  },
+  {
+    "id": "edra-1",
+    "name": "Edra",
+    "sector": "AI Workflow Automation / Enterprise Software",
+    "summary": "NYC-based automation platform that turns existing operational data (emails, logs, support tickets, chat histories) into a living knowledge base. Founded by two former Palantir engineers - Eugen Alpeza (built out major commercial accounts, launched Palantir's AI platform) and Yannis Karamanlakis (first forward deployed AI engineer at Palantir). Building 'Living Playbooks' that learn from real workflows. Customers include HubSpot, ASOS, and Cushman & Wakefield. Total funding: $30M Series A.",
+    "round": "Series A",
+    "amount": "$30M",
+    "location": "New York, NY",
+    "reportDate": "2026-03-20",
+    "links": [
+      {"url": "https://techcrunch.com/2026/03/18/two-palantir-veterans-just-came-out-of-stealth-with-30-million-and-a-sequoia-stamp-of-approval/", "label": "TechCrunch"},
+      {"url": "https://tech.eu/2026/03/19/edra-raises-309m-series-a-to-turn-enterprise-data-into-self-improving-ai-agents/", "label": "Tech.eu"},
+      {"url": "https://therecursive.com/edra-series-a-expalantir-knowledge-retrieval-sequoia-capital/", "label": "The Recursive"}
+    ]
+  },
+  {
+    "id": "parallel-1",
+    "name": "Parallel",
+    "sector": "AI Healthcare / Hospital Administration",
+    "summary": "Paris-based startup developing AI agents for hospitals. Founded in 2024 by Paul Lafforgue (CEO) and co-founders. AI agents operate directly within existing hospital software as an AI layer that learns to use software like a human - enabling deployment in weeks. Initial focus on medical coding (translating clinical data into standardized codes for reimbursement). Already deployed across multiple public and private hospitals in Europe. Previously raised $3.5M seed in April 2025. Total funding: $20M Series A.",
+    "round": "Series A",
+    "amount": "$20M",
+    "location": "Paris, France",
+    "reportDate": "2026-03-20",
+    "links": [
+      {"url": "https://tech.eu/2026/03/19/parallel-raises-20m-to-scale-ai-solutions-for-hospital-administration/", "label": "Tech.eu"},
+      {"url": "https://thenextweb.com/news/parallel-hospital-ai-agents-20m-index-ventures", "label": "TNW"}
+    ]
+  },
+  {
+    "id": "busright-1",
+    "name": "BusRight",
+    "sector": "EdTech / Student Transportation",
+    "summary": "All-in-one student transportation technology platform. Uses AI to ensure school buses get students safely to class on time. Platform brings driver navigation, routing, student ridership visibility, parent communication, and live GPS tracking into one unified platform. 100%+ revenue growth for 5 consecutive years, serving 36 states. Reduced call volume by 80%+ in some districts.",
+    "round": "Series A",
+    "amount": "$30M",
+    "location": "New York, NY",
+    "reportDate": "2026-03-21",
+    "links": [
+      {"url": "https://www.prnewswire.com/news-releases/busright-raises-30m-to-power-the-largest-mass-transit-system-302717021.html", "label": "PR Newswire"},
+      {"url": "https://siliconangle.com/2026/03/18/busright-bags-30m-ensure-school-buses-always-arrive-right-time/", "label": "SiliconANGLE"}
+    ]
+  },
+  {
+    "id": "sequen-1",
+    "name": "Sequen",
+    "sector": "AI / Enterprise Personalization",
+    "summary": "AI startup bringing TikTok-style personalization to enterprise. Large Event Models (LEMs) learn from live user actions within a session - not static profiles or third-party cookies. Privacy-forward. Sub-20-millisecond latency. Processed 10 billion monthly requests in under 18 months. 5 Fortune 500 customers. 7% revenue lift for furniture company (vs 0.4% typical), 20% net revenue lift for Fetch Rewards in 11 days.",
+    "round": "Series A",
+    "amount": "$16M",
+    "location": "New York, NY",
+    "reportDate": "2026-03-21",
+    "links": [
+      {"url": "https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/", "label": "TechCrunch"},
+      {"url": "https://www.businesswire.com/news/home/20260317105541/en/Sequen-Raises-$16M-Series-A-to-Bring-Sub-second-In-session-Personalization-to-Enterprise-Consumer-Companies", "label": "Business Wire"}
+    ]
+  },
+  {
+    "id": "xbow-1",
+    "name": "XBOW",
+    "sector": "Cybersecurity / Autonomous Offensive Security",
+    "summary": "Seattle-based startup building an AI-driven platform that continuously emulates attackers at machine speed to uncover deep vulnerabilities. Platform probes software releases and environments to find security weaknesses that manual pen-testing might miss. The $120M Series C values the company at over $1 billion, making it one of the few cybersecurity unicorns to emerge in 2026.",
+    "round": "Series C",
+    "amount": "$120M",
+    "location": "Seattle, WA",
+    "reportDate": "2026-03-22",
+    "links": [
+      {"url": "https://xbow.com/news/xbow-raises-120m-to-scale", "label": "XBOW News"},
+      {"url": "https://www.businesswire.com/news/home/20260318258057/en/XBOW-Raises-$120M-to-Scale-its-Autonomous-Hacker", "label": "Business Wire"},
+      {"url": "https://fintech.global/2026/03/19/xbow-raises-120m-series-c-to-scale-autonomous-hacker/", "label": "Fintech Global"}
+    ]
+  },
+  {
+    "id": "halcyon-1",
+    "name": "Halcyon",
+    "sector": "AI / Energy Infrastructure Data",
+    "summary": "AI platform that ingests and normalizes U.S. energy regulatory data from all 50 states, every ISO/RTO grid operator, and FERC dockets. Enables utilities, data center operators, and developers to query and monitor energy information in natural language. In the U.S. alone, up to $850 billion will be invested in power and digital infrastructure in 2026, creating massive demand for energy project intelligence.",
+    "round": "Series A",
+    "amount": "$21M",
+    "location": "US",
+    "reportDate": "2026-03-22",
+    "links": [
+      {"url": "https://halcyon.io/blog/machine-readable/series-a", "label": "Halcyon Blog"},
+      {"url": "https://www.businesswire.com/news/home/20260316032633/en/Halcyon-Raises-$21-Million-Series-A-To-Bring-AI-Powered-Intelligence-to-the-Energy-Industry", "label": "Business Wire"},
+      {"url": "https://technews180.com/funding-news/halcyon-raises-21m-series-a-for-energy-ai-platform/", "label": "TechNews180"}
+    ]
+  },
+  {
+    "id": "cloaked-1",
+    "name": "Cloaked",
+    "sector": "Privacy & Security / Consumer & Enterprise",
+    "summary": "Consumer-first privacy and security platform offering bundled solutions including identity creation, data removal, identity theft insurance, VPN, dark web monitoring, and AI-powered call screening. Founded by brothers Arjun and Abhijay Bhatnagar in 2020. Saw 10x growth last year with 350,000+ paying customers. Has protected 10 million identities and cleaned up 1 billion+ records from data broker sites. Now expanding to enterprise.",
+    "round": "Series B",
+    "amount": "$375M",
+    "location": "Massachusetts, USA",
+    "reportDate": "2026-03-22",
+    "links": [
+      {"url": "https://techcrunch.com/2026/03/19/consumer-focused-privacy-company-cloaked-raises-375m-as-it-expands-to-enterprise/", "label": "TechCrunch"},
+      {"url": "https://www.businesswire.com/news/home/20260319361833/en/Cloaked-Raises-$375-Million-to-Fight-for-Privacy-in-the-Age-of-AI", "label": "Business Wire"},
+      {"url": "https://fintech.global/2026/03/20/cloaked-bags-375m-to-make-data-privacy-the-default/", "label": "Fintech Global"}
+    ]
+  },
+  {
+    "id": "standard-template-labs-1",
+    "name": "Standard Template Labs (STLabs)",
+    "sector": "Enterprise AI / ITSM",
+    "summary": "AI-first service management platform that resolves IT requests end-to-end, not just tracks them. Founded by Amit Agarwal (ex-President/CPO of Datadog). Platform uses AI to interpret requests, orchestrate workflows, and resolve them in context using a continuously updated digital twin of the enterprise. First company incubated by ICONIQ. Seed round co-led by ICONIQ and CRV.",
+    "round": "Seed",
+    "amount": "$49M",
+    "location": "New York, NY",
+    "reportDate": "2026-03-23",
+    "links": [
+      {"url": "https://www.prnewswire.com/news-releases/standard-template-labs-launches-with-49-million-in-seed-funding-302715394.html", "label": "PR Newswire"},
+      {"url": "https://www.morningstar.com/news/pr-newswire/20260317ny11789/standard-template-labs-launches-with-49-million-in-seed-funding", "label": "Morningstar"}
+    ]
+  }
+]

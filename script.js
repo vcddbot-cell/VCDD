@@ -1,8 +1,12 @@
-const BACKEND_URL = "https://sticky-dashboard.vcddbot.workers.dev/api/filter-startups";
-const BACKEND_COMPANY_URL = "https://sticky-dashboard.vcddbot.workers.dev/api/company";
-const NOTE_COLORS = ["#fff59d", "#f8bbd0", "#bbdefb", "#c8e6c9", "#e1bee7", "#ffe0b2", "#b2dfdb"];
+// Configuration - uses Cloudflare Worker backend
+const API_URL = "https://sticky-dashboard.vcddbot.workers.dev/api/filter-startups";
+const NOTE_COLORS = [
+  "#fef3c7", "#fce7f3", "#dbeafe", "#d1fae5", 
+  "#ede9fe", "#ffedd5", "#c7f9cc", "#e0f2fe"
+];
 
 let colorIndex = 0;
+let lastPrompt = "";
 
 function getNextColor() {
   const color = NOTE_COLORS[colorIndex % NOTE_COLORS.length];
@@ -10,86 +14,109 @@ function getNextColor() {
   return color;
 }
 
+// Main search function - calls the backend API
 async function run() {
   const prompt = document.getElementById("prompt").value.trim();
-  if (!prompt) {
-    document.getElementById("board").innerHTML = '<p style="color:#666;font-style:italic;">Enter a search to see startups</p>';
-    return;
-  }
+  if (!prompt) return;
   
-  document.getElementById("board").innerHTML = '<p>Searching...</p>';
+  lastPrompt = prompt;
+  
+  // Show loading
+  document.getElementById("board").innerHTML = '<div class="loading">Searching...</div>';
+  document.getElementById("summary").textContent = "";
   
   try {
-    const res = await fetch(BACKEND_URL, {
+    const res = await fetch(API_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ prompt })
     });
+    
     const data = await res.json();
-    render(data.companies || []);
+    render(data.companies || [], prompt);
     document.getElementById("summary").textContent = data.summary || "";
   } catch (err) {
-    document.getElementById("board").innerHTML = '<p style="color:red;">Error: ' + err.message + '</p>';
+    document.getElementById("board").innerHTML = '<div class="empty">Error: ' + err.message + '</div>';
   }
 }
 
-function render(list) {
+// Render notes with flexible layout
+function render(list, prompt) {
   const board = document.getElementById("board");
-  board.innerHTML = "";
+  
+  colorIndex = 0; // Reset colors for each search
   
   if (list.length === 0) {
-    board.innerHTML = '<p style="color:#666;">No startups found</p>';
+    board.innerHTML = '<div class="empty">No notes found for "' + prompt + '"</div>';
     return;
   }
   
+  board.innerHTML = "";
+  
+  // Create flexible grid layout
   list.forEach((c, idx) => {
-    const div = document.createElement("div");
-    div.className = "note";
-    div.style.backgroundColor = getNextColor();
-    div.onclick = () => showDetails(c);
+    const note = document.createElement("div");
+    note.className = "note";
+    note.style.backgroundColor = getNextColor();
+    note.style.animationDelay = (idx * 0.03) + "s";
+    note.onclick = () => showDetails(c);
     
-    div.innerHTML = `
-      <b>${c.name}</b><br>
-      <span style="font-size:12px;color:#555;">${c.sector}</span><br>
-      <span style="font-size:11px;color:#777;">${c.round} • ${c.amount}</span>
-    `;
-    board.appendChild(div);
+    // Flexible content - show different info based on what's available
+    let content = `<b class="note-name">${c.name}</b>`;
+    
+    if (c.sector) {
+      content += `<span class="note-sector">${c.sector}</span>`;
+    }
+    
+    if (c.round || c.amount) {
+      content += `<span class="note-meta">${c.round || ""} ${c.amount || ""}</span>`;
+    }
+    
+    if (c.summary) {
+      const shortSummary = c.summary.length > 100 ? c.summary.substring(0, 100) + "..." : c.summary;
+      content += `<p class="note-summary">${shortSummary}</p>`;
+    }
+    
+    note.innerHTML = content;
+    board.appendChild(note);
   });
 }
 
+// Show company details in modal
 function showDetails(company) {
+  const modalBody = document.getElementById("modal-body");
   const modal = document.getElementById("modal");
-  const modalContent = document.getElementById("modal-content");
   
   const linksHtml = company.links ? company.links.map(l => 
-    `<a href="${l.url}" target="_blank" style="color:#1976d2;">${l.label || 'Source'}</a>`
-  ).join(" | ") : "None";
+    `<a href="${l.url}" target="_blank">${l.label || "Source"}</a>`
+  ).join(" ") : "None";
   
-  modalContent.innerHTML = `
+  modalBody.innerHTML = `
     <h2>${company.name}</h2>
-    <p><strong>Sector:</strong> ${company.sector || "N/A"}</p>
-    <p><strong>Funding:</strong> ${company.round || "N/A"} • ${company.amount || "N/A"}</p>
-    <p><strong>Location:</strong> ${company.location || "N/A"}</p>
-    <p><strong>Date:</strong> ${company.reportDate || "N/A"}</p>
+    <div class="detail-row"><span class="label">Sector:</span> ${company.sector || "N/A"}</div>
+    <div class="detail-row"><span class="label">Funding:</span> ${company.round || "N/A"} • ${company.amount || "N/A"}</div>
+    <div class="detail-row"><span class="label">Location:</span> ${company.location || "N/A"}</div>
+    <div class="detail-row"><span class="label">Date:</span> ${company.reportDate || "N/A"}</div>
     <hr>
-    <p><strong>Summary:</strong></p>
-    <p>${company.summary || "No summary available"}</p>
+    <div class="detail-row"><span class="label">Summary:</span></div>
+    <p class="summary-text">${company.summary || "No summary available"}</p>
     <hr>
-    <p><strong>Links:</strong> ${linksHtml}</p>
-    <button onclick="closeModal()" style="margin-top:20px;padding:8px 16px;cursor:pointer;">Close</button>
+    <div class="detail-row"><span class="label">Links:</span> ${linksHtml}</div>
   `;
   
-  modal.style.display = "block";
+  modal.classList.add("active");
 }
 
 function closeModal() {
-  document.getElementById("modal").style.display = "none";
+  document.getElementById("modal").classList.remove("active");
 }
 
 // Close modal on outside click
-window.onclick = function(event) {
-  const modal = document.getElementById("modal");
-  if (event.target === modal) {
-    modal.style.display = "none";
-  }
-}
+document.getElementById("modal").addEventListener("click", function(e) {
+  if (e.target === this) closeModal();
+});
+
+// Enter key triggers search
+document.getElementById("prompt").addEventListener("keypress", function(e) {
+  if (e.key === "Enter") run();
+});
