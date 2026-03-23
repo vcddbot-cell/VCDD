@@ -144,10 +144,26 @@
       {
         "url": "https://www.calcalistech.com/ctechnews/article/mzl1gy8tx",
         "label": "Calcalistech"
+      },
+      {
+        "url": "https://www.insightpartners.com",
+        "label": "Insight Partners"
+      },
+      {
+        "url": "https://indexventures.com",
+        "label": "Index Ventures"
+      },
+      {
+        "url": "https://ivp.com",
+        "label": "IVP"
+      },
+      {
+        "url": "https://bvp.com",
+        "label": "Bessemer"
       }
     ],
-    "cofounders": "Bar Winkler (CEO) — previously founded Approve.com (sold to Tipalti 2021), Roey Lalazar (CTO) — previously founded Kaps (AI localization)\n- Traction: 350 employees scaling to 900 by year-end. 7",
-    "investors": "",
+    "cofounders": "Bar Winkler (CEO) \u2014 previously founded Approve.com (sold to Tipalti 2021), Roey Lalazar (CTO) \u2014 previously founded Kaps (AI localization)\n- Traction: 350 employees scaling to 900 by year-end. 7",
+    "investors": "Insight Partners (Lead), Index Ventures, IVP, Bessemer Venture Partners, Vine Ventures",
     "traction": "350 employees scaling to 900 by year-end. 70%+ enterprises expand to additional workflows within 3 months. Deployed agents reduced handling times by 60%, achieved 80%+ containment rates. Serving enterprises across 30+ countries (Europe, Middle East, Asia-Pacific, Latin America).\n- Location: I",
     "notes": "Enterprise AI agent platform with locally embedded deployment teams. Platform-agnostic (continuously benchmarks best AI models). Uses harness-based evaluation and self-healing system design. Moved agents from pilot to production in days/weeks vs months."
   },
@@ -180,12 +196,32 @@
       {
         "url": "https://fortune.com/2026/03/18/exclusive-ai-cybersecurity-startup-runsybil-founded-by-openais-first-security-hire-raises-40-million-led-by-khosla-ventures/",
         "label": "Fortune"
+      },
+      {
+        "url": "https://www.khoslaventures.com",
+        "label": "Khosla Ventures"
+      },
+      {
+        "url": "https://www.menlovc.com",
+        "label": "Menlo Ventures"
+      },
+      {
+        "url": "https://www.anthropic.com/anthology-fund",
+        "label": "Anthropic Anthology Fund"
+      },
+      {
+        "url": "https://conviction.com",
+        "label": "Conviction"
+      },
+      {
+        "url": "https://linkedin.com/in/eladgil",
+        "label": "Elad Gil (LinkedIn)"
       }
     ],
-    "cofounders": "Ari Herbert-Voss (CEO) — OpenAI's first security hire (2019), Vlad Ionescu — previously led offensive security red teams at Meta\n- Traction: Works with startups including Cursor, Turbopuffer, N",
-    "investors": "",
+    "cofounders": "Ari Herbert-Voss (CEO) \u2014 OpenAI's first security hire (2019), Vlad Ionescu \u2014 previously led offensive security red teams at Meta\n- Traction: Works with startups including Cursor, Turbopuffer, N",
+    "investors": "Khosla Ventures (Lead), Menlo Ventures, Anthropic Anthology Fund, Conviction, Elad Gil (Angel)",
     "traction": "Works with startups including Cursor, Turbopuffer, Notion, Baseten, Thinking Machines Lab. Also works with major financial institutions and Fortune 500 companies (unnamed). Customers have found critical vulnerabilities undetected by traditional methods.\n- Location: San Francisco, CA\n- Notes",
-    "notes": "AI agent \"Sybil\" conducts continuous autonomous penetration tests against live applications—finding, exploiting and documenting real security vulnerabilities without humans in the loop. Tests running software the way hackers would—exploring systems, chaining vulnerabilities, testing authenticatio"
+    "notes": "AI agent \"Sybil\" conducts continuous autonomous penetration tests against live applications\u2014finding, exploiting and documenting real security vulnerabilities without humans in the loop. Tests running software the way hackers would\u2014exploring systems, chaining vulnerabilities, testing authenticatio"
   },
   {
     "id": "andromeda-1",
@@ -200,10 +236,14 @@
       {
         "url": "https://siliconangle.com/2026/03/18/demand-gpu-startup-andromeda-raises-funding-1-5b-valuation/",
         "label": "SiliconANGLE"
+      },
+      {
+        "url": "https://www.paradigm.xyz",
+        "label": "Paradigm"
       }
     ],
     "cofounders": "Not disclosed in article\n- Traction: Annualized revenue grew from $50M (2024) to $100M (2025). Profitable since launch. Processed 1,000+ GPU transactions since launching ~2 years ago. 100+ prov",
-    "investors": "",
+    "investors": "Paradigm (Lead)",
     "traction": "Annualized revenue grew from $50M (2024) to $100M (2025). Profitable since launch. Processed 1,000+ GPU transactions since launching ~2 years ago. 100+ provider network. Customers include notable AI startups and labs spending $250M-$500M/year on infrastructure.\n- Location: San Francisco, CA\n-",
     "notes": "Platform makes it easy to rent unused GPUs from data centers of internet providers, crypto miners, etc. Customers can rent on-demand without long-term contracts. Offers Andromeda Pricing Index for market rate data. Consolidates billing from multiple providers."
   },
@@ -228,10 +268,18 @@
       {
         "url": "https://therecursive.com/edra-series-a-expalantir-knowledge-retrieval-sequoia-capital/",
         "label": "The Recursive"
+      },
+      {
+        "url": "https://sequoiacap.com",
+        "label": "Sequoia Capital"
+      },
+      {
+        "url": "https://8vc.com",
+        "label": "8VC"
       }
     ],
     "cofounders": "Eugen Alpeza (Croatian), Yannis Karamanlakis (Greek) - both former Palantir engineers, met 13 years ago at university\n- Traction: Already working with HubSpot, ASOS, and Cushman & Wakefield. Eu",
-    "investors": "- Sequoia Capital (Lead)\n  - Website: https://sequoiacap.com\n  - Contact: Sequoia Capital (general)\n  - LinkedIn: https://linkedin.com/company/sequoia\n  - Thesis: Backs founders building \"the next generation of great companies\" across AI, enterprise, and infrastructure. Published \"2026: This",
+    "investors": "Sequoia Capital (Lead), 8VC, A* Capital",
     "traction": "Already working with HubSpot, ASOS, and Cushman & Wakefield. Eugen built out major commercial accounts and led launch of Palantir's AI platform (AIP). Yannis was Palantir's first forward deployed AI engineer focused on getting AI models into production.\n- Location: New York, NY\n- Notes: B",
     "notes": "Building \"Living Playbooks\" that learn from real workflows and automate operations. Problem: companies sit on loads of useful operational data (emails, logs, support tickets, chat histories) but have no good way to act on it. Edra analyzes that data automatically, builds a knowledge base, and kee"
   },
@@ -252,10 +300,22 @@
       {
         "url": "https://thenextweb.com/news/parallel-hospital-ai-agents-20m-index-ventures",
         "label": "TNW"
+      },
+      {
+        "url": "https://indexventures.com",
+        "label": "Index Ventures"
+      },
+      {
+        "url": "https://frst.vc",
+        "label": "Frst"
+      },
+      {
+        "url": "https://ycombinator.com",
+        "label": "Y Combinator"
       }
     ],
     "cofounders": "Paul Lafforgue (CEO) - LinkedIn: https://www.linkedin.com/in/paullafforgue/\n- Traction: Already deployed across multiple public and private hospitals in Europe. Technology enables deployment in",
-    "investors": "- Index Ventures (Lead)\n  - Website: https://www.indexventures.com\n  - Contact: Index Ventures team\n  - LinkedIn: https://linkedin.com/company/index-ventures\n  - Thesis: European-based VC investing in seed to growth stage. Strong in AI/ML, marketplace, and enterprise software. 2026 focus: AI",
+    "investors": "Index Ventures (Lead), Frst, Y Combinator, Hexa",
     "traction": "Already deployed across multiple public and private hospitals in Europe. Technology enables deployment in weeks (not months/years) because it runs on top of legacy systems rather than requiring deep integration. Focus on medical coding - translating clinical data into standardized codes for reimb",
     "notes": "Founded in 2024. Problem: Every patient discharge in a European hospital triggers paperwork cascade - clinical info must be converted to standardized codes, billing, admissions. These processes consume significant resources and reduce time for patient care. AI agents operate within existing hospi"
   },
@@ -276,11 +336,16 @@
       {
         "url": "https://siliconangle.com/2026/03/18/busright-bags-30m-ensure-school-buses-always-arrive-right-time/",
         "label": "SiliconANGLE"
+      },
+      {
+        "url": "https://www.volitioncapital.com",
+        "label": "Volition Capital"
       }
     ],
     "cofounders": "Keith Corso (CEO), Phillip Dunn (CIO), Chris Fischer, Evan Eddleston\n- Traction: 100%+ revenue growth for 5 consecutive years; serves school districts across 36 states; hundreds of thousands of",
     "traction": "100%+ revenue growth for 5 consecutive years; serves school districts across 36 states; hundreds of thousands of transportation leaders, drivers, and parents use platform weekly; reduced inbound call volume by 80%+ in some districts where parent app deployed\n- Location: New York, NY\n- Notes",
-    "notes": "Student transportation is the largest mass transit system in the US - over 20 million students rely on school buses daily. Platform brings driver navigation, routing, student ridership visibility, parent communication, and live GPS tracking into one unified platform. Drivers can build routes in 6"
+    "notes": "Student transportation is the largest mass transit system in the US - over 20 million students rely on school buses daily. Platform brings driver navigation, routing, student ridership visibility, parent communication, and live GPS tracking into one unified platform. Drivers can build routes in 6",
+    "investors": "Volition Capital (Lead)"
   },
   {
     "id": "sequen-1",
@@ -299,11 +364,24 @@
       {
         "url": "https://www.businesswire.com/news/home/20260317105541/en/Sequen-Raises-$16M-Series-A-to-Bring-Sub-second-In-session-Personalization-to-Enterprise-Consumer-Companies",
         "label": "Business Wire"
+      },
+      {
+        "url": "https://whitestarcapital.com",
+        "label": "White Star Capital"
+      },
+      {
+        "url": "https://threshold.vc",
+        "label": "Threshold Ventures"
+      },
+      {
+        "url": "https://www.greycroft.com",
+        "label": "Greycroft"
       }
     ],
-    "cofounders": "Zoë Weil (CEO), Ethan Benjamin (CTO), Mo Afshar, Alexander Thom\n- Traction: Processed 10 billion monthly requests in under 18 months; 5 Fortune 500 customers; contracts in 7 figures for first 5",
+    "cofounders": "Zo\u00eb Weil (CEO), Ethan Benjamin (CTO), Mo Afshar, Alexander Thom\n- Traction: Processed 10 billion monthly requests in under 18 months; 5 Fortune 500 customers; contracts in 7 figures for first 5",
     "traction": "Processed 10 billion monthly requests in under 18 months; 5 Fortune 500 customers; contracts in 7 figures for first 5 customers; 7% revenue lift for furniture company (vs 0.4% typical), 20% net revenue lift for Fetch Rewards in 11 days; RankTune platform with sub-20-millisecond latency\n- Locati",
-    "notes": "Brings TikTok-style personalization to enterprise. Large Event Models (LEMs) learn from live user actions (clicks, hovers, conversations) within a session - not static profiles or third-party cookies. Privacy-forward (doesn't need user identity). Could eventually replace cookies. Team includes pe"
+    "notes": "Brings TikTok-style personalization to enterprise. Large Event Models (LEMs) learn from live user actions (clicks, hovers, conversations) within a session - not static profiles or third-party cookies. Privacy-forward (doesn't need user identity). Could eventually replace cookies. Team includes pe",
+    "investors": "White Star Capital (Co-Lead), Threshold Ventures (Co-Lead), Greycroft"
   },
   {
     "id": "xbow-1",
@@ -326,8 +404,25 @@
       {
         "url": "https://fintech.global/2026/03/19/xbow-raises-120m-series-c-to-scale-autonomous-hacker/",
         "label": "Fintech Global"
+      },
+      {
+        "url": "https://www.dfjgrowth.com",
+        "label": "DFJ Growth"
+      },
+      {
+        "url": "https://northzone.com",
+        "label": "Northzone"
+      },
+      {
+        "url": "https://www.sofina.be",
+        "label": "Sofina"
+      },
+      {
+        "url": "https://www.alkeon.com",
+        "label": "Alkeon Capital"
       }
-    ]
+    ],
+    "investors": "DFJ Growth (Lead), Northzone, Sofina, Alkeon Capital"
   },
   {
     "id": "halcyon-1",
@@ -350,8 +445,25 @@
       {
         "url": "https://technews180.com/funding-news/halcyon-raises-21m-series-a-for-energy-ai-platform/",
         "label": "TechNews180"
+      },
+      {
+        "url": "https://www.energizecap.com",
+        "label": "Energize Capital"
+      },
+      {
+        "url": "https://www.zeroinfinitypartners.com",
+        "label": "Zero Infinity Partners"
+      },
+      {
+        "url": "https://www.congruentvc.com",
+        "label": "Congruent Ventures"
+      },
+      {
+        "url": "https://www.obviousventures.com",
+        "label": "Obvious Ventures"
       }
-    ]
+    ],
+    "investors": "Energize Capital (Lead), Zero Infinity Partners, Congruent Ventures, Obvious Ventures, Sabanci Climate Ventures"
   },
   {
     "id": "cloaked-1",
@@ -374,8 +486,29 @@
       {
         "url": "https://fintech.global/2026/03/20/cloaked-bags-375m-to-make-data-privacy-the-default/",
         "label": "Fintech Global"
+      },
+      {
+        "url": "https://www.generalcatalyst.com",
+        "label": "General Catalyst"
+      },
+      {
+        "url": "https://www.libertycityventures.com",
+        "label": "Liberty City Ventures"
+      },
+      {
+        "url": "https://luxcapital.com",
+        "label": "Lux Capital"
+      },
+      {
+        "url": "https://humancapital.com",
+        "label": "Human Capital"
+      },
+      {
+        "url": "https://duckduckgo.com",
+        "label": "DuckDuckGo (Strategic)"
       }
-    ]
+    ],
+    "investors": "General Catalyst (Lead), Liberty City Ventures, Lux Capital, Human Capital, DuckDuckGo, Marquee Ventures, Fifth Growth Fund, LG Technology Ventures, Assurant Ventures"
   },
   {
     "id": "standard-template-labs-1",
@@ -394,11 +527,20 @@
       {
         "url": "https://www.morningstar.com/news/pr-newswire/20260317ny11789/standard-template-labs-launches-with-49-million-in-seed-funding",
         "label": "Morningstar"
+      },
+      {
+        "url": "https://www.iconiq.com/growth",
+        "label": "ICONIQ Growth"
+      },
+      {
+        "url": "https://www.crv.com",
+        "label": "CRV"
       }
     ],
     "cofounders": "Amit Agarwal (CEO, former President and CPO of Datadog), plus founding team from Datadog, Amazon, Meta, NVIDIA, Bloomberg\n- Traction: Already engaged with enterprise design partners. Building p",
     "traction": "Already engaged with enterprise design partners. Building platform that resolves requests end-to-end using AI-powered digital twin of the enterprise.\n- Location: New York, NY\n- Notes: Incubation at ICONIQ - first time ICONIQ has incubated a company. Platform interprets requests, orchestra",
-    "notes": "Incubation at ICONIQ - first time ICONIQ has incubated a company. Platform interprets requests, orchestrates workflows needed to fulfill them, and resolves in context using a continuously updated digital twin of the enterprise. Maps relationships between people, systems, services, and policies. B"
+    "notes": "Incubation at ICONIQ - first time ICONIQ has incubated a company. Platform interprets requests, orchestrates workflows needed to fulfill them, and resolves in context using a continuously updated digital twin of the enterprise. Maps relationships between people, systems, services, and policies. B",
+    "investors": "ICONIQ Growth (Lead), CRV"
   },
   {
     "name": "Defense Tech Startup Boom",
