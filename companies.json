@@ -146,7 +146,7 @@
         "label": "Calcalistech"
       }
     ],
-    "cofounders": "Bar Winkler (CEO) \u2014 previously founded Approve.com (sold to Tipalti 2021), Roey Lalazar (CTO) \u2014 previously founded Kaps (AI localization)\n- Traction: 350 employees scaling to 900 by year-end. 7",
+    "cofounders": "Bar Winkler (CEO) — previously founded Approve.com (sold to Tipalti 2021), Roey Lalazar (CTO) — previously founded Kaps (AI localization)\n- Traction: 350 employees scaling to 900 by year-end. 7",
     "investors": "",
     "traction": "350 employees scaling to 900 by year-end. 70%+ enterprises expand to additional workflows within 3 months. Deployed agents reduced handling times by 60%, achieved 80%+ containment rates. Serving enterprises across 30+ countries (Europe, Middle East, Asia-Pacific, Latin America).\n- Location: I",
     "notes": "Enterprise AI agent platform with locally embedded deployment teams. Platform-agnostic (continuously benchmarks best AI models). Uses harness-based evaluation and self-healing system design. Moved agents from pilot to production in days/weeks vs months."
@@ -182,10 +182,10 @@
         "label": "Fortune"
       }
     ],
-    "cofounders": "Ari Herbert-Voss (CEO) \u2014 OpenAI's first security hire (2019), Vlad Ionescu \u2014 previously led offensive security red teams at Meta\n- Traction: Works with startups including Cursor, Turbopuffer, N",
+    "cofounders": "Ari Herbert-Voss (CEO) — OpenAI's first security hire (2019), Vlad Ionescu — previously led offensive security red teams at Meta\n- Traction: Works with startups including Cursor, Turbopuffer, N",
     "investors": "",
     "traction": "Works with startups including Cursor, Turbopuffer, Notion, Baseten, Thinking Machines Lab. Also works with major financial institutions and Fortune 500 companies (unnamed). Customers have found critical vulnerabilities undetected by traditional methods.\n- Location: San Francisco, CA\n- Notes",
-    "notes": "AI agent \"Sybil\" conducts continuous autonomous penetration tests against live applications\u2014finding, exploiting and documenting real security vulnerabilities without humans in the loop. Tests running software the way hackers would\u2014exploring systems, chaining vulnerabilities, testing authenticatio"
+    "notes": "AI agent \"Sybil\" conducts continuous autonomous penetration tests against live applications—finding, exploiting and documenting real security vulnerabilities without humans in the loop. Tests running software the way hackers would—exploring systems, chaining vulnerabilities, testing authenticatio"
   },
   {
     "id": "andromeda-1",
@@ -301,7 +301,7 @@
         "label": "Business Wire"
       }
     ],
-    "cofounders": "Zo\u00eb Weil (CEO), Ethan Benjamin (CTO), Mo Afshar, Alexander Thom\n- Traction: Processed 10 billion monthly requests in under 18 months; 5 Fortune 500 customers; contracts in 7 figures for first 5",
+    "cofounders": "Zoë Weil (CEO), Ethan Benjamin (CTO), Mo Afshar, Alexander Thom\n- Traction: Processed 10 billion monthly requests in under 18 months; 5 Fortune 500 customers; contracts in 7 figures for first 5",
     "traction": "Processed 10 billion monthly requests in under 18 months; 5 Fortune 500 customers; contracts in 7 figures for first 5 customers; 7% revenue lift for furniture company (vs 0.4% typical), 20% net revenue lift for Fetch Rewards in 11 days; RankTune platform with sub-20-millisecond latency\n- Locati",
     "notes": "Brings TikTok-style personalization to enterprise. Large Event Models (LEMs) learn from live user actions (clicks, hovers, conversations) within a session - not static profiles or third-party cookies. Privacy-forward (doesn't need user identity). Could eventually replace cookies. Team includes pe"
   },
@@ -433,22 +433,6 @@
     "links": []
   },
   {
-    "name": "RunSybil (Already in database from March 19)",
-    "sector": "Cybersecurity",
-    "round": "Series A",
-    "amount": "$40M",
-    "location": "** San Francisco, CA",
-    "cofounders": "Ari Herbert-Voss (OpenAI's first security hire, 2019), Vlad Ionescu (former Meta red team lead)\n- Traction: Works with Cursor, Turbopuffer, Notion, Baseten, Thinking Machines Lab, plus major fi",
-    "investors": "- Khosla Ventures (Lead) - Vinod Khosla personally invested. Thesis: Frontier tech, AI security. \"RunSybil is on the edge.\" Website: khoslaventures.com\n- S32\n- Anthropic Anthology Fund\n- Menlo Ventures\n- Conviction\n- Elad Gil (angel)\n- Angels: Nikesh Arora, Amit Agarwa",
-    "traction": "Works with Cursor, Turbopuffer, Notion, Baseten, Thinking Machines Lab, plus major financial institutions and Fortune 500 companies. Customers have found critical vulnerabilities using Sybil that went undetected with traditional methods.\n- Location: San Francisco, CA\n- Notes: AI agent \"Sy",
-    "notes": "AI agent \"Sybil\" conducts continuous autonomous penetration tests against live applications - finding, exploiting, and documenting real security vulnerabilities without humans in the loop. Different from code analysis tools - tests running software the way a hacker would.",
-    "summary": "",
-    "link": "",
-    "reportDate": "2026-03-20",
-    "id": "runsybil-(already-in-database-from-march-19)-1",
-    "links": []
-  },
-  {
     "name": "Northzone",
     "sector": "Healthcare AI",
     "round": "Growth",
@@ -478,38 +462,6 @@
     "link": "",
     "reportDate": "2026-03-22",
     "id": "sofina-1",
-    "links": []
-  },
-  {
-    "name": "Energize Capital (Lead)",
-    "sector": "AI Infrastructure",
-    "round": "Series A",
-    "amount": "$430",
-    "location": "US",
-    "cofounders": "",
-    "investors": "",
-    "traction": "",
-    "notes": "",
-    "summary": "",
-    "link": "",
-    "reportDate": "2026-03-22",
-    "id": "energize-capital-(lead)-1",
-    "links": []
-  },
-  {
-    "name": "General Catalyst (Lead)",
-    "sector": "Cybersecurity",
-    "round": "Seed",
-    "amount": " undisclosed",
-    "location": "US",
-    "cofounders": "",
-    "investors": "",
-    "traction": "",
-    "notes": "",
-    "summary": "",
-    "link": "",
-    "reportDate": "2026-03-22",
-    "id": "general-catalyst-(lead)-1",
     "links": []
   },
   {
