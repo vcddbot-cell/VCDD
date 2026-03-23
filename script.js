@@ -18,7 +18,7 @@ function getNextColor() {
 async function run() {
   const prompt = document.getElementById("prompt").value.trim();
   if (!prompt) {
-    alert("Please enter a search term");
+    document.getElementById("board").innerHTML = '<div class="empty">Please enter a search term</div>';
     return;
   }
   
@@ -41,14 +41,11 @@ async function run() {
       body: JSON.stringify({ prompt: prompt })
     });
     
-    console.log("Response status:", response.status);
-    
     if (!response.ok) {
       throw new Error("HTTP error: " + response.status);
     }
     
     const data = await response.json();
-    console.log("Data received:", data);
     
     // Move search box to top
     searchContainer.classList.add("has-results");
@@ -66,7 +63,7 @@ async function run() {
   }
 }
 
-// Render notes
+// Render notes with more info
 function render(companies) {
   const board = document.getElementById("board");
   board.innerHTML = "";
@@ -79,7 +76,7 @@ function render(companies) {
     note.style.backgroundColor = getNextColor();
     note.style.animationDelay = (idx * 0.03) + "s";
     
-    // Build note content
+    // Build comprehensive note content
     let content = `<b class="note-name">${company.name || "Unknown"}</b>`;
     
     if (company.sector) {
@@ -87,12 +84,26 @@ function render(companies) {
     }
     
     if (company.round || company.amount) {
-      content += `<span class="note-meta">${company.round || ""} ${company.amount || ""}</span>`;
+      content += `<span class="note-meta">${company.round || ""} • ${company.amount || ""}</span>`;
     }
     
-    if (company.summary) {
-      const shortSummary = company.summary.length > 100 ? company.summary.substring(0, 100) + "..." : company.summary;
-      content += `<p class="note-summary">${shortSummary}</p>`;
+    if (company.location) {
+      content += `<span class="note-location">📍 ${company.location}</span>`;
+    }
+    
+    if (company.cofounders) {
+      const cofounders = company.cofounders.length > 60 ? company.cofounders.substring(0, 60) + "..." : company.cofounders;
+      content += `<span class="note-cofounders">👥 ${cofounders}</span>`;
+    }
+    
+    if (company.investors) {
+      const investors = company.investors.length > 60 ? company.investors.substring(0, 60) + "..." : company.investors;
+      content += `<span class="note-investors">💰 ${investors}</span>`;
+    }
+    
+    if (company.traction) {
+      const traction = company.traction.length > 80 ? company.traction.substring(0, 80) + "..." : company.traction;
+      content += `<p class="note-traction">📈 ${traction}</p>`;
     }
     
     note.innerHTML = content;
@@ -100,32 +111,81 @@ function render(companies) {
     
     board.appendChild(note);
   });
-  
-  console.log("Rendered", companies.length, "notes");
 }
 
-// Show company details
+// Show full company details in modal
 function showDetails(company) {
   const modalBody = document.getElementById("modal-body");
   const modal = document.getElementById("modal");
   
+  // Build links
   const linksHtml = company.links ? company.links.map(l => 
     `<a href="${l.url}" target="_blank">${l.label || "Link"}</a>`
-  ).join(" ") : "None";
+  ).join(" | ") : "None";
   
-  modalBody.innerHTML = `
+  // Build modal content with ALL available info
+  let modalContent = `
     <h2>${company.name}</h2>
-    <div class="detail-row"><span class="label">Sector:</span> ${company.sector || "N/A"}</div>
-    <div class="detail-row"><span class="label">Funding:</span> ${company.round || "N/A"} ${company.amount || ""}</div>
-    <div class="detail-row"><span class="label">Location:</span> ${company.location || "N/A"}</div>
-    <div class="detail-row"><span class="label">Date:</span> ${company.reportDate || "N/A"}</div>
-    <hr>
-    <div class="detail-row"><span class="label">Summary:</span></div>
-    <p class="summary-text">${company.summary || "No summary"}</p>
-    <hr>
-    <div class="detail-row"><span class="label">Links:</span> ${linksHtml}</div>
   `;
   
+  // Basic info
+  if (company.sector) modalContent += `<div class="detail-row"><span class="label">Industry:</span> ${company.sector}</div>`;
+  if (company.round) modalContent += `<div class="detail-row"><span class="label">Funding Stage:</span> ${company.round}</div>`;
+  if (company.amount) modalContent += `<div class="detail-row"><span class="label">Amount Raised:</span> ${company.amount}</div>`;
+  if (company.location) modalContent += `<div class="detail-row"><span class="label">Location:</span> ${company.location}</div>`;
+  if (company.reportDate) modalContent += `<div class="detail-row"><span class="label">Report Date:</span> ${company.reportDate}</div>`;
+  if (company.valuation) modalContent += `<div class="detail-row"><span class="label">Valuation:</span> ${company.valuation}</div>`;
+  
+  modalContent += `<hr>`;
+  
+  // Cofounders
+  if (company.cofounders) {
+    modalContent += `
+      <div class="detail-row"><span class="label">Cofounders:</span></div>
+      <p class="summary-text">${company.cofounders}</p>
+    `;
+  }
+  
+  // Traction
+  if (company.traction) {
+    modalContent += `
+      <div class="detail-row"><span class="label">Traction:</span></div>
+      <p class="summary-text">${company.traction}</p>
+    `;
+  }
+  
+  // Investors
+  if (company.investors) {
+    modalContent += `
+      <div class="detail-row"><span class="label">Investors:</span></div>
+      <p class="summary-text">${company.investors}</p>
+    `;
+  }
+  
+  // Summary
+  if (company.summary) {
+    modalContent += `
+      <hr>
+      <div class="detail-row"><span class="label">Summary:</span></div>
+      <p class="summary-text">${company.summary}</p>
+    `;
+  }
+  
+  // Notes
+  if (company.notes) {
+    modalContent += `
+      <div class="detail-row"><span class="label">Notes:</span></div>
+      <p class="summary-text">${company.notes}</p>
+    `;
+  }
+  
+  // Links
+  modalContent += `
+    <hr>
+    <div class="detail-row"><span class="label">Sources:</span> ${linksHtml}</div>
+  `;
+  
+  modalBody.innerHTML = modalContent;
   modal.classList.add("active");
 }
 
@@ -138,14 +198,15 @@ document.getElementById("modal").addEventListener("click", function(e) {
   if (e.target === this) closeModal();
 });
 
+// Close button
+document.getElementById("close-btn").addEventListener("click", closeModal);
+
 // Enter key triggers search
 document.getElementById("prompt").addEventListener("keypress", function(e) {
   if (e.key === "Enter") run();
 });
 
-console.log("VCDD script loaded");
+// Button click triggers search
+document.getElementById("search-btn").addEventListener("click", run);
 
-// Attach event listeners after DOM is ready
-document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("search-btn").addEventListener("click", run);
-});
+console.log("VCDD script loaded");

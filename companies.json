@@ -9,7 +9,10 @@
     "location": "Global",
     "reportDate": "2026-03-16",
     "links": [
-      {"url": "https://example.com/ami-labs", "label": "Source"}
+      {
+        "url": "https://example.com/ami-labs",
+        "label": "Source"
+      }
     ]
   },
   {
@@ -22,7 +25,10 @@
     "location": "Sweden",
     "reportDate": "2026-03-16",
     "links": [
-      {"url": "https://www.reuters.com/business/finance/legal-ai-startup-legora-raises-550-million-speed-up-us-expansion-2026-03-10/", "label": "Reuters"}
+      {
+        "url": "https://www.reuters.com/business/finance/legal-ai-startup-legora-raises-550-million-speed-up-us-expansion-2026-03-10/",
+        "label": "Reuters"
+      }
     ]
   },
   {
@@ -35,7 +41,10 @@
     "location": "US",
     "reportDate": "2026-03-16",
     "links": [
-      {"url": "https://example.com/translucent", "label": "Source"}
+      {
+        "url": "https://example.com/translucent",
+        "label": "Source"
+      }
     ]
   },
   {
@@ -48,7 +57,10 @@
     "location": "Europe",
     "reportDate": "2026-03-15",
     "links": [
-      {"url": "https://example.com/nscale", "label": "Source"}
+      {
+        "url": "https://example.com/nscale",
+        "label": "Source"
+      }
     ]
   },
   {
@@ -61,7 +73,10 @@
     "location": "US",
     "reportDate": "2026-03-14",
     "links": [
-      {"url": "https://example.com/quince", "label": "Source"}
+      {
+        "url": "https://example.com/quince",
+        "label": "Source"
+      }
     ]
   },
   {
@@ -74,7 +89,10 @@
     "location": "US",
     "reportDate": "2026-03-13",
     "links": [
-      {"url": "https://example.com/sage", "label": "Source"}
+      {
+        "url": "https://example.com/sage",
+        "label": "Source"
+      }
     ]
   },
   {
@@ -86,7 +104,12 @@
     "amount": "$23M",
     "location": "New York, NY",
     "reportDate": "2026-03-17",
-    "links": [{"url": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/", "label": "TechCrunch"}]
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/",
+        "label": "TechCrunch"
+      }
+    ]
   },
   {
     "id": "mind-robotics-1",
@@ -98,8 +121,14 @@
     "location": "Palo Alto, CA",
     "reportDate": "2026-03-18",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/", "label": "TechCrunch"},
-      {"url": "https://www.reuters.com/business/rivian-spinout-mind-robotics-valued-2-billion-series-funding-round-2026-03-11/", "label": "Reuters"}
+      {
+        "url": "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.reuters.com/business/rivian-spinout-mind-robotics-valued-2-billion-series-funding-round-2026-03-11/",
+        "label": "Reuters"
+      }
     ]
   },
   {
@@ -112,8 +141,15 @@
     "location": "Israel",
     "reportDate": "2026-03-18",
     "links": [
-      {"url": "https://www.calcalistech.com/ctechnews/article/mzl1gy8tx", "label": "Calcalistech"}
-    ]
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/mzl1gy8tx",
+        "label": "Calcalistech"
+      }
+    ],
+    "cofounders": "** Bar Winkler (CEO) \u2014 previously founded Approve.com (sold to Tipalti 2021), Roey Lalazar (CTO) \u2014 previously founded Kaps (AI localization)\n- **Traction:** 350 employees scaling to 900 by year-end. 7",
+    "investors": "**",
+    "traction": "** 350 employees scaling to 900 by year-end. 70%+ enterprises expand to additional workflows within 3 months. Deployed agents reduced handling times by 60%, achieved 80%+ containment rates. Serving enterprises across 30+ countries (Europe, Middle East, Asia-Pacific, Latin America).\n- **Location:** I",
+    "notes": "** Enterprise AI agent platform with locally embedded deployment teams. Platform-agnostic (continuously benchmarks best AI models). Uses harness-based evaluation and self-healing system design. Moved agents from pilot to production in days/weeks vs months."
   },
   {
     "id": "gestala-1",
@@ -125,7 +161,10 @@
     "location": "China",
     "reportDate": "2026-03-18",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/11/bci-startup-gestala-raises-21-million-for-non-invasive-ultrasound-brain-tech/", "label": "TechCrunch"}
+      {
+        "url": "https://techcrunch.com/2026/03/11/bci-startup-gestala-raises-21-million-for-non-invasive-ultrasound-brain-tech/",
+        "label": "TechCrunch"
+      }
     ]
   },
   {
@@ -138,8 +177,15 @@
     "location": "San Francisco, CA",
     "reportDate": "2026-03-19",
     "links": [
-      {"url": "https://fortune.com/2026/03/18/exclusive-ai-cybersecurity-startup-runsybil-founded-by-openais-first-security-hire-raises-40-million-led-by-khosla-ventures/", "label": "Fortune"}
-    ]
+      {
+        "url": "https://fortune.com/2026/03/18/exclusive-ai-cybersecurity-startup-runsybil-founded-by-openais-first-security-hire-raises-40-million-led-by-khosla-ventures/",
+        "label": "Fortune"
+      }
+    ],
+    "cofounders": "** Ari Herbert-Voss (CEO) \u2014 OpenAI's first security hire (2019), Vlad Ionescu \u2014 previously led offensive security red teams at Meta\n- **Traction:** Works with startups including Cursor, Turbopuffer, N",
+    "investors": "**",
+    "traction": "** Works with startups including Cursor, Turbopuffer, Notion, Baseten, Thinking Machines Lab. Also works with major financial institutions and Fortune 500 companies (unnamed). Customers have found critical vulnerabilities undetected by traditional methods.\n- **Location:** San Francisco, CA\n- **Notes",
+    "notes": "** AI agent \"Sybil\" conducts continuous autonomous penetration tests against live applications\u2014finding, exploiting and documenting real security vulnerabilities without humans in the loop. Tests running software the way hackers would\u2014exploring systems, chaining vulnerabilities, testing authenticatio"
   },
   {
     "id": "andromeda-1",
@@ -151,8 +197,15 @@
     "location": "San Francisco, CA",
     "reportDate": "2026-03-19",
     "links": [
-      {"url": "https://siliconangle.com/2026/03/18/demand-gpu-startup-andromeda-raises-funding-1-5b-valuation/", "label": "SiliconANGLE"}
-    ]
+      {
+        "url": "https://siliconangle.com/2026/03/18/demand-gpu-startup-andromeda-raises-funding-1-5b-valuation/",
+        "label": "SiliconANGLE"
+      }
+    ],
+    "cofounders": "** Not disclosed in article\n- **Traction:** Annualized revenue grew from $50M (2024) to $100M (2025). Profitable since launch. Processed 1,000+ GPU transactions since launching ~2 years ago. 100+ prov",
+    "investors": "**",
+    "traction": "** Annualized revenue grew from $50M (2024) to $100M (2025). Profitable since launch. Processed 1,000+ GPU transactions since launching ~2 years ago. 100+ provider network. Customers include notable AI startups and labs spending $250M-$500M/year on infrastructure.\n- **Location:** San Francisco, CA\n-",
+    "notes": "** Platform makes it easy to rent unused GPUs from data centers of internet providers, crypto miners, etc. Customers can rent on-demand without long-term contracts. Offers Andromeda Pricing Index for market rate data. Consolidates billing from multiple providers."
   },
   {
     "id": "edra-1",
@@ -164,10 +217,23 @@
     "location": "New York, NY",
     "reportDate": "2026-03-20",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/18/two-palantir-veterans-just-came-out-of-stealth-with-30-million-and-a-sequoia-stamp-of-approval/", "label": "TechCrunch"},
-      {"url": "https://tech.eu/2026/03/19/edra-raises-309m-series-a-to-turn-enterprise-data-into-self-improving-ai-agents/", "label": "Tech.eu"},
-      {"url": "https://therecursive.com/edra-series-a-expalantir-knowledge-retrieval-sequoia-capital/", "label": "The Recursive"}
-    ]
+      {
+        "url": "https://techcrunch.com/2026/03/18/two-palantir-veterans-just-came-out-of-stealth-with-30-million-and-a-sequoia-stamp-of-approval/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://tech.eu/2026/03/19/edra-raises-309m-series-a-to-turn-enterprise-data-into-self-improving-ai-agents/",
+        "label": "Tech.eu"
+      },
+      {
+        "url": "https://therecursive.com/edra-series-a-expalantir-knowledge-retrieval-sequoia-capital/",
+        "label": "The Recursive"
+      }
+    ],
+    "cofounders": "** Eugen Alpeza (Croatian), Yannis Karamanlakis (Greek) - both former Palantir engineers, met 13 years ago at university\n- **Traction:** Already working with HubSpot, ASOS, and Cushman & Wakefield. Eu",
+    "investors": "**\n- **Sequoia Capital** (Lead)\n  - Website: https://sequoiacap.com\n  - Contact: Sequoia Capital (general)\n  - LinkedIn: https://linkedin.com/company/sequoia\n  - Thesis: Backs founders building \"the next generation of great companies\" across AI, enterprise, and infrastructure. Published \"2026: This ",
+    "traction": "** Already working with HubSpot, ASOS, and Cushman & Wakefield. Eugen built out major commercial accounts and led launch of Palantir's AI platform (AIP). Yannis was Palantir's first forward deployed AI engineer focused on getting AI models into production.\n- **Location:** New York, NY\n- **Notes:** B",
+    "notes": "** Building \"Living Playbooks\" that learn from real workflows and automate operations. Problem: companies sit on loads of useful operational data (emails, logs, support tickets, chat histories) but have no good way to act on it. Edra analyzes that data automatically, builds a knowledge base, and kee"
   },
   {
     "id": "parallel-1",
@@ -179,9 +245,19 @@
     "location": "Paris, France",
     "reportDate": "2026-03-20",
     "links": [
-      {"url": "https://tech.eu/2026/03/19/parallel-raises-20m-to-scale-ai-solutions-for-hospital-administration/", "label": "Tech.eu"},
-      {"url": "https://thenextweb.com/news/parallel-hospital-ai-agents-20m-index-ventures", "label": "TNW"}
-    ]
+      {
+        "url": "https://tech.eu/2026/03/19/parallel-raises-20m-to-scale-ai-solutions-for-hospital-administration/",
+        "label": "Tech.eu"
+      },
+      {
+        "url": "https://thenextweb.com/news/parallel-hospital-ai-agents-20m-index-ventures",
+        "label": "TNW"
+      }
+    ],
+    "cofounders": "** Paul Lafforgue (CEO) - LinkedIn: https://www.linkedin.com/in/paullafforgue/\n- **Traction:** Already deployed across multiple public and private hospitals in Europe. Technology enables deployment in",
+    "investors": "**\n- **Index Ventures** (Lead)\n  - Website: https://www.indexventures.com\n  - Contact: Index Ventures team\n  - LinkedIn: https://linkedin.com/company/index-ventures\n  - Thesis: European-based VC investing in seed to growth stage. Strong in AI/ML, marketplace, and enterprise software. 2026 focus: AI ",
+    "traction": "** Already deployed across multiple public and private hospitals in Europe. Technology enables deployment in weeks (not months/years) because it runs on top of legacy systems rather than requiring deep integration. Focus on medical coding - translating clinical data into standardized codes for reimb",
+    "notes": "** Founded in 2024. Problem: Every patient discharge in a European hospital triggers paperwork cascade - clinical info must be converted to standardized codes, billing, admissions. These processes consume significant resources and reduce time for patient care. AI agents operate within existing hospi"
   },
   {
     "id": "busright-1",
@@ -193,9 +269,18 @@
     "location": "New York, NY",
     "reportDate": "2026-03-21",
     "links": [
-      {"url": "https://www.prnewswire.com/news-releases/busright-raises-30m-to-power-the-largest-mass-transit-system-302717021.html", "label": "PR Newswire"},
-      {"url": "https://siliconangle.com/2026/03/18/busright-bags-30m-ensure-school-buses-always-arrive-right-time/", "label": "SiliconANGLE"}
-    ]
+      {
+        "url": "https://www.prnewswire.com/news-releases/busright-raises-30m-to-power-the-largest-mass-transit-system-302717021.html",
+        "label": "PR Newswire"
+      },
+      {
+        "url": "https://siliconangle.com/2026/03/18/busright-bags-30m-ensure-school-buses-always-arrive-right-time/",
+        "label": "SiliconANGLE"
+      }
+    ],
+    "cofounders": "** Keith Corso (CEO), Phillip Dunn (CIO), Chris Fischer, Evan Eddleston\n- **Traction:** 100%+ revenue growth for 5 consecutive years; serves school districts across 36 states; hundreds of thousands of",
+    "traction": "** 100%+ revenue growth for 5 consecutive years; serves school districts across 36 states; hundreds of thousands of transportation leaders, drivers, and parents use platform weekly; reduced inbound call volume by 80%+ in some districts where parent app deployed\n- **Location:** New York, NY\n- **Notes",
+    "notes": "** Student transportation is the largest mass transit system in the US - over 20 million students rely on school buses daily. Platform brings driver navigation, routing, student ridership visibility, parent communication, and live GPS tracking into one unified platform. Drivers can build routes in 6"
   },
   {
     "id": "sequen-1",
@@ -207,9 +292,18 @@
     "location": "New York, NY",
     "reportDate": "2026-03-21",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/", "label": "TechCrunch"},
-      {"url": "https://www.businesswire.com/news/home/20260317105541/en/Sequen-Raises-$16M-Series-A-to-Bring-Sub-second-In-session-Personalization-to-Enterprise-Consumer-Companies", "label": "Business Wire"}
-    ]
+      {
+        "url": "https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260317105541/en/Sequen-Raises-$16M-Series-A-to-Bring-Sub-second-In-session-Personalization-to-Enterprise-Consumer-Companies",
+        "label": "Business Wire"
+      }
+    ],
+    "cofounders": "** Zo\u00eb Weil (CEO), Ethan Benjamin (CTO), Mo Afshar, Alexander Thom\n- **Traction:** Processed 10 billion monthly requests in under 18 months; 5 Fortune 500 customers; contracts in 7 figures for first 5",
+    "traction": "** Processed 10 billion monthly requests in under 18 months; 5 Fortune 500 customers; contracts in 7 figures for first 5 customers; 7% revenue lift for furniture company (vs 0.4% typical), 20% net revenue lift for Fetch Rewards in 11 days; RankTune platform with sub-20-millisecond latency\n- **Locati",
+    "notes": "** Brings TikTok-style personalization to enterprise. Large Event Models (LEMs) learn from live user actions (clicks, hovers, conversations) within a session - not static profiles or third-party cookies. Privacy-forward (doesn't need user identity). Could eventually replace cookies. Team includes pe"
   },
   {
     "id": "xbow-1",
@@ -221,9 +315,18 @@
     "location": "Seattle, WA",
     "reportDate": "2026-03-22",
     "links": [
-      {"url": "https://xbow.com/news/xbow-raises-120m-to-scale", "label": "XBOW News"},
-      {"url": "https://www.businesswire.com/news/home/20260318258057/en/XBOW-Raises-$120M-to-Scale-its-Autonomous-Hacker", "label": "Business Wire"},
-      {"url": "https://fintech.global/2026/03/19/xbow-raises-120m-series-c-to-scale-autonomous-hacker/", "label": "Fintech Global"}
+      {
+        "url": "https://xbow.com/news/xbow-raises-120m-to-scale",
+        "label": "XBOW News"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260318258057/en/XBOW-Raises-$120M-to-Scale-its-Autonomous-Hacker",
+        "label": "Business Wire"
+      },
+      {
+        "url": "https://fintech.global/2026/03/19/xbow-raises-120m-series-c-to-scale-autonomous-hacker/",
+        "label": "Fintech Global"
+      }
     ]
   },
   {
@@ -236,9 +339,18 @@
     "location": "US",
     "reportDate": "2026-03-22",
     "links": [
-      {"url": "https://halcyon.io/blog/machine-readable/series-a", "label": "Halcyon Blog"},
-      {"url": "https://www.businesswire.com/news/home/20260316032633/en/Halcyon-Raises-$21-Million-Series-A-To-Bring-AI-Powered-Intelligence-to-the-Energy-Industry", "label": "Business Wire"},
-      {"url": "https://technews180.com/funding-news/halcyon-raises-21m-series-a-for-energy-ai-platform/", "label": "TechNews180"}
+      {
+        "url": "https://halcyon.io/blog/machine-readable/series-a",
+        "label": "Halcyon Blog"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260316032633/en/Halcyon-Raises-$21-Million-Series-A-To-Bring-AI-Powered-Intelligence-to-the-Energy-Industry",
+        "label": "Business Wire"
+      },
+      {
+        "url": "https://technews180.com/funding-news/halcyon-raises-21m-series-a-for-energy-ai-platform/",
+        "label": "TechNews180"
+      }
     ]
   },
   {
@@ -251,9 +363,18 @@
     "location": "Massachusetts, USA",
     "reportDate": "2026-03-22",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/19/consumer-focused-privacy-company-cloaked-raises-375m-as-it-expands-to-enterprise/", "label": "TechCrunch"},
-      {"url": "https://www.businesswire.com/news/home/20260319361833/en/Cloaked-Raises-$375-Million-to-Fight-for-Privacy-in-the-Age-of-AI", "label": "Business Wire"},
-      {"url": "https://fintech.global/2026/03/20/cloaked-bags-375m-to-make-data-privacy-the-default/", "label": "Fintech Global"}
+      {
+        "url": "https://techcrunch.com/2026/03/19/consumer-focused-privacy-company-cloaked-raises-375m-as-it-expands-to-enterprise/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260319361833/en/Cloaked-Raises-$375-Million-to-Fight-for-Privacy-in-the-Age-of-AI",
+        "label": "Business Wire"
+      },
+      {
+        "url": "https://fintech.global/2026/03/20/cloaked-bags-375m-to-make-data-privacy-the-default/",
+        "label": "Fintech Global"
+      }
     ]
   },
   {
@@ -266,8 +387,625 @@
     "location": "New York, NY",
     "reportDate": "2026-03-23",
     "links": [
-      {"url": "https://www.prnewswire.com/news-releases/standard-template-labs-launches-with-49-million-in-seed-funding-302715394.html", "label": "PR Newswire"},
-      {"url": "https://www.morningstar.com/news/pr-newswire/20260317ny11789/standard-template-labs-launches-with-49-million-in-seed-funding", "label": "Morningstar"}
-    ]
+      {
+        "url": "https://www.prnewswire.com/news-releases/standard-template-labs-launches-with-49-million-in-seed-funding-302715394.html",
+        "label": "PR Newswire"
+      },
+      {
+        "url": "https://www.morningstar.com/news/pr-newswire/20260317ny11789/standard-template-labs-launches-with-49-million-in-seed-funding",
+        "label": "Morningstar"
+      }
+    ],
+    "cofounders": "** Amit Agarwal (CEO, former President and CPO of Datadog), plus founding team from Datadog, Amazon, Meta, NVIDIA, Bloomberg\n- **Traction:** Already engaged with enterprise design partners. Building p",
+    "traction": "** Already engaged with enterprise design partners. Building platform that resolves requests end-to-end using AI-powered digital twin of the enterprise.\n- **Location:** New York, NY\n- **Notes:** Incubation at ICONIQ - first time ICONIQ has incubated a company. Platform interprets requests, orchestra",
+    "notes": "** Incubation at ICONIQ - first time ICONIQ has incubated a company. Platform interprets requests, orchestrates workflows needed to fulfill them, and resolves in context using a continuously updated digital twin of the enterprise. Maps relationships between people, systems, services, and policies. B"
+  },
+  {
+    "name": "AI Spending Meets ROI Reality",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-04",
+    "id": "ai-spending-meets-roi-reality-1",
+    "links": []
+  },
+  {
+    "name": "Defense Tech Startup Boom",
+    "sector": "Enterprise SaaS",
+    "round": "Unknown",
+    "amount": "$15B",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-04",
+    "id": "defense-tech-startup-boom-1",
+    "links": []
+  },
+  {
+    "name": "Exit Strategies: M&A & IPO Wave",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-04",
+    "id": "exit-strategies:-m&a-&-ipo-wave-1",
+    "links": []
+  },
+  {
+    "name": "Pitch Deck Mistakes: The 2026 Edition",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-04",
+    "id": "pitch-deck-mistakes:-the-2026-edition-1",
+    "links": []
+  },
+  {
+    "name": "The Lean Startup Comeback (Tiny Teams)",
+    "sector": "AI",
+    "round": "Growth",
+    "amount": "$1M",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-04",
+    "id": "the-lean-startup-comeback-(tiny-teams)-1",
+    "links": []
+  },
+  {
+    "name": "YC is Now an AI Factory (90% AI Companies)",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-05",
+    "id": "yc-is-now-an-ai-factory-(90%-ai-companies)-1",
+    "links": []
+  },
+  {
+    "name": "Founder \"Shadow Burnout\" Crisis",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "$3B",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-05",
+    "id": "founder-\"shadow-burnout\"-crisis-1",
+    "links": []
+  },
+  {
+    "name": "AI-Native Startups Outpacing Traditional SaaS",
+    "sector": "Enterprise SaaS",
+    "round": "Unknown",
+    "amount": "$1M",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-05",
+    "id": "ai-native-startups-outpacing-traditional-saas-1",
+    "links": []
+  },
+  {
+    "name": "The Death of Solo Founder",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-05",
+    "id": "the-death-of-solo-founder-1",
+    "links": []
+  },
+  {
+    "name": "\"Tier List\" Format Cross-Pollination",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-05",
+    "id": "\"tier-list\"-format-cross-pollination-1",
+    "links": []
+  },
+  {
+    "name": "\ud83d\udcca Channel Pulse",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-07",
+    "id": "\ud83d\udcca-channel-pulse-1",
+    "links": []
+  },
+  {
+    "name": "Based on Outliers",
+    "sector": "AI",
+    "round": "Series L",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-07",
+    "id": "based-on-outliers-1",
+    "links": []
+  },
+  {
+    "name": "Based on Your Channel Analytics",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-07",
+    "id": "based-on-your-channel-analytics-1",
+    "links": []
+  },
+  {
+    "name": "Based on Similar Channels",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-07",
+    "id": "based-on-similar-channels-1",
+    "links": []
+  },
+  {
+    "name": "Based on Your Ideas File",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-07",
+    "id": "based-on-your-ideas-file-1",
+    "links": []
+  },
+  {
+    "name": "\ud83c\udfaf Priority Ranking",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-07",
+    "id": "\ud83c\udfaf-priority-ranking-1",
+    "links": []
+  },
+  {
+    "name": "RunSybil (Already in database from March 19)",
+    "sector": "Cybersecurity",
+    "round": "Series A",
+    "amount": "$40M",
+    "location": "** San Francisco, CA",
+    "cofounders": "** Ari Herbert-Voss (OpenAI's first security hire, 2019), Vlad Ionescu (former Meta red team lead)\n- **Traction:** Works with Cursor, Turbopuffer, Notion, Baseten, Thinking Machines Lab, plus major fi",
+    "investors": "**\n- **Khosla Ventures** (Lead) - Vinod Khosla personally invested. Thesis: Frontier tech, AI security. \"RunSybil is on the edge.\" Website: khoslaventures.com\n- **S32**\n- **Anthropic Anthology Fund**\n- **Menlo Ventures**\n- **Conviction**\n- **Elad Gil** (angel)\n- **Angels:** Nikesh Arora, Amit Agarwa",
+    "traction": "** Works with Cursor, Turbopuffer, Notion, Baseten, Thinking Machines Lab, plus major financial institutions and Fortune 500 companies. Customers have found critical vulnerabilities using Sybil that went undetected with traditional methods.\n- **Location:** San Francisco, CA\n- **Notes:** AI agent \"Sy",
+    "notes": "** AI agent \"Sybil\" conducts continuous autonomous penetration tests against live applications - finding, exploiting, and documenting real security vulnerabilities without humans in the loop. Different from code analysis tools - tests running software the way a hacker would.",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-20",
+    "id": "runsybil-(already-in-database-from-march-19)-1",
+    "links": []
+  },
+  {
+    "name": "Company 1: XBOW",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "company-1:-xbow-1",
+    "links": []
+  },
+  {
+    "name": "DFJ Growth",
+    "sector": "AI",
+    "round": "Growth",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "dfj-growth-1",
+    "links": []
+  },
+  {
+    "name": "Northzone",
+    "sector": "Healthcare AI",
+    "round": "Growth",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "northzone-1",
+    "links": []
+  },
+  {
+    "name": "Sofina",
+    "sector": "AI",
+    "round": "Growth",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "sofina-1",
+    "links": []
+  },
+  {
+    "name": "Alkeon Capital",
+    "sector": "Healthcare AI",
+    "round": "Growth",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "alkeon-capital-1",
+    "links": []
+  },
+  {
+    "name": "Company 2: Halcyon",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "company-2:-halcyon-1",
+    "links": []
+  },
+  {
+    "name": "Energize Capital (Lead)",
+    "sector": "AI Infrastructure",
+    "round": "Series A",
+    "amount": "$430",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "energize-capital-(lead)-1",
+    "links": []
+  },
+  {
+    "name": "Zero Infinity Partners",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "zero-infinity-partners-1",
+    "links": []
+  },
+  {
+    "name": "Congruent Ventures",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "congruent-ventures-1",
+    "links": []
+  },
+  {
+    "name": "Obvious Ventures",
+    "sector": "Healthcare AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "obvious-ventures-1",
+    "links": []
+  },
+  {
+    "name": "Sabanci Climate Ventures",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "sabanci-climate-ventures-1",
+    "links": []
+  },
+  {
+    "name": "Company 3: Cloaked",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "company-3:-cloaked-1",
+    "links": []
+  },
+  {
+    "name": "General Catalyst (Lead)",
+    "sector": "Cybersecurity",
+    "round": "Seed",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "general-catalyst-(lead)-1",
+    "links": []
+  },
+  {
+    "name": "Liberty City Ventures",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "liberty-city-ventures-1",
+    "links": []
+  },
+  {
+    "name": "Lux Capital",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "lux-capital-1",
+    "links": []
+  },
+  {
+    "name": "Human Capital",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "human-capital-1",
+    "links": []
+  },
+  {
+    "name": "DuckDuckGo",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "duckduckgo-1",
+    "links": []
+  },
+  {
+    "name": "Marquee Ventures",
+    "sector": "AI",
+    "round": "Growth",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "marquee-ventures-1",
+    "links": []
+  },
+  {
+    "name": "Fifth Growth Fund",
+    "sector": "AI",
+    "round": "Growth",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "fifth-growth-fund-1",
+    "links": []
+  },
+  {
+    "name": "LG Technology Ventures",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "lg-technology-ventures-1",
+    "links": []
+  },
+  {
+    "name": "Assurant Ventures",
+    "sector": "AI",
+    "round": "Unknown",
+    "amount": "Unknown",
+    "location": "Unknown",
+    "cofounders": "",
+    "investors": "",
+    "traction": "",
+    "notes": "",
+    "summary": "",
+    "link": "",
+    "reportDate": "2026-03-22",
+    "id": "assurant-ventures-1",
+    "links": []
   }
 ]
