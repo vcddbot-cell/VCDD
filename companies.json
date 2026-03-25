@@ -311,5 +311,46 @@
       {"url": "https://www.yzilabs.com/blog/yzi-labs-leads-52m-round-in-roboforce-to-build-the-future-of-physical-ai-robo-labor-spotlighted-by-nvidia", "label": "YZi Labs Blog"},
       {"url": "https://techfundingnews.com/as-industrial-labour-shortages-grow-roboforce-grabs-52m-for-ai-robots/", "label": "Tech Funding News"}
     ]
+  },
+  {
+    "id": "pointone-1",
+    "name": "PointOne",
+    "sector": "Legal Tech / AI Timekeeping",
+    "summary": "AI-powered timekeeping platform for law firms. Passively tracks lawyer's computer activity to auto-complete timesheets. Grew revenue 10x since July 2025. Signed dozens of law firm customers from global 1,200-lawyer firms to solo practitioners. Total funding: $20M.",
+    "round": "Series A",
+    "amount": "$16M",
+    "location": "New York, NY",
+    "reportDate": "2026-03-25",
+    "links": [
+      {"url": "https://www.businessinsider.com/pointone-series-a-funding-lawyers-billable-hour-timekeeping-ai-2026-3", "label": "Business Insider"},
+      {"url": "https://www.artificiallawyer.com/2026/03/23/pointone-raises-16m-10xs-revenue/", "label": "Artificial Lawyer"}
+    ]
+  },
+  {
+    "id": "interloom-1",
+    "name": "Interloom",
+    "sector": "Enterprise AI / Business Process Automation",
+    "summary": "Munich startup solving AI 'tacit knowledge' problem for enterprises. Building 'context graph' - a living map of how problems actually get resolved within organizations. Reduced documented vs. actual operational knowledge gap from 50% to 5% at Commerzbank. Won Zurich Insurance company-wide AI competition (beating 2,000 AI-native startups).",
+    "round": "Venture Round",
+    "amount": "$16.5M",
+    "location": "Munich, Germany",
+    "reportDate": "2026-03-25",
+    "links": [
+      {"url": "https://fortune.com/2026/03/23/interloom-ai-agents-raises-16-million-venture-funding/", "label": "Fortune"},
+      {"url": "https://thenextweb.com/news/interloom-16-5m-seed-dn-capital-enterprise", "label": "TNW"}
+    ]
+  },
+  {
+    "id": "kandou-ai-1",
+    "name": "Kandou AI",
+    "sector": "Semiconductor / AI Chip Interconnect",
+    "summary": "Swiss chip interconnect startup developing copper-based alternatives to fiber optics for AI clusters. Key product Glasswing links multi-die processor components using proprietary CNRZ-5 Chord technology. Valued at $400M. Part of wave of interconnect startups raising in 2026.",
+    "round": "Funding Round",
+    "amount": "$225M",
+    "location": "Switzerland",
+    "reportDate": "2026-03-25",
+    "links": [
+      {"url": "https://siliconangle.com/2026/03/23/chip-interconnect-startup-kandou-ai-raises-225m-funding/", "label": "SiliconANGLE"}
+    ]
   }
 ]
