@@ -352,5 +352,46 @@
     "links": [
       {"url": "https://siliconangle.com/2026/03/23/chip-interconnect-startup-kandou-ai-raises-225m-funding/", "label": "SiliconANGLE"}
     ]
+  },
+  {
+    "id": "harvey-1",
+    "name": "Harvey",
+    "sector": "Legal AI",
+    "summary": "Legal AI company offering AI tools for legal and professional services - contract analysis, compliance, due diligence, and litigation. $190M ARR (January 2026), up from $100M in August 2025. 100,000+ lawyers across 1,300 organizations. Clients include global law firms, NBCUniversal, and HSBC. Valuation $11B — one of the few AI unicorns of 2026. Total funding raised $1B+. Co-founders Winston Weinberg (CEO) and Gabe Pereyra. Plans to expand AI agents and embedded legal engineering teams globally.",
+    "round": "Growth",
+    "amount": "$200M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-03-26",
+    "links": [
+      {"url": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/", "label": "TechCrunch"},
+      {"url": "https://www.cnbc.com/2026/03/25/legal-ai-startup-harvey-raises-200-million-at-11-billion-valuation.html", "label": "CNBC"}
+    ]
+  },
+  {
+    "id": "adonis-1",
+    "name": "Adonis",
+    "sector": "Healthcare AI / Revenue Cycle Management",
+    "summary": "AI orchestration platform for healthcare revenue cycle management - automates denial prevention, claim resolution, and revenue recovery for hospitals, health systems, and physician groups. Founded by brothers Akash Magoon and Aman Magoon in 2022. $40M Series C led by Quadrille Capital. Total funding: $95M. Growing demand as health systems fight AI-powered insurer denials.",
+    "round": "Series C",
+    "amount": "$40M",
+    "location": "New York, NY",
+    "reportDate": "2026-03-26",
+    "links": [
+      {"url": "https://alleywatch.com/2026/03/adonis-ai-healthcare-payments-revenue-cycle-orchestration-platform-akash-magoon/", "label": "AlleyWatch"},
+      {"url": "https://www.prnewswire.com/news-releases/adonis-raises-40m-series-c-to-equip-healthcare-providers-with-aidriven-revenue-cycle-operations-302722199.html", "label": "PR Newswire"}
+    ]
+  },
+  {
+    "id": "origin-1",
+    "name": "Origin",
+    "sector": "HR Tech / Benefits Management AI",
+    "summary": "AI-powered benefits management platform. Ingest and structure fragmented benefits data across policies, contracts, renewals, vendor platforms in dozens of languages. One client (CFO estimated $750M benefits spend) expects to save $75M. Another consolidated 13 local insurance policies into one regional plan achieving 20% cost savings. Anchor customers: Pfizer, Comcast, BP. Founded by Chris Bruce and Pete Craghill (previously founded Darwin, acquired by Mercer in 2016). Value-based pricing model.",
+    "round": "Series B",
+    "amount": "$30M",
+    "location": "USA / UK / Europe",
+    "reportDate": "2026-03-26",
+    "links": [
+      {"url": "https://fortune.com/2026/03/25/exclusive-ai-powered-benefits-platform-origin-raises-30-million-in-fresh-funding-to-bring-chros-visibility-into-benefits-usage-and-spend/", "label": "Fortune"}
+    ]
   }
 ]
