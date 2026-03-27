@@ -393,5 +393,47 @@
     "links": [
       {"url": "https://fortune.com/2026/03/25/exclusive-ai-powered-benefits-platform-origin-raises-30-million-in-fresh-funding-to-bring-chros-visibility-into-benefits-usage-and-spend/", "label": "Fortune"}
     ]
+  },
+  {
+    "id": "shield-ai-1",
+    "name": "Shield AI",
+    "sector": "Defense Technology / AI Autonomous Drones",
+    "summary": "Defense AI startup building autonomous drone systems. Nova drone became first AI-powered drone deployed in US military history. Raised $2B Series G at $12.7B valuation (up 140%). Selected by US Air Force as mission autonomy provider for CCA. Pilots 26 classes of vehicles including F-16s, jet-powered UAVs, helicopters, drone boats, and ground vehicles. Acquired Aechelon Technology (flight simulation). Gary Steele appointed as new CEO Dec 2025.",
+    "round": "Series G",
+    "amount": "$2B",
+    "location": "San Diego, CA",
+    "reportDate": "2026-03-27",
+    "links": [
+      {"url": "https://techcrunch.com/2026/03/26/defense-startup-shield-ai-lands-12-7b-valuation-up-140-after-u-s-air-force-deal/", "label": "TechCrunch"},
+      {"url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/", "label": "Shield AI"}
+    ]
+  },
+  {
+    "id": "granola-1",
+    "name": "Granola",
+    "sector": "AI Meeting Notes / Enterprise Productivity",
+    "summary": "AI meeting notes startup expanding from prosumer to enterprise. Co-founders Chris Pedregal (previously founded Socratic, acquired by Google) and Sam Stephenson. Total funding $192M. Customers include Vanta, Gusto, Thumbtack, Asana, Cursor, Lovable, Decagon, Mistral AI. Launched Spaces (team workspaces) and enterprise APIs. Valuation jumped 6x from $250M to $1.5B in under a year.",
+    "round": "Series C",
+    "amount": "$125M",
+    "location": "London, UK",
+    "reportDate": "2026-03-27",
+    "links": [
+      {"url": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/", "label": "TechCrunch"},
+      {"url": "https://www.bloomberg.com/news/articles/2026-03-25/ai-notetaker-granola-hits-1-5-billion-value-in-125-million-funding", "label": "Bloomberg"}
+    ]
+  },
+  {
+    "id": "lace-1",
+    "name": "Lace (Lace Lithography)",
+    "sector": "Semiconductor Equipment / Advanced Chipmaking",
+    "summary": "Norwegian startup developing helium atom beam lithography for next-gen chip manufacturing. Uses 0.1nm beam width (135x narrower than ASML's EUV light) to enable atomic-scale chip features. Could extend Moore's Law beyond current limitations. Founded July 2023 by physicist Bodil Holst and former PhD student Adria Salvador Palau. Raised $40M Series A led by Atomico with Microsoft M12 participation.",
+    "round": "Series A",
+    "amount": "$40M",
+    "location": "Bergen, Norway",
+    "reportDate": "2026-03-27",
+    "links": [
+      {"url": "https://www.tomshardware.com/tech-industry/norwegian-start-up-raises-40-million-for-helium-atom-beam-lithography", "label": "Tom's Hardware"},
+      {"url": "https://thenextweb.com/news/lace-lithography-40m-series", "label": "TNW"}
+    ]
   }
 ]
