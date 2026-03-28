@@ -9,7 +9,10 @@
     "location": "Global",
     "reportDate": "2026-03-16",
     "links": [
-      {"url": "https://example.com/ami-labs", "label": "Source"}
+      {
+        "url": "https://example.com/ami-labs",
+        "label": "Source"
+      }
     ]
   },
   {
@@ -22,7 +25,10 @@
     "location": "Sweden",
     "reportDate": "2026-03-16",
     "links": [
-      {"url": "https://www.reuters.com/business/finance/legal-ai-startup-legora-raises-550-million-speed-up-us-expansion-2026-03-10/", "label": "Reuters"}
+      {
+        "url": "https://www.reuters.com/business/finance/legal-ai-startup-legora-raises-550-million-speed-up-us-expansion-2026-03-10/",
+        "label": "Reuters"
+      }
     ]
   },
   {
@@ -35,7 +41,10 @@
     "location": "US",
     "reportDate": "2026-03-16",
     "links": [
-      {"url": "https://example.com/translucent", "label": "Source"}
+      {
+        "url": "https://example.com/translucent",
+        "label": "Source"
+      }
     ]
   },
   {
@@ -48,7 +57,10 @@
     "location": "Europe",
     "reportDate": "2026-03-15",
     "links": [
-      {"url": "https://example.com/nscale", "label": "Source"}
+      {
+        "url": "https://example.com/nscale",
+        "label": "Source"
+      }
     ]
   },
   {
@@ -61,7 +73,10 @@
     "location": "US",
     "reportDate": "2026-03-14",
     "links": [
-      {"url": "https://example.com/quince", "label": "Source"}
+      {
+        "url": "https://example.com/quince",
+        "label": "Source"
+      }
     ]
   },
   {
@@ -74,7 +89,10 @@
     "location": "US",
     "reportDate": "2026-03-13",
     "links": [
-      {"url": "https://example.com/sage", "label": "Source"}
+      {
+        "url": "https://example.com/sage",
+        "label": "Source"
+      }
     ]
   },
   {
@@ -86,7 +104,12 @@
     "amount": "$23M",
     "location": "New York, NY",
     "reportDate": "2026-03-17",
-    "links": [{"url": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/", "label": "TechCrunch"}]
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/",
+        "label": "TechCrunch"
+      }
+    ]
   },
   {
     "id": "mind-robotics-1",
@@ -98,8 +121,14 @@
     "location": "Palo Alto, CA",
     "reportDate": "2026-03-18",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/", "label": "TechCrunch"},
-      {"url": "https://www.reuters.com/business/rivian-spinout-mind-robotics-valued-2-billion-series-funding-round-2026-03-11/", "label": "Reuters"}
+      {
+        "url": "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.reuters.com/business/rivian-spinout-mind-robotics-valued-2-billion-series-funding-round-2026-03-11/",
+        "label": "Reuters"
+      }
     ]
   },
   {
@@ -112,7 +141,10 @@
     "location": "Israel",
     "reportDate": "2026-03-18",
     "links": [
-      {"url": "https://www.calcalistech.com/ctechnews/article/mzl1gy8tx", "label": "Calcalistech"}
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/mzl1gy8tx",
+        "label": "Calcalistech"
+      }
     ]
   },
   {
@@ -125,7 +157,10 @@
     "location": "China",
     "reportDate": "2026-03-18",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/11/bci-startup-gestala-raises-21-million-for-non-invasive-ultrasound-brain-tech/", "label": "TechCrunch"}
+      {
+        "url": "https://techcrunch.com/2026/03/11/bci-startup-gestala-raises-21-million-for-non-invasive-ultrasound-brain-tech/",
+        "label": "TechCrunch"
+      }
     ]
   },
   {
@@ -138,7 +173,10 @@
     "location": "San Francisco, CA",
     "reportDate": "2026-03-19",
     "links": [
-      {"url": "https://fortune.com/2026/03/18/exclusive-ai-cybersecurity-startup-runsybil-founded-by-openais-first-security-hire-raises-40-million-led-by-khosla-ventures/", "label": "Fortune"}
+      {
+        "url": "https://fortune.com/2026/03/18/exclusive-ai-cybersecurity-startup-runsybil-founded-by-openais-first-security-hire-raises-40-million-led-by-khosla-ventures/",
+        "label": "Fortune"
+      }
     ]
   },
   {
@@ -151,7 +189,10 @@
     "location": "San Francisco, CA",
     "reportDate": "2026-03-19",
     "links": [
-      {"url": "https://siliconangle.com/2026/03/18/demand-gpu-startup-andromeda-raises-funding-1-5b-valuation/", "label": "SiliconANGLE"}
+      {
+        "url": "https://siliconangle.com/2026/03/18/demand-gpu-startup-andromeda-raises-funding-1-5b-valuation/",
+        "label": "SiliconANGLE"
+      }
     ]
   },
   {
@@ -164,9 +205,18 @@
     "location": "New York, NY",
     "reportDate": "2026-03-20",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/18/two-palantir-veterans-just-came-out-of-stealth-with-30-million-and-a-sequoia-stamp-of-approval/", "label": "TechCrunch"},
-      {"url": "https://tech.eu/2026/03/19/edra-raises-309m-series-a-to-turn-enterprise-data-into-self-improving-ai-agents/", "label": "Tech.eu"},
-      {"url": "https://therecursive.com/edra-series-a-expalantir-knowledge-retrieval-sequoia-capital/", "label": "The Recursive"}
+      {
+        "url": "https://techcrunch.com/2026/03/18/two-palantir-veterans-just-came-out-of-stealth-with-30-million-and-a-sequoia-stamp-of-approval/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://tech.eu/2026/03/19/edra-raises-309m-series-a-to-turn-enterprise-data-into-self-improving-ai-agents/",
+        "label": "Tech.eu"
+      },
+      {
+        "url": "https://therecursive.com/edra-series-a-expalantir-knowledge-retrieval-sequoia-capital/",
+        "label": "The Recursive"
+      }
     ]
   },
   {
@@ -179,8 +229,14 @@
     "location": "Paris, France",
     "reportDate": "2026-03-20",
     "links": [
-      {"url": "https://tech.eu/2026/03/19/parallel-raises-20m-to-scale-ai-solutions-for-hospital-administration/", "label": "Tech.eu"},
-      {"url": "https://thenextweb.com/news/parallel-hospital-ai-agents-20m-index-ventures", "label": "TNW"}
+      {
+        "url": "https://tech.eu/2026/03/19/parallel-raises-20m-to-scale-ai-solutions-for-hospital-administration/",
+        "label": "Tech.eu"
+      },
+      {
+        "url": "https://thenextweb.com/news/parallel-hospital-ai-agents-20m-index-ventures",
+        "label": "TNW"
+      }
     ]
   },
   {
@@ -193,8 +249,14 @@
     "location": "New York, NY",
     "reportDate": "2026-03-21",
     "links": [
-      {"url": "https://www.prnewswire.com/news-releases/busright-raises-30m-to-power-the-largest-mass-transit-system-302717021.html", "label": "PR Newswire"},
-      {"url": "https://siliconangle.com/2026/03/18/busright-bags-30m-ensure-school-buses-always-arrive-right-time/", "label": "SiliconANGLE"}
+      {
+        "url": "https://www.prnewswire.com/news-releases/busright-raises-30m-to-power-the-largest-mass-transit-system-302717021.html",
+        "label": "PR Newswire"
+      },
+      {
+        "url": "https://siliconangle.com/2026/03/18/busright-bags-30m-ensure-school-buses-always-arrive-right-time/",
+        "label": "SiliconANGLE"
+      }
     ]
   },
   {
@@ -207,8 +269,14 @@
     "location": "New York, NY",
     "reportDate": "2026-03-21",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/", "label": "TechCrunch"},
-      {"url": "https://www.businesswire.com/news/home/20260317105541/en/Sequen-Raises-$16M-Series-A-to-Bring-Sub-second-In-session-Personalization-to-Enterprise-Consumer-Companies", "label": "Business Wire"}
+      {
+        "url": "https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260317105541/en/Sequen-Raises-$16M-Series-A-to-Bring-Sub-second-In-session-Personalization-to-Enterprise-Consumer-Companies",
+        "label": "Business Wire"
+      }
     ]
   },
   {
@@ -221,9 +289,18 @@
     "location": "Seattle, WA",
     "reportDate": "2026-03-22",
     "links": [
-      {"url": "https://xbow.com/news/xbow-raises-120m-to-scale", "label": "XBOW News"},
-      {"url": "https://www.businesswire.com/news/home/20260318258057/en/XBOW-Raises-$120M-to-Scale-its-Autonomous-Hacker", "label": "Business Wire"},
-      {"url": "https://fintech.global/2026/03/19/xbow-raises-120m-series-c-to-scale-autonomous-hacker/", "label": "Fintech Global"}
+      {
+        "url": "https://xbow.com/news/xbow-raises-120m-to-scale",
+        "label": "XBOW News"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260318258057/en/XBOW-Raises-$120M-to-Scale-its-Autonomous-Hacker",
+        "label": "Business Wire"
+      },
+      {
+        "url": "https://fintech.global/2026/03/19/xbow-raises-120m-series-c-to-scale-autonomous-hacker/",
+        "label": "Fintech Global"
+      }
     ]
   },
   {
@@ -236,9 +313,18 @@
     "location": "US",
     "reportDate": "2026-03-22",
     "links": [
-      {"url": "https://halcyon.io/blog/machine-readable/series-a", "label": "Halcyon Blog"},
-      {"url": "https://www.businesswire.com/news/home/20260316032633/en/Halcyon-Raises-$21-Million-Series-A-To-Bring-AI-Powered-Intelligence-to-the-Energy-Industry", "label": "Business Wire"},
-      {"url": "https://technews180.com/funding-news/halcyon-raises-21m-series-a-for-energy-ai-platform/", "label": "TechNews180"}
+      {
+        "url": "https://halcyon.io/blog/machine-readable/series-a",
+        "label": "Halcyon Blog"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260316032633/en/Halcyon-Raises-$21-Million-Series-A-To-Bring-AI-Powered-Intelligence-to-the-Energy-Industry",
+        "label": "Business Wire"
+      },
+      {
+        "url": "https://technews180.com/funding-news/halcyon-raises-21m-series-a-for-energy-ai-platform/",
+        "label": "TechNews180"
+      }
     ]
   },
   {
@@ -251,9 +337,18 @@
     "location": "Massachusetts, USA",
     "reportDate": "2026-03-22",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/19/consumer-focused-privacy-company-cloaked-raises-375m-as-it-expands-to-enterprise/", "label": "TechCrunch"},
-      {"url": "https://www.businesswire.com/news/home/20260319361833/en/Cloaked-Raises-$375-Million-to-Fight-for-Privacy-in-the-Age-of-AI", "label": "Business Wire"},
-      {"url": "https://fintech.global/2026/03/20/cloaked-bags-375m-to-make-data-privacy-the-default/", "label": "Fintech Global"}
+      {
+        "url": "https://techcrunch.com/2026/03/19/consumer-focused-privacy-company-cloaked-raises-375m-as-it-expands-to-enterprise/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260319361833/en/Cloaked-Raises-$375-Million-to-Fight-for-Privacy-in-the-Age-of-AI",
+        "label": "Business Wire"
+      },
+      {
+        "url": "https://fintech.global/2026/03/20/cloaked-bags-375m-to-make-data-privacy-the-default/",
+        "label": "Fintech Global"
+      }
     ]
   },
   {
@@ -266,8 +361,14 @@
     "location": "New York, NY",
     "reportDate": "2026-03-23",
     "links": [
-      {"url": "https://www.prnewswire.com/news-releases/standard-template-labs-launches-with-49-million-in-seed-funding-302715394.html", "label": "PR Newswire"},
-      {"url": "https://www.morningstar.com/news/pr-newswire/20260317ny11789/standard-template-labs-launches-with-49-million-in-seed-funding", "label": "Morningstar"}
+      {
+        "url": "https://www.prnewswire.com/news-releases/standard-template-labs-launches-with-49-million-in-seed-funding-302715394.html",
+        "label": "PR Newswire"
+      },
+      {
+        "url": "https://www.morningstar.com/news/pr-newswire/20260317ny11789/standard-template-labs-launches-with-49-million-in-seed-funding",
+        "label": "Morningstar"
+      }
     ]
   },
   {
@@ -280,8 +381,14 @@
     "location": "San Francisco, CA",
     "reportDate": "2026-03-24",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/", "label": "TechCrunch"},
-      {"url": "https://www.globenewswire.com/news-release/2026/03/23/3260653/0/en/AI-Inference-Software-Innovator-Gimlet-Labs-Ushers-in-New-Era-of-Breakthrough-AI-Performance-for-Frontier-Labs-and-Leading-AI-Companies-With-80-Million-in-Series-A-Funding-Led-by-M.html", "label": "Globe Newswire"}
+      {
+        "url": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/03/23/3260653/0/en/AI-Inference-Software-Innovator-Gimlet-Labs-Ushers-in-New-Era-of-Breakthrough-AI-Performance-for-Frontier-Labs-and-Leading-AI-Companies-With-80-Million-in-Series-A-Funding-Led-by-M.html",
+        "label": "Globe Newswire"
+      }
     ]
   },
   {
@@ -294,8 +401,14 @@
     "location": "Sydney, Australia",
     "reportDate": "2026-03-24",
     "links": [
-      {"url": "https://www.advancednavigation.com/news/advanced-navigation-secures-us110m-series-c-to-catalyze-the-next-era-of-autonomous-systems/", "label": "Advanced Navigation"},
-      {"url": "https://techfundingnews.com/advanced-navigation-110m-series-c-gps-denied-navigation/", "label": "Tech Funding News"}
+      {
+        "url": "https://www.advancednavigation.com/news/advanced-navigation-secures-us110m-series-c-to-catalyze-the-next-era-of-autonomous-systems/",
+        "label": "Advanced Navigation"
+      },
+      {
+        "url": "https://techfundingnews.com/advanced-navigation-110m-series-c-gps-denied-navigation/",
+        "label": "Tech Funding News"
+      }
     ]
   },
   {
@@ -308,8 +421,14 @@
     "location": "Milpitas, CA",
     "reportDate": "2026-03-24",
     "links": [
-      {"url": "https://www.yzilabs.com/blog/yzi-labs-leads-52m-round-in-roboforce-to-build-the-future-of-physical-ai-robo-labor-spotlighted-by-nvidia", "label": "YZi Labs Blog"},
-      {"url": "https://techfundingnews.com/as-industrial-labour-shortages-grow-roboforce-grabs-52m-for-ai-robots/", "label": "Tech Funding News"}
+      {
+        "url": "https://www.yzilabs.com/blog/yzi-labs-leads-52m-round-in-roboforce-to-build-the-future-of-physical-ai-robo-labor-spotlighted-by-nvidia",
+        "label": "YZi Labs Blog"
+      },
+      {
+        "url": "https://techfundingnews.com/as-industrial-labour-shortages-grow-roboforce-grabs-52m-for-ai-robots/",
+        "label": "Tech Funding News"
+      }
     ]
   },
   {
@@ -322,8 +441,14 @@
     "location": "New York, NY",
     "reportDate": "2026-03-25",
     "links": [
-      {"url": "https://www.businessinsider.com/pointone-series-a-funding-lawyers-billable-hour-timekeeping-ai-2026-3", "label": "Business Insider"},
-      {"url": "https://www.artificiallawyer.com/2026/03/23/pointone-raises-16m-10xs-revenue/", "label": "Artificial Lawyer"}
+      {
+        "url": "https://www.businessinsider.com/pointone-series-a-funding-lawyers-billable-hour-timekeeping-ai-2026-3",
+        "label": "Business Insider"
+      },
+      {
+        "url": "https://www.artificiallawyer.com/2026/03/23/pointone-raises-16m-10xs-revenue/",
+        "label": "Artificial Lawyer"
+      }
     ]
   },
   {
@@ -336,8 +461,14 @@
     "location": "Munich, Germany",
     "reportDate": "2026-03-25",
     "links": [
-      {"url": "https://fortune.com/2026/03/23/interloom-ai-agents-raises-16-million-venture-funding/", "label": "Fortune"},
-      {"url": "https://thenextweb.com/news/interloom-16-5m-seed-dn-capital-enterprise", "label": "TNW"}
+      {
+        "url": "https://fortune.com/2026/03/23/interloom-ai-agents-raises-16-million-venture-funding/",
+        "label": "Fortune"
+      },
+      {
+        "url": "https://thenextweb.com/news/interloom-16-5m-seed-dn-capital-enterprise",
+        "label": "TNW"
+      }
     ]
   },
   {
@@ -350,21 +481,30 @@
     "location": "Switzerland",
     "reportDate": "2026-03-25",
     "links": [
-      {"url": "https://siliconangle.com/2026/03/23/chip-interconnect-startup-kandou-ai-raises-225m-funding/", "label": "SiliconANGLE"}
+      {
+        "url": "https://siliconangle.com/2026/03/23/chip-interconnect-startup-kandou-ai-raises-225m-funding/",
+        "label": "SiliconANGLE"
+      }
     ]
   },
   {
     "id": "harvey-1",
     "name": "Harvey",
     "sector": "Legal AI",
-    "summary": "Legal AI company offering AI tools for legal and professional services - contract analysis, compliance, due diligence, and litigation. $190M ARR (January 2026), up from $100M in August 2025. 100,000+ lawyers across 1,300 organizations. Clients include global law firms, NBCUniversal, and HSBC. Valuation $11B — one of the few AI unicorns of 2026. Total funding raised $1B+. Co-founders Winston Weinberg (CEO) and Gabe Pereyra. Plans to expand AI agents and embedded legal engineering teams globally.",
+    "summary": "Legal AI company offering AI tools for legal and professional services - contract analysis, compliance, due diligence, and litigation. $190M ARR (January 2026), up from $100M in August 2025. 100,000+ lawyers across 1,300 organizations. Clients include global law firms, NBCUniversal, and HSBC. Valuation $11B \u2014 one of the few AI unicorns of 2026. Total funding raised $1B+. Co-founders Winston Weinberg (CEO) and Gabe Pereyra. Plans to expand AI agents and embedded legal engineering teams globally.",
     "round": "Growth",
     "amount": "$200M",
     "location": "San Francisco, CA",
     "reportDate": "2026-03-26",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/", "label": "TechCrunch"},
-      {"url": "https://www.cnbc.com/2026/03/25/legal-ai-startup-harvey-raises-200-million-at-11-billion-valuation.html", "label": "CNBC"}
+      {
+        "url": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/03/25/legal-ai-startup-harvey-raises-200-million-at-11-billion-valuation.html",
+        "label": "CNBC"
+      }
     ]
   },
   {
@@ -377,8 +517,14 @@
     "location": "New York, NY",
     "reportDate": "2026-03-26",
     "links": [
-      {"url": "https://alleywatch.com/2026/03/adonis-ai-healthcare-payments-revenue-cycle-orchestration-platform-akash-magoon/", "label": "AlleyWatch"},
-      {"url": "https://www.prnewswire.com/news-releases/adonis-raises-40m-series-c-to-equip-healthcare-providers-with-aidriven-revenue-cycle-operations-302722199.html", "label": "PR Newswire"}
+      {
+        "url": "https://alleywatch.com/2026/03/adonis-ai-healthcare-payments-revenue-cycle-orchestration-platform-akash-magoon/",
+        "label": "AlleyWatch"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/adonis-raises-40m-series-c-to-equip-healthcare-providers-with-aidriven-revenue-cycle-operations-302722199.html",
+        "label": "PR Newswire"
+      }
     ]
   },
   {
@@ -391,7 +537,10 @@
     "location": "USA / UK / Europe",
     "reportDate": "2026-03-26",
     "links": [
-      {"url": "https://fortune.com/2026/03/25/exclusive-ai-powered-benefits-platform-origin-raises-30-million-in-fresh-funding-to-bring-chros-visibility-into-benefits-usage-and-spend/", "label": "Fortune"}
+      {
+        "url": "https://fortune.com/2026/03/25/exclusive-ai-powered-benefits-platform-origin-raises-30-million-in-fresh-funding-to-bring-chros-visibility-into-benefits-usage-and-spend/",
+        "label": "Fortune"
+      }
     ]
   },
   {
@@ -404,8 +553,14 @@
     "location": "San Diego, CA",
     "reportDate": "2026-03-27",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/26/defense-startup-shield-ai-lands-12-7b-valuation-up-140-after-u-s-air-force-deal/", "label": "TechCrunch"},
-      {"url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/", "label": "Shield AI"}
+      {
+        "url": "https://techcrunch.com/2026/03/26/defense-startup-shield-ai-lands-12-7b-valuation-up-140-after-u-s-air-force-deal/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/",
+        "label": "Shield AI"
+      }
     ]
   },
   {
@@ -418,8 +573,14 @@
     "location": "London, UK",
     "reportDate": "2026-03-27",
     "links": [
-      {"url": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/", "label": "TechCrunch"},
-      {"url": "https://www.bloomberg.com/news/articles/2026-03-25/ai-notetaker-granola-hits-1-5-billion-value-in-125-million-funding", "label": "Bloomberg"}
+      {
+        "url": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-03-25/ai-notetaker-granola-hits-1-5-billion-value-in-125-million-funding",
+        "label": "Bloomberg"
+      }
     ]
   },
   {
@@ -432,8 +593,62 @@
     "location": "Bergen, Norway",
     "reportDate": "2026-03-27",
     "links": [
-      {"url": "https://www.tomshardware.com/tech-industry/norwegian-start-up-raises-40-million-for-helium-atom-beam-lithography", "label": "Tom's Hardware"},
-      {"url": "https://thenextweb.com/news/lace-lithography-40m-series", "label": "TNW"}
+      {
+        "url": "https://www.tomshardware.com/tech-industry/norwegian-start-up-raises-40-million-for-helium-atom-beam-lithography",
+        "label": "Tom's Hardware"
+      },
+      {
+        "url": "https://thenextweb.com/news/lace-lithography-40m-series",
+        "label": "TNW"
+      }
+    ]
+  },
+  {
+    "id": "blossom-health-1",
+    "name": "Blossom Health",
+    "sector": "Healthcare AI / Psychiatry",
+    "summary": "AI copilot for psychiatry. Platform augments clinicians' clinical decisions and automates back office tasks. Turns episodic care into continuous AI-driven relationship. John Zhao (CEO, ex-Athelas, ex-EverQuote) leading. Hundreds of clinicians treating 10,000+ patients across multiple states. In-network with major insurers, copays ~$22.",
+    "round": "Seed/Series A",
+    "amount": "$20M",
+    "location": "New York, NY",
+    "reportDate": "2026-03-28",
+    "links": [
+      {
+        "url": "https://fortune.com/2026/03/26/exclusive-blossom-health-telehealth-telepsychiatry-headline/",
+        "label": "Fortune"
+      }
+    ]
+  },
+  {
+    "id": "arinna-1",
+    "name": "Arinna",
+    "sector": "Space Tech / Solar Energy",
+    "summary": "Building ultrathin solar panels from transition metal dichalcogenides (TMDs) for spacecraft. 32% more efficient, flexible, cheaper, more durable than legacy space solar. Lasts 15 years on orbit. Founded by Stanford PhDs Koosha Nazif (CEO) and Alex Shearer (CTO). Testing on orbit before year-end, mass production planned 2028.",
+    "round": "Seed",
+    "amount": "$4M",
+    "location": "Stanford, CA",
+    "reportDate": "2026-03-28",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/03/25/arinna-4-million-seed-round-solar-energy-space-power-problem/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "id": "oran-development-1",
+    "name": "ORAN Development (ODC)",
+    "sector": "Telecom / AI Infrastructure",
+    "summary": "AI-Native Radio Access Network (AI-RAN) pioneer transforming cell towers into distributed compute hubs. $45M Series A from Nvidia, Booz Allen, Cisco, Nokia, AT&T, MTN, Telecom Italia. Architect of U.S.-based Odyssey platform. Turning 5G networks into AI compute fabric for Agentic AI and Physical AI applications.",
+    "round": "Series A",
+    "amount": "$45M",
+    "location": "Arlington, VA",
+    "reportDate": "2026-03-28",
+    "links": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/odc-completes-a-45m-series-a-funding-architecting-the-global-distributed-compute-grid-to-power-the-ai-native-era-302725604.html",
+        "label": "PR Newswire"
+      }
     ]
   }
 ]
