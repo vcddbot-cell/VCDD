@@ -491,7 +491,7 @@
     "id": "harvey-1",
     "name": "Harvey",
     "sector": "Legal AI",
-    "summary": "Legal AI company offering AI tools for legal and professional services - contract analysis, compliance, due diligence, and litigation. $190M ARR (January 2026), up from $100M in August 2025. 100,000+ lawyers across 1,300 organizations. Clients include global law firms, NBCUniversal, and HSBC. Valuation $11B \u2014 one of the few AI unicorns of 2026. Total funding raised $1B+. Co-founders Winston Weinberg (CEO) and Gabe Pereyra. Plans to expand AI agents and embedded legal engineering teams globally.",
+    "summary": "Legal AI company offering AI tools for legal and professional services - contract analysis, compliance, due diligence, and litigation. $190M ARR (January 2026), up from $100M in August 2025. 100,000+ lawyers across 1,300 organizations. Clients include global law firms, NBCUniversal, and HSBC. Valuation $11B — one of the few AI unicorns of 2026. Total funding raised $1B+. Co-founders Winston Weinberg (CEO) and Gabe Pereyra. Plans to expand AI agents and embedded legal engineering teams globally.",
     "round": "Growth",
     "amount": "$200M",
     "location": "San Francisco, CA",
@@ -540,6 +540,22 @@
       {
         "url": "https://fortune.com/2026/03/25/exclusive-ai-powered-benefits-platform-origin-raises-30-million-in-fresh-funding-to-bring-chros-visibility-into-benefits-usage-and-spend/",
         "label": "Fortune"
+      }
+    ]
+  },
+  {
+    "id": "cents-1",
+    "name": "Cents",
+    "sector": "Enterprise Software / Vertical SaaS / Laundry Industry",
+    "summary": "All-in-one platform for laundromat management with point-of-sale, on-machine payments, marketing automation, AI customer service, pickup & delivery services, and live GPS tracking. 4,500+ laundromat locations processing $1B in payments annually. Largest single software investment in the laundry vertical. Serves laundromats, dry cleaners, and multi-family operations.",
+    "round": "Series C",
+    "amount": "$140M",
+    "location": "New York, NY",
+    "reportDate": "2026-03-29",
+    "links": [
+      {
+        "url": "https://vcnewsdaily.com/cents/venture-capital-funding/fxlvyfmwwy",
+        "label": "VC News Daily"
       }
     ]
   },
@@ -648,6 +664,38 @@
       {
         "url": "https://www.prnewswire.com/news-releases/odc-completes-a-45m-series-a-funding-architecting-the-global-distributed-compute-grid-to-power-the-ai-native-era-302725604.html",
         "label": "PR Newswire"
+      }
+    ]
+  },
+  {
+    "id": "deccan-ai-1",
+    "name": "Deccan AI",
+    "sector": "AI / GenAI Data / Foundation Model Infrastructure",
+    "summary": "GenAI data company running post-training and production layer for AI labs and enterprises. Runs expert human trajectories, rigorous evals, and RL environments. Works with top frontier labs and majority of Magnificent 7 companies. Global pool of 1M+ domain experts. Operational backbone in Hyderabad. Mission: 'super accurate AI' for high-stakes business logic.",
+    "round": "Funding Round",
+    "amount": "$25M",
+    "location": "Mountain View, CA",
+    "reportDate": "2026-03-29",
+    "links": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/deccan-ai-raises-25-million-to-build-super-accurate-ai-302727157.html",
+        "label": "PR Newswire"
+      }
+    ]
+  },
+  {
+    "id": "glimpse-1",
+    "name": "Glimpse",
+    "sector": "AI / CPG & Retail Operations / Dispute-Tracking Fintech",
+    "summary": "AI platform for CPG/retail that automates financial deduction processes and dispute tracking. Helps brands recover invalid deductions from retailers. AI agents log into retailer portals, centralize documents, classify deductions, validate against supply chain/promotion data, and automatically file disputes. Works with 200+ brands including Suave and Chapstick. System gets smarter with each deduction processed (compounding data advantage). Total funding: $52M.",
+    "round": "Series A",
+    "amount": "$35M",
+    "location": "New York, NY",
+    "reportDate": "2026-03-29",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/03/25/a16z-backed-glimpse-raises-new-funds-accelerates-dispute-tracking-automation-for-cpg-brands/",
+        "label": "TechCrunch"
       }
     ]
   }
