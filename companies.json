@@ -698,5 +698,37 @@
         "label": "TechCrunch"
       }
     ]
+  },
+  {
+    "id": "doctronic-1",
+    "name": "Doctronic",
+    "sector": "Healthcare AI / Digital Health / AI Doctor",
+    "summary": "AI doctor platform using a multi-agent system for 24/7 autonomous triage through treatment. Chatbot consults patients then transfers to licensed physicians via telehealth ($39 fee). 15M+ AI consultations, 1M+ patients globally. Study: 81% diagnosis agreement with physicians, 99.2% treatment plan agreement, zero hallucinations. Founded 2023 by Matt Pavelle (ex-CTO Moda Operandi) and Dr. Adam Oskowitz (UCSF vascular surgeon). Expanding into academic medical centers, payers, and digital health platforms.",
+    "round": "Series B",
+    "amount": "$40M",
+    "location": "US",
+    "reportDate": "2026-03-30",
+    "links": [
+      {
+        "url": "https://www.statnews.com/2026/03/23/ai-doctor-startup-doctronic-raises-40-million/",
+        "label": "STAT News"
+      }
+    ]
+  },
+  {
+    "id": "lucid-bots-1",
+    "name": "Lucid Bots",
+    "sector": "Robotics / Industrial Drones / Building Maintenance",
+    "summary": "Full-stack robotics company manufacturing Sherpa drones (window cleaning) and Lavo robot in the US. Charlotte-based. Approaching 1,000 units sold (grew from 100 units in 5 years). Expanding from window cleaning to painting, waterproofing, and sealing. 50+ inbound leads/month for painting before marketing. Founded 2018 by Andrew Ashur (economics/liberal arts grad) who got the idea watching window washers in danger. Anti-hype approach — selling real job site performance, not demos.",
+    "round": "Series B",
+    "amount": "$20M",
+    "location": "Charlotte, NC",
+    "reportDate": "2026-03-30",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/03/25/lucid-bots-raises-20m-to-keep-up-with-demand-for-its-window-washing-drones/",
+        "label": "TechCrunch"
+      }
+    ]
   }
 ]
