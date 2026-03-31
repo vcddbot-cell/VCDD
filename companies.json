@@ -730,5 +730,41 @@
         "label": "TechCrunch"
       }
     ]
+  },
+  {
+    "id": "swish-1",
+    "name": "Swish",
+    "sector": "Food Delivery / Quick Commerce",
+    "summary": "Bengaluru-based full-stack 10-minute food delivery startup. Owns kitchens, supply chain, and delivery network — dense hyperlocal clusters within 1km radius. ~20,000 orders/day across 10 micro-markets in Bengaluru, up from 5,000 four months ago. Older kitchen clusters already profitable. Cofounders: Aniket Shah (CEO), Ujjwal Sukheja, Saran S. $38M Series B led by Hara Global and Bain Capital Ventures. Valued at $139M post-money (more than 2x valuation from a year ago). Total funding: $54M.",
+    "round": "Series B",
+    "amount": "$38M",
+    "location": "Bengaluru, India",
+    "reportDate": "2026-03-31",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/03/23/bengaluru-food-startup-swish-raises-38m-in-its-third-round-in-18-months/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://techfundingnews.com/swish-raises-38m-series-b-to-crack-freshness-in-india-food-delivery/",
+        "label": "Tech Funding News"
+      }
+    ]
+  },
+  {
+    "id": "doss-1",
+    "name": "Doss",
+    "sector": "AI Inventory Management / ERP",
+    "summary": "AI-native inventory management layer that integrates with existing accounting systems and ERPs (Rillet, Campfire, QuickBooks). Solves the problem of keeping physical goods data synced with accounting ledgers. Targets mid-market consumer brands generating $20M-$250M revenue. Cofounder/CEO Wiley Jones pivoted from core accounting product to partner with AI-native ERP companies. Competitors: NetSuite, Didero. $55M Series B co-led by Madrona and Premji Invest, with Intuit Ventures, Theory Ventures, General Catalyst participating.",
+    "round": "Series B",
+    "amount": "$55M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-03-31",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/03/24/doss-raises-55m-for-ai-inventory-management-that-plugs-into-erp/",
+        "label": "TechCrunch"
+      }
+    ]
   }
 ]
