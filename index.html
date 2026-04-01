@@ -16,6 +16,32 @@
 <div id="summary"></div>
 <div id="board"></div>
 
+<!-- Chat Panel -->
+<div id="chat-panel">
+  <div id="chat-header">
+    <span>💬 VCDD Assistant</span>
+    <button id="chat-toggle" onclick="toggleChat()">−</button>
+  </div>
+  <div id="chat-messages"></div>
+  <div id="chat-input-area">
+    <input id="chat-input" placeholder="Ask about companies, add notes...">
+    <button id="chat-send" onclick="sendChat()">↑</button>
+  </div>
+</div>
+
+<!-- Note Input Modal -->
+<div id="note-modal" class="note-modal">
+  <div class="note-modal-content">
+    <div class="note-modal-header">
+      <span id="note-company-name"></span>
+      <button onclick="closeNoteModal()">×</button>
+    </div>
+    <div id="note-existing"></div>
+    <textarea id="note-input" placeholder="Add a note about this company..."></textarea>
+    <button id="note-save" onclick="saveNote()">Save Note</button>
+  </div>
+</div>
+
 <!-- Modal for company details -->
 <div id="modal">
   <div id="modal-content">

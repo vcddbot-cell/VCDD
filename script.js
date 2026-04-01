@@ -1,5 +1,7 @@
 // Configuration - uses Cloudflare Worker backend
 const API_URL = "https://sticky-dashboard.vcddbot.workers.dev/api/filter-startups";
+const CHAT_API_URL = "https://sticky-dashboard.vcddbot.workers.dev/api/chat";
+const ADD_NOTE_URL = "https://sticky-dashboard.vcddbot.workers.dev/api/add-note";
 
 const NOTE_COLORS = [
   "#fef3c7", "#fce7f3", "#dbeafe", "#d1fae5", 
@@ -7,6 +9,8 @@ const NOTE_COLORS = [
 ];
 
 let colorIndex = 0;
+let currentNoteCompany = null;
+let chatConversationId = "default";
 
 function getNextColor() {
   const color = NOTE_COLORS[colorIndex % NOTE_COLORS.length];
@@ -106,6 +110,11 @@ function render(companies) {
       content += `<p class="note-traction">📈 ${traction}</p>`;
     }
     
+    // Show note indicator if notes exist
+    if (company.notes && company.notes.length > 0) {
+      content += `<span class="note-indicator">📝 ${company.notes.length} note${company.notes.length > 1 ? 's' : ''}</span>`;
+    }
+    
     note.innerHTML = content;
     note.onclick = () => showDetails(company);
     
@@ -171,13 +180,20 @@ function showDetails(company) {
     `;
   }
   
-  // Notes
-  if (company.notes) {
-    modalContent += `
-      <div class="detail-row"><span class="label">Notes:</span></div>
-      <p class="summary-text">${company.notes}</p>
-    `;
+  // Notes section
+  if (company.notes && company.notes.length > 0) {
+    modalContent += `<hr><div class="detail-row"><span class="label">Notes:</span></div>`;
+    company.notes.forEach(note => {
+      const date = new Date(note.addedAt).toLocaleDateString();
+      modalContent += `<p class="summary-text note-item">📝 ${note.text} <small>(${date})</small></p>`;
+    });
   }
+  
+  // Add Note button
+  modalContent += `
+    <hr>
+    <button onclick="openNoteModal('${company.name}')" class="add-note-btn">+ Add Note to ${company.name}</button>
+  `;
   
   // Links
   modalContent += `
@@ -208,5 +224,144 @@ document.getElementById("prompt").addEventListener("keypress", function(e) {
 
 // Button click triggers search
 document.getElementById("search-btn").addEventListener("click", run);
+
+// ============ CHAT FUNCTIONS ============
+
+function toggleChat() {
+  const panel = document.getElementById("chat-panel");
+  const toggle = document.getElementById("chat-toggle");
+  if (panel.classList.contains("collapsed")) {
+    panel.classList.remove("collapsed");
+    toggle.textContent = "−";
+  } else {
+    panel.classList.add("collapsed");
+    toggle.textContent = "+";
+  }
+}
+
+async function sendChat() {
+  const input = document.getElementById("chat-input");
+  const message = input.value.trim();
+  if (!message) return;
+  
+  const messagesDiv = document.getElementById("chat-messages");
+  
+  // Add user message
+  addChatMessage(message, "user");
+  input.value = "";
+  
+  // Show typing indicator
+  const typingDiv = document.createElement("div");
+  typingDiv.className = "chat-message bot typing";
+  typingDiv.textContent = "VCDD is thinking...";
+  messagesDiv.appendChild(typingDiv);
+  messagesDiv.scrollTop = messagesDiv.scrollHeight;
+  
+  try {
+    const response = await fetch(CHAT_API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ 
+        message: message,
+        conversationId: chatConversationId 
+      })
+    });
+    
+    const data = await response.json();
+    
+    // Remove typing indicator
+    messagesDiv.removeChild(typingDiv);
+    
+    // Add bot response
+    addChatMessage(data.response || "Sorry, I couldn't process that.", "bot");
+    
+    // If there's an action (add_note), show confirmation
+    if (data.action) {
+      const actionMsg = `📝 Note will be added to ${data.action.company_name}: "${data.action.note}"`;
+      addChatMessage(actionMsg, "bot");
+    }
+    
+  } catch (err) {
+    messagesDiv.removeChild(typingDiv);
+    addChatMessage("Error: Could not connect to assistant.", "bot");
+  }
+}
+
+function addChatMessage(text, sender) {
+  const messagesDiv = document.getElementById("chat-messages");
+  const msgDiv = document.createElement("div");
+  msgDiv.className = `chat-message ${sender}`;
+  
+  // Try to parse JSON response
+  let displayText = text;
+  try {
+    const parsed = JSON.parse(text);
+    if (parsed.action === "add_note") {
+      displayText = `I'll add a note to ${parsed.company_name}: "${parsed.note}"`;
+    } else {
+      displayText = parsed.response || parsed.text || text;
+    }
+  } catch {}
+  
+  msgDiv.textContent = displayText;
+  messagesDiv.appendChild(msgDiv);
+  messagesDiv.scrollTop = messagesDiv.scrollHeight;
+}
+
+// Chat enter key
+document.getElementById("chat-input").addEventListener("keypress", function(e) {
+  if (e.key === "Enter") sendChat();
+});
+
+// ============ NOTE FUNCTIONS ============
+
+function openNoteModal(companyName) {
+  currentNoteCompany = companyName;
+  document.getElementById("note-company-name").textContent = companyName;
+  document.getElementById("note-modal").classList.add("active");
+  document.getElementById("note-input").value = "";
+  document.getElementById("note-input").focus();
+}
+
+function closeNoteModal() {
+  document.getElementById("note-modal").classList.remove("active");
+  currentNoteCompany = null;
+}
+
+async function saveNote() {
+  const noteText = document.getElementById("note-input").value.trim();
+  if (!noteText || !currentNoteCompany) return;
+  
+  const saveBtn = document.getElementById("note-save");
+  saveBtn.disabled = true;
+  saveBtn.textContent = "Saving...";
+  
+  try {
+    const response = await fetch(ADD_NOTE_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        companyName: currentNoteCompany,
+        note: noteText
+      })
+    });
+    
+    const data = await response.json();
+    
+    if (data.success) {
+      addChatMessage(`✅ Note added to ${currentNoteCompany}: "${noteText}"`, "bot");
+      closeNoteModal();
+      // Refresh current search results
+      run();
+    } else {
+      addChatMessage(`❌ Failed to add note: ${data.error}`, "bot");
+    }
+  } catch (err) {
+    addChatMessage(`❌ Error: ${err.message}`, "bot");
+  } finally {
+    saveBtn.disabled = false;
+    saveBtn.textContent = "Save Note";
+  }
+}
 
 console.log("VCDD script loaded");
