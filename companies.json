@@ -766,5 +766,45 @@
         "label": "TechCrunch"
       }
     ]
+  },
+  {
+    "id": "saronic-1",
+    "name": "Saronic",
+    "sector": "Defense Tech / Autonomous Maritime Vessels",
+    "summary": "Austin-based defense tech startup building autonomous surface vessels (ASVs) for the U.S. military. Makes 6 vessel iterations including Spyglass (6-foot), Cutlass, Corsair (24-foot), and Marauder (180-foot, 40-metric-ton). Signed $392M Navy contract. $1.75B Series D led by Kleiner Perkins at $9.25B valuation — up from $4B last year. New investors: Advent International and Bessemer Venture Partners. Building Port Alpha facility 10x larger than Franklin, Louisiana shipyard. Plans 20+ ships/year by 2027. Ranked 19th on CNBC Disruptor 50.",
+    "round": "Series D",
+    "amount": "$1.75B",
+    "location": "Austin, TX",
+    "reportDate": "2026-04-01",
+    "links": [
+      {
+        "url": "https://www.defenseone.com/business/2026/03/ai-boat-maker-saronic-smashes-9-billion-valuation/412527/",
+        "label": "Defense One"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/03/31/autonomous-boat-startup-saronic-raises-1point75-billion-.html",
+        "label": "CNBC"
+      }
+    ]
+  },
+  {
+    "id": "rebellions-1",
+    "name": "Rebellions",
+    "sector": "AI Chips / Semiconductor / Inference Infrastructure",
+    "summary": "Seoul-based fabless AI chip startup developing inference-optimized semiconductors. Co-founded by Sunghyun Park (CEO, MIT EECS, ex-Morgan Stanley quant, Intel, SpaceX) and Jinwook Oh (CTO, KAIST, ex-IBM Research). ATOM series launched 2023 for data centers. New products: RebelRack and RebelPOD. $400M pre-IPO round at $2.34B valuation led by Mirae Asset Financial Group and Korea National Growth Fund. Total raised: $850M ($650M in last 6 months). IPO planned for later 2026. Aggressively expanding to U.S., Japan, Saudi Arabia, Taiwan.",
+    "round": "Pre-IPO",
+    "amount": "$400M",
+    "location": "Seoul, South Korea",
+    "reportDate": "2026-04-01",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/rebellions-closes-400-million-pre-ipo-and-launches-rebelrack-and-rebelpod-to-accelerate-global-expansion-302728631.html",
+        "label": "PR Newswire"
+      }
+    ]
   }
 ]
