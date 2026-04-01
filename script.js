@@ -275,10 +275,37 @@ async function sendChat() {
     // Add bot response
     addChatMessage(data.response || "Sorry, I couldn't process that.", "bot");
     
-    // If there's an action (add_note), show confirmation
-    if (data.action) {
-      const actionMsg = `📝 Note will be added to ${data.action.company_name}: "${data.action.note}"`;
-      addChatMessage(actionMsg, "bot");
+    // If there's an action (add_note), actually execute it
+    if (data.action && data.action.action === "add_note") {
+      const actionDiv = document.createElement("div");
+      actionDiv.className = "chat-message bot";
+      actionDiv.textContent = `📝 Adding note to ${data.action.company_name}...`;
+      messagesDiv.appendChild(actionDiv);
+      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+      
+      try {
+        const noteRes = await fetch(ADD_NOTE_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            companyName: data.action.company_name,
+            note: data.action.note
+          })
+        });
+        const noteData = await noteRes.json();
+        
+        messagesDiv.removeChild(actionDiv);
+        if (noteData.success) {
+          addChatMessage(`✅ Note added to ${data.action.company_name}: "${data.action.note}"`, "bot");
+          // Refresh current search results
+          run();
+        } else {
+          addChatMessage(`❌ Failed to add note: ${noteData.error}`, "bot");
+        }
+      } catch (err) {
+        messagesDiv.removeChild(actionDiv);
+        addChatMessage(`❌ Error adding note: ${err.message}`, "bot");
+      }
     }
     
   } catch (err) {
