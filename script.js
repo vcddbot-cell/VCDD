@@ -293,12 +293,6 @@ async function sendChat() {
     }
     
     if (parsedAction && parsedAction.action === "add_note") {
-      const actionDiv = document.createElement("div");
-      actionDiv.className = "chat-message bot";
-      actionDiv.textContent = `📝 Adding note to ${parsedAction.company_name}...`;
-      messagesDiv.appendChild(actionDiv);
-      messagesDiv.scrollTop = messagesDiv.scrollHeight;
-      
       try {
         const noteRes = await fetch(ADD_NOTE_URL, {
           method: "POST",
@@ -310,7 +304,6 @@ async function sendChat() {
         });
         const noteData = await noteRes.json();
         
-        messagesDiv.removeChild(actionDiv);
         if (noteData.success) {
           addChatMessage(`✅ Note added to ${parsedAction.company_name}: "${parsedAction.note}"`, "bot");
           // Refresh current search results
@@ -319,7 +312,6 @@ async function sendChat() {
           addChatMessage(`❌ Failed to add note: ${noteData.error}`, "bot");
         }
       } catch (err) {
-        messagesDiv.removeChild(actionDiv);
         addChatMessage(`❌ Error adding note: ${err.message}`, "bot");
       }
     }
