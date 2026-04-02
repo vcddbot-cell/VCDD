@@ -806,5 +806,41 @@
         "label": "PR Newswire"
       }
     ]
+  },
+  {
+    "id": "midas-1",
+    "name": "Midas",
+    "sector": "Fintech / Blockchain / Tokenization",
+    "summary": "German platform for composable onchain investment products. Allows strategy managers to turn institutional strategies into regulatory-compliant tokens offering full transparency, instant liquidity, and native composability across DeFi protocols. Has powered over $1.7B in asset issuance across 15+ investment products, with 20,000+ mToken holders. Co-founders: Dennis Dinkelmeyer (CEO, ex-Goldman Sachs), Fabrice Grriba (ex-FJ Labs), Romain Bourgois (ex-Ondo Finance).",
+    "round": "Series A",
+    "amount": "$50M",
+    "location": "Berlin, Germany",
+    "reportDate": "2026-04-02",
+    "links": [
+      {
+        "url": "https://www.eu-startups.com/2026/03/berlin-based-midas-lands-e43-million-to-expand-tokenised-investment-infrastructure/",
+        "label": "EU-Startups"
+      },
+      {
+        "url": "https://www.coindesk.com/business/2026/03/30/midas-raises-usd50-million-to-tackle-pain-point-for-tokenized-asset-investors",
+        "label": "CoinDesk"
+      }
+    ]
+  },
+  {
+    "id": "avo-1",
+    "name": "Avo",
+    "sector": "Healthcare AI / Clinical Decision Support",
+    "summary": "EHR-integrated clinical AI platform that synthesizes patient data, care guidelines, and payer policies to guide clinicians through documentation, diagnosis, and care management. Founded by Dr. Yair Saperstein, Dr. Joongheum Park, and Laurence Coman in 2018. Total funding: $18M equity.",
+    "round": "Series A",
+    "amount": "$10M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-02",
+    "links": [
+      {
+        "url": "https://www.alleywatch.com/2026/04/the-alleywatch-startup-daily-funding-report-4-1-2026/",
+        "label": "AlleyWatch"
+      }
+    ]
   }
 ]
