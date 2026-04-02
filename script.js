@@ -283,11 +283,11 @@ async function sendChat() {
     // If there's an action (add_note), actually execute it
     let parsedAction = data.action;
     if (!parsedAction && data.response) {
-      // Try to extract JSON from response text
+      // Try to extract JSON action from response text - look for {"action":"add_note"...
       try {
-        const jsonMatch = data.response.match(/\{[^{}]*\}/);
-        if (jsonMatch) {
-          parsedAction = JSON.parse(jsonMatch[0]);
+        const actionMatch = data.response.match(/\{"action"\s*:\s*"add_note"\s*,\s*"company_name"\s*:\s*"([^"]+)"\s*,\s*"note"\s*:\s*"([^"]+)"\}/);
+        if (actionMatch) {
+          parsedAction = { action: "add_note", company_name: actionMatch[1], note: actionMatch[2] };
         }
       } catch {}
     }
@@ -327,16 +327,12 @@ function addChatMessage(text, sender) {
   const msgDiv = document.createElement("div");
   msgDiv.className = `chat-message ${sender}`;
   
-  // Try to parse JSON response
-  let displayText = text;
-  try {
-    const parsed = JSON.parse(text);
-    if (parsed.action === "add_note") {
-      displayText = `I'll add a note to ${parsed.company_name}: "${parsed.note}"`;
-    } else {
-      displayText = parsed.response || parsed.text || text;
-    }
-  } catch {}
+  // Clean up text - remove any remaining think/monologue artifacts
+  let displayText = text
+    .replace(/^think>[\s\S]*?\n\n?/gi, '')
+    .replace(/^analyzing[\s\S]*?\n\n?/gi, '')
+    .replace(/^Based on[\s\S]*?\n\n?/gi, '')
+    .trim();
   
   msgDiv.textContent = displayText;
   messagesDiv.appendChild(msgDiv);
