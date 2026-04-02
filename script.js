@@ -291,20 +291,26 @@ async function sendChat() {
         }
       } catch {}
       
-      // Try format 2: company object with id + notes - extract note text and guess company
+      // Try format 2: [INFO]COMPANY_NAME|NOTE[END]
+      if (!parsedAction) {
+        try {
+          const infoMatch = data.response.match(/\[INFO\]([^|]+)\|([^\[]+)\[END\]/);
+          if (infoMatch) {
+            parsedAction = { action: "add_note", company_name: infoMatch[1].trim(), note: infoMatch[2].trim() };
+          }
+        } catch {}
+      }
+      
+      // Try format 3: company object with id + notes
       if (!parsedAction) {
         try {
           const companyMatch = data.response.match(/"id"\s*:\s*"([^"]+)"[^}]*"notes"\s*:\s*\[\s*\{[^}]*"text"\s*:\s*"([^"]+)"/);
           if (companyMatch) {
-            // Extract company name from id (e.g. "saronic-1" -> "Saronic")
-            const idPart = companyMatch[1];
-            const noteText = companyMatch[2];
-            // Try to find company by id
             const companiesRes = await fetch('https://sticky-dashboard.vcddbot.workers.dev/api/companies');
             const companiesData = await companiesRes.json();
-            const company = companiesData.companies.find(c => c.id === idPart);
+            const company = companiesData.companies.find(c => c.id === companyMatch[1]);
             if (company) {
-              parsedAction = { action: "add_note", company_name: company.name, note: noteText };
+              parsedAction = { action: "add_note", company_name: company.name, note: companyMatch[2] };
             }
           }
         } catch {}
