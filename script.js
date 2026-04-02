@@ -283,13 +283,32 @@ async function sendChat() {
     // If there's an action (add_note), actually execute it
     let parsedAction = data.action;
     if (!parsedAction && data.response) {
-      // Try to extract JSON action from response text - look for {"action":"add_note"...
+      // Try format 1: {"action":"add_note", "company_name": "...", "note": "..."}
       try {
         const actionMatch = data.response.match(/\{"action"\s*:\s*"add_note"\s*,\s*"company_name"\s*:\s*"([^"]+)"\s*,\s*"note"\s*:\s*"([^"]+)"\}/);
         if (actionMatch) {
           parsedAction = { action: "add_note", company_name: actionMatch[1], note: actionMatch[2] };
         }
       } catch {}
+      
+      // Try format 2: company object with id + notes - extract note text and guess company
+      if (!parsedAction) {
+        try {
+          const companyMatch = data.response.match(/"id"\s*:\s*"([^"]+)"[^}]*"notes"\s*:\s*\[\s*\{[^}]*"text"\s*:\s*"([^"]+)"/);
+          if (companyMatch) {
+            // Extract company name from id (e.g. "saronic-1" -> "Saronic")
+            const idPart = companyMatch[1];
+            const noteText = companyMatch[2];
+            // Try to find company by id
+            const companiesRes = await fetch('https://sticky-dashboard.vcddbot.workers.dev/api/companies');
+            const companiesData = await companiesRes.json();
+            const company = companiesData.companies.find(c => c.id === idPart);
+            if (company) {
+              parsedAction = { action: "add_note", company_name: company.name, note: noteText };
+            }
+          }
+        } catch {}
+      }
     }
     
     if (parsedAction && parsedAction.action === "add_note") {
