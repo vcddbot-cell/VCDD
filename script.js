@@ -281,10 +281,21 @@ async function sendChat() {
     addChatMessage(data.response || "Sorry, I couldn't process that.", "bot");
     
     // If there's an action (add_note), actually execute it
-    if (data.action && data.action.action === "add_note") {
+    let parsedAction = data.action;
+    if (!parsedAction && data.response) {
+      // Try to extract JSON from response text
+      try {
+        const jsonMatch = data.response.match(/\{[^{}]*\}/);
+        if (jsonMatch) {
+          parsedAction = JSON.parse(jsonMatch[0]);
+        }
+      } catch {}
+    }
+    
+    if (parsedAction && parsedAction.action === "add_note") {
       const actionDiv = document.createElement("div");
       actionDiv.className = "chat-message bot";
-      actionDiv.textContent = `📝 Adding note to ${data.action.company_name}...`;
+      actionDiv.textContent = `📝 Adding note to ${parsedAction.company_name}...`;
       messagesDiv.appendChild(actionDiv);
       messagesDiv.scrollTop = messagesDiv.scrollHeight;
       
@@ -293,15 +304,15 @@ async function sendChat() {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            companyName: data.action.company_name,
-            note: data.action.note
+            companyName: parsedAction.company_name,
+            note: parsedAction.note
           })
         });
         const noteData = await noteRes.json();
         
         messagesDiv.removeChild(actionDiv);
         if (noteData.success) {
-          addChatMessage(`✅ Note added to ${data.action.company_name}: "${data.action.note}"`, "bot");
+          addChatMessage(`✅ Note added to ${parsedAction.company_name}: "${parsedAction.note}"`, "bot");
           // Refresh current search results
           run();
         } else {
