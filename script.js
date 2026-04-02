@@ -185,7 +185,12 @@ function showDetails(company) {
     modalContent += `<hr><div class="detail-row"><span class="label">Notes:</span></div>`;
     company.notes.forEach(note => {
       const date = new Date(note.addedAt).toLocaleDateString();
-      modalContent += `<p class="summary-text note-item">📝 ${note.text} <small>(${date})</small></p>`;
+      // Convert URLs to clickable links
+      const noteTextWithLinks = note.text.replace(
+        /(https?:\/\/[^\s<]+)/g,
+        '<a href="$1" target="_blank">$1</a>'
+      );
+      modalContent += `<p class="summary-text note-item">📝 ${noteTextWithLinks} <small>(${date})</small></p>`;
     });
   }
   
