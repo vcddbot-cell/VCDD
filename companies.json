@@ -842,5 +842,137 @@
         "label": "AlleyWatch"
       }
     ]
+  },
+  {
+    "id": "alcatraz-1",
+    "name": "Alcatraz",
+    "sector": "AI Physical Security / Biometrics",
+    "summary": "AI-powered face recognition access control for buildings. Founded by ex-Apple Face ID engineer Vince Gaydarzhiev. The only biometric system that authenticates WITHOUT storing faces — uses privacy-first facial authentication vs. surveillance. Customers include top AI data centers, major U.S. airports, Fortune 100 companies. 300%+ YoY growth in data center adoption. $50M Series B led by BlackPeak Capital, Cogito Capital, Taiwania Capital.",
+    "round": "Series B",
+    "amount": "$50M",
+    "location": "Cupertino, CA",
+    "reportDate": "2026-04-03",
+    "links": [{"url": "https://www.prnewswire.com/news-releases/alcatraz-raises-50-million-to-replace-the-badge-with-your-face--without-sacrificing-privacy-302732431.html", "label": "PR Newswire"}]
+  },
+  {
+    "id": "sift-1",
+    "name": "Sift",
+    "sector": "AI Infrastructure / Hardware Data",
+    "summary": "Building the missing data layer for Physical AI. Platform transforms raw sensor and telemetry data from satellites, drones, and autonomous vehicles into structured, queryable information AI models can interpret. $42M Series B led by StepStone with GV, Riot Ventures, Fika Ventures participation. Total funding $67M.",
+    "round": "Series B",
+    "amount": "$42M",
+    "location": "El Segundo, CA",
+    "reportDate": "2026-04-03",
+    "links": [{"url": "https://www.latimes.com/b2b/ai-technology/story/2026-04-02/sift-raises-42m-series-b-ai-infrastructure", "label": "LA Times"}]
+  },
+  {
+    "id": "miravoice-1",
+    "name": "Miravoice",
+    "sector": "Voice AI / Market Research",
+    "summary": "AI voice agent conducts long-form phone surveys (100+ questions, 40+ minutes) autonomously. Usage-based billing model. Surpassed 100,000 calls in 2025. 10-20 customers in production/pilot including survey orgs, market research firms, universities. $6.3M seed led by Unusual Ventures, with angels from Ramp, PubMatic, Atlassian, Google.",
+    "round": "Seed",
+    "amount": "$6.3M",
+    "location": "California, USA",
+    "reportDate": "2026-04-03",
+    "links": [{"url": "https://news.crunchbase.com/venture/ai-interviewer-miravoice-raises-seed-funding-unusual/", "label": "Crunchbase"}]
+  },
+  {
+    "id": "sarvam-ai-1",
+    "name": "Sarvam AI",
+    "sector": "AI / Sovereign AI Platform",
+    "summary": "India's full-stack sovereign AI platform building for all from India. Founded by AI4Bharat (IIT Madras) veterans Dr. Vivek Raghavan and Dr. Pratyush Kumar. Open-sourced Sarvam 2B (first 2B-param Indic LLM on domestic compute, 4T tokens), Sarvam 30B, and Sarvam 105B (MoE). Raised $300-350M at $1.5-1.55B valuation in round led by Bessemer with Nvidia, Amazon, Prosperity7. 2.5 years old. Positioned to bring AI to a billion Indians.",
+    "round": "Growth",
+    "amount": "$325M",
+    "location": "Bengaluru, India",
+    "reportDate": "2026-04-04",
+    "links": [{"url": "https://www.bloomberg.com/news/articles/2026-04-02/india-ai-startup-sarvam-raises-funds-at-1-5-billion-valuation", "label": "Bloomberg"}, {"url": "https://en.wikipedia.org/wiki/Sarvam_AI", "label": "Wikipedia"}]
+  },
+  {
+    "id": "moonbounce-1",
+    "name": "Moonbounce",
+    "sector": "AI Control / Content Moderation",
+    "summary": "AI control engine that ensures AI systems behave exactly as designed at any scale. Converts content moderation policies into executable, updatable LLM-powered logic with sub-300ms enforcement. 40M+ daily reviews, 100M+ daily active users. Founded by ex-Facebook trust & safety lead Brett Levenson and ex-Apple cloud/AI infrastructure engineer Ash Bhardwaj. 12-person team. Serves AI companions, image generators, dating apps.",
+    "round": "Series A",
+    "amount": "$12M",
+    "location": "Oakland, CA",
+    "reportDate": "2026-04-04",
+    "links": [{"url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/", "label": "TechCrunch"}]
+  },
+  {
+    "id": "reju-1",
+    "name": "Reju",
+    "sector": "Sustainability / Textile Regeneration",
+    "summary": "French textile-to-textile regeneration company spun out from Technip Energies JV with IBM and Under Armour. Awarded €135M Dutch NIKI grant to build industrial-scale regeneration hub at Chemelot Industrial Park, Netherlands. Creates Reju Polyester from 100% textile waste at 50% lower carbon emissions vs virgin polyester. CEO Patrik Frisk. Partnership with Circle-8 Textile Ecosystems (UK).",
+    "round": "Grant",
+    "amount": "€135M",
+    "location": "Paris, France",
+    "reportDate": "2026-04-04",
+    "links": [{"url": "https://www.prnewswire.com/news-releases/reju-secures-135-million-in-dutch-niki-funding-for-industrial-scale-textile-to-textile-regeneration-hub-at-chemelot-industrial-park-the-netherlands-302730637.html", "label": "PR Newswire"}]
+  },
+  {
+    "id": "whoop-1",
+    "name": "WHOOP",
+    "sector": "Health & Fitness Wearables / Human Performance",
+    "summary": "Human performance and health tracking wearable company. $575M Series G at $10.1B valuation — nearly 3x its $3.6B previous valuation. Led by Collaborative Fund with participation from Abbott, Mayo Clinic, Qatar Investment Authority, Mubadala, IVP, Foundry, and celebrity investors including Cristiano Ronaldo, LeBron James, Rory McIlroy. Exited 2025 at $1.1B bookings run rate, up 103% YoY. ~$900M total raised since founding in 2012. IPO rumored.",
+    "round": "Series G",
+    "amount": "$575M",
+    "location": "Boston, MA",
+    "reportDate": "2026-04-05",
+    "links": [{"url": "https://techcrunch.com/2026/03/31/whoop-valuation-10b-series-g-fundraise/", "label": "TechCrunch"}, {"url": "https://www.businesswire.com/news/home/20260331399622/en/WHOOP-Raises-$575-Million-at-$10.1-Billion-Valuation-to-Advance-Global-Health-Platform", "label": "Business Wire"}]
+  },
+  {
+    "id": "starcloud-1",
+    "name": "Starcloud",
+    "sector": "Space Infrastructure / Orbital AI Data Centers",
+    "summary": "Building solar-powered data centers in space. $170M Series A at $1.1B valuation — fastest Y Combinator startup to reach unicorn in 17 months. Led by Benchmark and EQT Ventures. First satellite (Starcloud-1) launched Nov 2025 with Nvidia H100 GPU — first terrestrial GPU in orbit; trained an AI model and ran Gemini from space. $200M total funding. Starcloud-2 launching 2026 with Nvidia Blackwell chip. Starcloud-3 (200kW spacecraft for Starship) aims to be cost-competitive with Earth-based data centers at ~$0.05/kw/hr.",
+    "round": "Series A",
+    "amount": "$170M",
+    "location": "Seattle, WA",
+    "reportDate": "2026-04-05",
+    "links": [{"url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/", "label": "TechCrunch"}, {"url": "https://www.businesswire.com/news/home/20260330024111/en/Starcloud-Raises-$170M-Series-A-at-$1.1bn-Valuation-Led-by-Benchmark-and-EQT-Ventures", "label": "Business Wire"}]
+  },
+  {
+    "id": "insight-health-1",
+    "name": "Insight Health",
+    "sector": "Healthcare AI / Clinical Administration Automation",
+    "summary": "Clinical agent platform for healthcare targeting the $1T US healthcare administrative cost problem. Platform uses AI agent 'Lumi' to autonomously conduct patient intake, collect clinical history, and schedule procedures. Conducted first ever fully autonomous AI patient encounter in a clinical setting. $11M Series A led by Standard Capital (ex-YC Managing Partner Dalton Caldwell). Co-founded by ex-Segment/Y Combinator product leader and cardiologists from OHSU. Founded 2023. Based in New York.",
+    "round": "Series A",
+    "amount": "$11M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-05",
+    "links": [{"url": "https://fortune.com/2026/04/03/health-care-fax-machine-problem-insight-health-series-a-11-million-ai-assistants/", "label": "Fortune"}, {"url": "https://www.insighthealth.ai/about-us", "label": "Insight Health"}]
+  },
+  {
+    "id": "nomadic-1",
+    "name": "Nomadic",
+    "sector": "AI / Autonomous Vehicle Data Infrastructure",
+    "summary": "AV/robotics data infrastructure startup. Vision-language model platform turning footage into structured, searchable datasets. Solves 95% of fleet data sitting in archives problem. Agentic reasoning system for identifying edge cases in AV/robot training data. Customers include Zoox, Mitsubishi Electric, Natix Network, Zendar. Won Nvidia GTC pitch contest. Co-founders: Mustafa Bal (CEO) and Varun Krishnan (CTO), Harvard CS undergrads. Krishnan is international chess master ranked 1,549th globally.",
+    "round": "Seed",
+    "amount": "$8.4M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-04-06",
+    "links": [{"url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/", "label": "TechCrunch"}]
+  },
+  {
+    "id": "halter-1",
+    "name": "Halter",
+    "sector": "AgTech / Virtual Fencing and Cattle Management",
+    "summary": "Solar-powered smart collar for cattle that creates virtual fences using audio and vibration cues. Cattle learn in approximately 3 interactions. Always-on behavioral data tracks health, fertility, illness flags. Lifts land productivity up to 20 percent, sometimes doubling output. 1 million cattle on collars across 2,000 plus farms in NZ, Australia, and 22 U.S. states. 5 generations of hardware. Founded by Craig Piggott (CEO, ex-Rocket Lab) at age 21. Total funding approximately 400M dollars. 220M Series E led by Founders Fund at 2B valuation.",
+    "round": "Series E",
+    "amount": "$220M",
+    "location": "Auckland, New Zealand",
+    "reportDate": "2026-04-06",
+    "links": [{"url": "https://techcrunch.com/2026/04/04/unpacking-peter-thiels-big-bet-on-solar-powered-cow-collars/", "label": "TechCrunch"}]
+  },
+  {
+    "id": "cognichip-1",
+    "name": "Cognichip",
+    "sector": "Semiconductor / AI-Powered Chip Design",
+    "summary": "Physics-informed AI model that assists chip engineers in designing semiconductors. Aims to reduce chip development cost by 75 percent plus and cut timeline by more than half. Current chip design takes 3-5 years with 2 years in design phase alone. Nvidia Blackwell has 104B transistors. Uses proprietary, synthetic, and licensed training data with secure on-premise training option. Founded by Faraj Aalaei (third-time founder). Total funding 93M dollars. Intel CEO Lip-Bu Tan joining board. Competitors: Synopsys, Cadence, ChipAgents (74M), Ricursive (300M).",
+    "round": "Series A",
+    "amount": "$60M",
+    "location": "Silicon Valley, CA",
+    "reportDate": "2026-04-06",
+    "links": [{"url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/", "label": "TechCrunch"}]
   }
 ]
