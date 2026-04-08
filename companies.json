@@ -491,7 +491,7 @@
     "id": "harvey-1",
     "name": "Harvey",
     "sector": "Legal AI",
-    "summary": "Legal AI company offering AI tools for legal and professional services - contract analysis, compliance, due diligence, and litigation. $190M ARR (January 2026), up from $100M in August 2025. 100,000+ lawyers across 1,300 organizations. Clients include global law firms, NBCUniversal, and HSBC. Valuation $11B — one of the few AI unicorns of 2026. Total funding raised $1B+. Co-founders Winston Weinberg (CEO) and Gabe Pereyra. Plans to expand AI agents and embedded legal engineering teams globally.",
+    "summary": "Legal AI company offering AI tools for legal and professional services - contract analysis, compliance, due diligence, and litigation. $190M ARR (January 2026), up from $100M in August 2025. 100,000+ lawyers across 1,300 organizations. Clients include global law firms, NBCUniversal, and HSBC. Valuation $11B \u2014 one of the few AI unicorns of 2026. Total funding raised $1B+. Co-founders Winston Weinberg (CEO) and Gabe Pereyra. Plans to expand AI agents and embedded legal engineering teams globally.",
     "round": "Growth",
     "amount": "$200M",
     "location": "San Francisco, CA",
@@ -719,7 +719,7 @@
     "id": "lucid-bots-1",
     "name": "Lucid Bots",
     "sector": "Robotics / Industrial Drones / Building Maintenance",
-    "summary": "Full-stack robotics company manufacturing Sherpa drones (window cleaning) and Lavo robot in the US. Charlotte-based. Approaching 1,000 units sold (grew from 100 units in 5 years). Expanding from window cleaning to painting, waterproofing, and sealing. 50+ inbound leads/month for painting before marketing. Founded 2018 by Andrew Ashur (economics/liberal arts grad) who got the idea watching window washers in danger. Anti-hype approach — selling real job site performance, not demos.",
+    "summary": "Full-stack robotics company manufacturing Sherpa drones (window cleaning) and Lavo robot in the US. Charlotte-based. Approaching 1,000 units sold (grew from 100 units in 5 years). Expanding from window cleaning to painting, waterproofing, and sealing. 50+ inbound leads/month for painting before marketing. Founded 2018 by Andrew Ashur (economics/liberal arts grad) who got the idea watching window washers in danger. Anti-hype approach \u2014 selling real job site performance, not demos.",
     "round": "Series B",
     "amount": "$20M",
     "location": "Charlotte, NC",
@@ -735,7 +735,7 @@
     "id": "swish-1",
     "name": "Swish",
     "sector": "Food Delivery / Quick Commerce",
-    "summary": "Bengaluru-based full-stack 10-minute food delivery startup. Owns kitchens, supply chain, and delivery network — dense hyperlocal clusters within 1km radius. ~20,000 orders/day across 10 micro-markets in Bengaluru, up from 5,000 four months ago. Older kitchen clusters already profitable. Cofounders: Aniket Shah (CEO), Ujjwal Sukheja, Saran S. $38M Series B led by Hara Global and Bain Capital Ventures. Valued at $139M post-money (more than 2x valuation from a year ago). Total funding: $54M.",
+    "summary": "Bengaluru-based full-stack 10-minute food delivery startup. Owns kitchens, supply chain, and delivery network \u2014 dense hyperlocal clusters within 1km radius. ~20,000 orders/day across 10 micro-markets in Bengaluru, up from 5,000 four months ago. Older kitchen clusters already profitable. Cofounders: Aniket Shah (CEO), Ujjwal Sukheja, Saran S. $38M Series B led by Hara Global and Bain Capital Ventures. Valued at $139M post-money (more than 2x valuation from a year ago). Total funding: $54M.",
     "round": "Series B",
     "amount": "$38M",
     "location": "Bengaluru, India",
@@ -771,7 +771,7 @@
     "id": "saronic-1",
     "name": "Saronic",
     "sector": "Defense Tech / Autonomous Maritime Vessels",
-    "summary": "Austin-based defense tech startup building autonomous surface vessels (ASVs) for the U.S. military. Makes 6 vessel iterations including Spyglass (6-foot), Cutlass, Corsair (24-foot), and Marauder (180-foot, 40-metric-ton). Signed $392M Navy contract. $1.75B Series D led by Kleiner Perkins at $9.25B valuation — up from $4B last year. New investors: Advent International and Bessemer Venture Partners. Building Port Alpha facility 10x larger than Franklin, Louisiana shipyard. Plans 20+ ships/year by 2027. Ranked 19th on CNBC Disruptor 50.",
+    "summary": "Austin-based defense tech startup building autonomous surface vessels (ASVs) for the U.S. military. Makes 6 vessel iterations including Spyglass (6-foot), Cutlass, Corsair (24-foot), and Marauder (180-foot, 40-metric-ton). Signed $392M Navy contract. $1.75B Series D led by Kleiner Perkins at $9.25B valuation \u2014 up from $4B last year. New investors: Advent International and Bessemer Venture Partners. Building Port Alpha facility 10x larger than Franklin, Louisiana shipyard. Plans 20+ ships/year by 2027. Ranked 19th on CNBC Disruptor 50.",
     "round": "Series D",
     "amount": "$1.75B",
     "location": "Austin, TX",
@@ -847,12 +847,17 @@
     "id": "alcatraz-1",
     "name": "Alcatraz",
     "sector": "AI Physical Security / Biometrics",
-    "summary": "AI-powered face recognition access control for buildings. Founded by ex-Apple Face ID engineer Vince Gaydarzhiev. The only biometric system that authenticates WITHOUT storing faces — uses privacy-first facial authentication vs. surveillance. Customers include top AI data centers, major U.S. airports, Fortune 100 companies. 300%+ YoY growth in data center adoption. $50M Series B led by BlackPeak Capital, Cogito Capital, Taiwania Capital.",
+    "summary": "AI-powered face recognition access control for buildings. Founded by ex-Apple Face ID engineer Vince Gaydarzhiev. The only biometric system that authenticates WITHOUT storing faces \u2014 uses privacy-first facial authentication vs. surveillance. Customers include top AI data centers, major U.S. airports, Fortune 100 companies. 300%+ YoY growth in data center adoption. $50M Series B led by BlackPeak Capital, Cogito Capital, Taiwania Capital.",
     "round": "Series B",
     "amount": "$50M",
     "location": "Cupertino, CA",
     "reportDate": "2026-04-03",
-    "links": [{"url": "https://www.prnewswire.com/news-releases/alcatraz-raises-50-million-to-replace-the-badge-with-your-face--without-sacrificing-privacy-302732431.html", "label": "PR Newswire"}]
+    "links": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/alcatraz-raises-50-million-to-replace-the-badge-with-your-face--without-sacrificing-privacy-302732431.html",
+        "label": "PR Newswire"
+      }
+    ]
   },
   {
     "id": "sift-1",
@@ -863,7 +868,12 @@
     "amount": "$42M",
     "location": "El Segundo, CA",
     "reportDate": "2026-04-03",
-    "links": [{"url": "https://www.latimes.com/b2b/ai-technology/story/2026-04-02/sift-raises-42m-series-b-ai-infrastructure", "label": "LA Times"}]
+    "links": [
+      {
+        "url": "https://www.latimes.com/b2b/ai-technology/story/2026-04-02/sift-raises-42m-series-b-ai-infrastructure",
+        "label": "LA Times"
+      }
+    ]
   },
   {
     "id": "miravoice-1",
@@ -874,7 +884,12 @@
     "amount": "$6.3M",
     "location": "California, USA",
     "reportDate": "2026-04-03",
-    "links": [{"url": "https://news.crunchbase.com/venture/ai-interviewer-miravoice-raises-seed-funding-unusual/", "label": "Crunchbase"}]
+    "links": [
+      {
+        "url": "https://news.crunchbase.com/venture/ai-interviewer-miravoice-raises-seed-funding-unusual/",
+        "label": "Crunchbase"
+      }
+    ]
   },
   {
     "id": "sarvam-ai-1",
@@ -885,7 +900,16 @@
     "amount": "$325M",
     "location": "Bengaluru, India",
     "reportDate": "2026-04-04",
-    "links": [{"url": "https://www.bloomberg.com/news/articles/2026-04-02/india-ai-startup-sarvam-raises-funds-at-1-5-billion-valuation", "label": "Bloomberg"}, {"url": "https://en.wikipedia.org/wiki/Sarvam_AI", "label": "Wikipedia"}]
+    "links": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-04-02/india-ai-startup-sarvam-raises-funds-at-1-5-billion-valuation",
+        "label": "Bloomberg"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sarvam_AI",
+        "label": "Wikipedia"
+      }
+    ]
   },
   {
     "id": "moonbounce-1",
@@ -896,40 +920,68 @@
     "amount": "$12M",
     "location": "Oakland, CA",
     "reportDate": "2026-04-04",
-    "links": [{"url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/", "label": "TechCrunch"}]
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
+        "label": "TechCrunch"
+      }
+    ]
   },
   {
     "id": "reju-1",
     "name": "Reju",
     "sector": "Sustainability / Textile Regeneration",
-    "summary": "French textile-to-textile regeneration company spun out from Technip Energies JV with IBM and Under Armour. Awarded €135M Dutch NIKI grant to build industrial-scale regeneration hub at Chemelot Industrial Park, Netherlands. Creates Reju Polyester from 100% textile waste at 50% lower carbon emissions vs virgin polyester. CEO Patrik Frisk. Partnership with Circle-8 Textile Ecosystems (UK).",
+    "summary": "French textile-to-textile regeneration company spun out from Technip Energies JV with IBM and Under Armour. Awarded \u20ac135M Dutch NIKI grant to build industrial-scale regeneration hub at Chemelot Industrial Park, Netherlands. Creates Reju Polyester from 100% textile waste at 50% lower carbon emissions vs virgin polyester. CEO Patrik Frisk. Partnership with Circle-8 Textile Ecosystems (UK).",
     "round": "Grant",
-    "amount": "€135M",
+    "amount": "\u20ac135M",
     "location": "Paris, France",
     "reportDate": "2026-04-04",
-    "links": [{"url": "https://www.prnewswire.com/news-releases/reju-secures-135-million-in-dutch-niki-funding-for-industrial-scale-textile-to-textile-regeneration-hub-at-chemelot-industrial-park-the-netherlands-302730637.html", "label": "PR Newswire"}]
+    "links": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/reju-secures-135-million-in-dutch-niki-funding-for-industrial-scale-textile-to-textile-regeneration-hub-at-chemelot-industrial-park-the-netherlands-302730637.html",
+        "label": "PR Newswire"
+      }
+    ]
   },
   {
     "id": "whoop-1",
     "name": "WHOOP",
     "sector": "Health & Fitness Wearables / Human Performance",
-    "summary": "Human performance and health tracking wearable company. $575M Series G at $10.1B valuation — nearly 3x its $3.6B previous valuation. Led by Collaborative Fund with participation from Abbott, Mayo Clinic, Qatar Investment Authority, Mubadala, IVP, Foundry, and celebrity investors including Cristiano Ronaldo, LeBron James, Rory McIlroy. Exited 2025 at $1.1B bookings run rate, up 103% YoY. ~$900M total raised since founding in 2012. IPO rumored.",
+    "summary": "Human performance and health tracking wearable company. $575M Series G at $10.1B valuation \u2014 nearly 3x its $3.6B previous valuation. Led by Collaborative Fund with participation from Abbott, Mayo Clinic, Qatar Investment Authority, Mubadala, IVP, Foundry, and celebrity investors including Cristiano Ronaldo, LeBron James, Rory McIlroy. Exited 2025 at $1.1B bookings run rate, up 103% YoY. ~$900M total raised since founding in 2012. IPO rumored.",
     "round": "Series G",
     "amount": "$575M",
     "location": "Boston, MA",
     "reportDate": "2026-04-05",
-    "links": [{"url": "https://techcrunch.com/2026/03/31/whoop-valuation-10b-series-g-fundraise/", "label": "TechCrunch"}, {"url": "https://www.businesswire.com/news/home/20260331399622/en/WHOOP-Raises-$575-Million-at-$10.1-Billion-Valuation-to-Advance-Global-Health-Platform", "label": "Business Wire"}]
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/03/31/whoop-valuation-10b-series-g-fundraise/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260331399622/en/WHOOP-Raises-$575-Million-at-$10.1-Billion-Valuation-to-Advance-Global-Health-Platform",
+        "label": "Business Wire"
+      }
+    ]
   },
   {
     "id": "starcloud-1",
     "name": "Starcloud",
     "sector": "Space Infrastructure / Orbital AI Data Centers",
-    "summary": "Building solar-powered data centers in space. $170M Series A at $1.1B valuation — fastest Y Combinator startup to reach unicorn in 17 months. Led by Benchmark and EQT Ventures. First satellite (Starcloud-1) launched Nov 2025 with Nvidia H100 GPU — first terrestrial GPU in orbit; trained an AI model and ran Gemini from space. $200M total funding. Starcloud-2 launching 2026 with Nvidia Blackwell chip. Starcloud-3 (200kW spacecraft for Starship) aims to be cost-competitive with Earth-based data centers at ~$0.05/kw/hr.",
+    "summary": "Building solar-powered data centers in space. $170M Series A at $1.1B valuation \u2014 fastest Y Combinator startup to reach unicorn in 17 months. Led by Benchmark and EQT Ventures. First satellite (Starcloud-1) launched Nov 2025 with Nvidia H100 GPU \u2014 first terrestrial GPU in orbit; trained an AI model and ran Gemini from space. $200M total funding. Starcloud-2 launching 2026 with Nvidia Blackwell chip. Starcloud-3 (200kW spacecraft for Starship) aims to be cost-competitive with Earth-based data centers at ~$0.05/kw/hr.",
     "round": "Series A",
     "amount": "$170M",
     "location": "Seattle, WA",
     "reportDate": "2026-04-05",
-    "links": [{"url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/", "label": "TechCrunch"}, {"url": "https://www.businesswire.com/news/home/20260330024111/en/Starcloud-Raises-$170M-Series-A-at-$1.1bn-Valuation-Led-by-Benchmark-and-EQT-Ventures", "label": "Business Wire"}]
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260330024111/en/Starcloud-Raises-$170M-Series-A-at-$1.1bn-Valuation-Led-by-Benchmark-and-EQT-Ventures",
+        "label": "Business Wire"
+      }
+    ]
   },
   {
     "id": "insight-health-1",
@@ -940,7 +992,16 @@
     "amount": "$11M",
     "location": "New York, NY",
     "reportDate": "2026-04-05",
-    "links": [{"url": "https://fortune.com/2026/04/03/health-care-fax-machine-problem-insight-health-series-a-11-million-ai-assistants/", "label": "Fortune"}, {"url": "https://www.insighthealth.ai/about-us", "label": "Insight Health"}]
+    "links": [
+      {
+        "url": "https://fortune.com/2026/04/03/health-care-fax-machine-problem-insight-health-series-a-11-million-ai-assistants/",
+        "label": "Fortune"
+      },
+      {
+        "url": "https://www.insighthealth.ai/about-us",
+        "label": "Insight Health"
+      }
+    ]
   },
   {
     "id": "nomadic-1",
@@ -951,7 +1012,12 @@
     "amount": "$8.4M",
     "location": "San Francisco, CA",
     "reportDate": "2026-04-06",
-    "links": [{"url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/", "label": "TechCrunch"}]
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
+        "label": "TechCrunch"
+      }
+    ]
   },
   {
     "id": "halter-1",
@@ -962,7 +1028,12 @@
     "amount": "$220M",
     "location": "Auckland, New Zealand",
     "reportDate": "2026-04-06",
-    "links": [{"url": "https://techcrunch.com/2026/04/04/unpacking-peter-thiels-big-bet-on-solar-powered-cow-collars/", "label": "TechCrunch"}]
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/04/unpacking-peter-thiels-big-bet-on-solar-powered-cow-collars/",
+        "label": "TechCrunch"
+      }
+    ]
   },
   {
     "id": "cognichip-1",
@@ -973,6 +1044,67 @@
     "amount": "$60M",
     "location": "Silicon Valley, CA",
     "reportDate": "2026-04-06",
-    "links": [{"url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/", "label": "TechCrunch"}]
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "id": "hermeus-1",
+    "name": "Hermeus",
+    "sector": "Defense Tech / Hypersonic Aviation",
+    "summary": "Defense aviation company building the fastest unmanned aircraft in the world. $350M Series C ($200M equity + $150M debt) at $1B valuation. Successfully flew Quarterhorse Mk 2.1 demonstrator; supersonic flight imminent. Scaling to fleet of 3 F-16 scale aircraft. Used modified Pratt & Whitney F100 engine. Targeting Mach 3 for US Department of Defense. ~300 employees. Total capital raised over $500M.",
+    "round": "Series C",
+    "amount": "$350M",
+    "location": "Los Angeles, CA (El Segundo)",
+    "reportDate": "2026-04-08",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/07/hermeus-raises-350m-to-build-unmanned-hypersonic-fighters/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.hermeus.com/newsroom-content/series-c",
+        "label": "Hermeus PR"
+      }
+    ]
+  },
+  {
+    "id": "aria-networks-1",
+    "name": "Aria Networks",
+    "sector": "AI Infrastructure / Networking",
+    "summary": "AI-native Ethernet switches for data center AI clusters. $125M Series A to launch Deep Networking platform. Sells 64-port 1.6T switches (air and liquid-cooled) and 800G/128-port switches. Custom SONiC-based OS with AI telemetry engine 10,000x more detailed than competitors. AI agents automate load balancing and congestion management. Founded 2025. Based in Palo Alto, CA.",
+    "round": "Series A",
+    "amount": "$125M",
+    "location": "Palo Alto, CA",
+    "reportDate": "2026-04-08",
+    "links": [
+      {
+        "url": "https://siliconangle.com/2026/04/07/data-center-switch-maker-aria-networks-raises-125m/",
+        "label": "SiliconANGLE"
+      },
+      {
+        "url": "https://www.crn.com/news/networking/2026/upstart-aria-networks-unveils-ai-native-networking-platform-for-the-ai-factory-era",
+        "label": "CRN"
+      }
+    ]
+  },
+  {
+    "id": "e2-endovascular-1",
+    "name": "E2 (Endovascular Engineering)",
+    "sector": "MedTech / Medical Devices",
+    "summary": "Commercial-stage medtech company developing the Helo Thrombectomy Platform for treatment of venous thromboembolism (VTE) and pulmonary embolism. Patented dual-action mechanism integrating aspiration with mechanical clot disruption. Single-pass, large-bore performance through small-profile catheter. $80M Series C to commercialize and build commercial organization.",
+    "round": "Series C",
+    "amount": "$80M",
+    "location": "Menlo Park, CA",
+    "reportDate": "2026-04-08",
+    "links": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/e2-endovascular-engineering-raises-80-million-series-c-to-advance-next-generation-thrombectomy-platform-as-pulmonary-embolism-treatment-evolves-302735353.html",
+        "label": "PR Newswire"
+      }
+    ]
   }
 ]
