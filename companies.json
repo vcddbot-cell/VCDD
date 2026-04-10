@@ -1106,5 +1106,57 @@
         "label": "PR Newswire"
       }
     ]
+  },
+  {
+    "id": "xoople-1",
+    "name": "Xoople",
+    "sector": "Earth Mapping / AI Infrastructure / Space Data",
+    "summary": "Spanish startup developing satellite constellation to collect precise data for deep learning models. Building Earth observation system for AI with L3Harris partnership for sensors. Embedding into Microsoft and Esri platforms before having own satellite data. Goal: 'Earth's System of Record.' $130M Series B at unicorn valuation. Total raised: $225M.",
+    "round": "Series B",
+    "amount": "$130M",
+    "location": "Spain",
+    "reportDate": "2026-04-10",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "id": "q-factor-1",
+    "name": "Q-Factor",
+    "sector": "Quantum Computing / Deep Tech",
+    "summary": "Israeli neutral atom quantum computing startup founded by four leading physicists from Weizmann Institute and Technion. Goal: build quantum computer scaling to millions of qubits (current systems limited to few thousand). Architectural breakthrough identified bottlenecks in existing neutral atom systems. $24M Seed with backing from Intel Capital, NFX, TPY Capital.",
+    "round": "Seed",
+    "amount": "$24M",
+    "location": "Tel Aviv, Israel",
+    "reportDate": "2026-04-10",
+    "links": [
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/bj0iyqbhzl",
+        "label": "CTech"
+      },
+      {
+        "url": "https://thequantuminsider.com/2026/04/06/q-factor-emerges-from-stealth-with-24-million-and-backing-from-intel-capital/",
+        "label": "The Quantum Insider"
+      }
+    ]
+  },
+  {
+    "id": "luminai-1",
+    "name": "Luminai",
+    "sector": "Healthcare AI / Enterprise Automation",
+    "summary": "AI-native enterprise automation platform for healthcare operations. Addresses $1T+ administrative cost problem (25% of healthcare spending). Builds intelligent orchestration layer that interprets unstructured inputs, generates reliable intelligence, coordinates end-to-end processes across access, revenue cycle, compliance. Team from Palantir, Cruise, Google, Coinbase, Epic. $38M Series B led by Peak XV Partners. Total raised: $60M.",
+    "round": "Series B",
+    "amount": "$38M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-04-10",
+    "links": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/luminai-raises-38-million-series-b-to-scale-intelligence-across-health-system-operations-302737804.html",
+        "label": "PR Newswire"
+      }
+    ]
   }
 ]
