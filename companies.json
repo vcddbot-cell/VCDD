@@ -1158,5 +1158,53 @@
         "label": "PR Newswire"
       }
     ]
+  },
+  {
+    "id": "portal-space-systems-1",
+    "name": "Portal Space Systems",
+    "sector": "Spacecraft / Orbital Maneuverability",
+    "summary": "Next-generation spacecraft manufacturer building rapidly maneuverable vehicles for operations across and between orbital regimes. Commercializing solar thermal propulsion technology previously validated at NASA and Air Force Research Lab. Starburst spacecraft targeting rendezvous and proximity operations demo on SpaceX Transporter-18 Q4 2026. Supernova targeting 2027 debut with 80% shared systems with Starburst. CEO Jeff Thornburg. ~40 employees scaling to 100 in 2026. Building 52,000 sq ft manufacturing facility in Bothell, WA. Named Via Satellite Top 10 Startup to Watch.",
+    "round": "Series A",
+    "amount": "$50M",
+    "location": "Bothell, WA",
+    "reportDate": "2026-04-11",
+    "links": [
+      {
+        "url": "https://www.portalsystems.space/news/press-release-portal-space-systems-raises-50-million-series-a-to-advance-rapidly-maneuverable-spacecraft-capabilities",
+        "label": "Portal Space Systems PR"
+      }
+    ]
+  },
+  {
+    "id": "afterquery-1",
+    "name": "AfterQuery",
+    "sector": "AI / Expert Training Data",
+    "summary": "AI-powered platform capturing expert reasoning from nearly 100,000 verified professionals (doctors, lawyers, financial analysts, software engineers) to train AI models on how experts think through complex problems. Passed $100M ARR. Every major AI frontier lab is a customer. Co-founded by Spencer Mateega (CEO, ex-Google/Meta, Wharton), Carlos Georgescu (ex-Citadel/Meta, prior ed-tech exit), and Danny Tang (Wharton, prior startup sale). Y Combinator Winter 2025. Raised $30M Series A at $300M valuation led by Altos Ventures.",
+    "round": "Series A",
+    "amount": "$30M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-04-11",
+    "links": [
+      {
+        "url": "https://techfundingnews.com/afterquery-gets-30m-from-altos-ventures-to-help-ai-understand-real-world-problems-better/",
+        "label": "Tech Funding News"
+      }
+    ]
+  },
+  {
+    "id": "heydonto-1",
+    "name": "HeyDonto AI Technology",
+    "sector": "Healthcare AI / Dental Technology",
+    "summary": "Dental AI startup building Conduit, an interoperability platform enabling data exchanges between dental and medical providers, plus revenue cycle management services. Enables electronic physician-to-dentist referrals and real-time dentist-to-physician clearances. Raised $20M seed at $200M valuation from a syndicate of 8 dental industry veterans and practicing dentists. Founded by Rivers Morrell (CEO, ex-Topscale AI). Based in Chicago.",
+    "round": "Seed",
+    "amount": "$20M",
+    "location": "Chicago, IL",
+    "reportDate": "2026-04-11",
+    "links": [
+      {
+        "url": "https://nationaltoday.com/us/il/chicago/news/2026/04/07/dental-ai-startup-raises-20m-in-seed-funding/",
+        "label": "National Today"
+      }
+    ]
   }
 ]
