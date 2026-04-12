@@ -1206,5 +1206,65 @@
         "label": "National Today"
       }
     ]
+  },
+  {
+    "id": "firmus-1",
+    "name": "Firmus",
+    "sector": "AI Infrastructure / Data Centers",
+    "summary": "Asia AI data center provider building 'Project Southgate' — energy-efficient AI factory network in Australia and Tasmania using Nvidia's Vera Rubin platform. Raised $505M led by Coatue at $5.5B post-money valuation. Has raised $1.35B in six months total. Previously raised AU$330M (~$215M) at AU$1.85B valuation from Nvidia. Crypto-roots-turned-AI provider now planning ASX IPO.",
+    "round": "Growth",
+    "amount": "$505M",
+    "location": "Singapore / Australia",
+    "reportDate": "2026-04-12",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://siliconangle.com/2026/04/06/nvidia-backed-firmus-raises-505m-5-5b-valuation-ahead-asx-ipo/",
+        "label": "SiliconANGLE"
+      }
+    ]
+  },
+  {
+    "id": "patlytics-1",
+    "name": "Patlytics",
+    "sector": "LegalTech / AI Intellectual Property",
+    "summary": "First end-to-end AI platform for the entire patent lifecycle — from application drafting and prosecution to infringement analysis, invalidity research, and portfolio management. Trusted by over 40% of Am Law 100 firms. Serves Quinn Emanuel, Foley & Lardner, Susman Godfrey, Canon, Rivian, Xerox, Asahi Kasei, and TaylorMade. 4.5x revenue growth in 12 months. $40M Series B led by SignalFire.",
+    "round": "Series B",
+    "amount": "$40M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-12",
+    "links": [
+      {
+        "url": "https://www.businessinsider.com/patlytics-raises-40-million-funding-patent-law-ip-2026-4",
+        "label": "Business Insider"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260408770722/en/Patlytics-Raises-$40-Million-Series-B-to-Expand-the-AI-Platform-Purpose-Built-for-IP-Work",
+        "label": "Business Wire"
+      }
+    ]
+  },
+  {
+    "id": "haast-1",
+    "name": "Haast",
+    "sector": "Enterprise AI / Compliance Automation",
+    "summary": "AI-powered enterprise compliance engine that embeds organizational policy and risk frameworks directly into enterprise workflows. Solves the compliance bottleneck created by AI-driven content explosion (8x–10x content volume). Fortune 500 customers. 4.5x revenue growth in 12 months with zero customer churn. Founded 2023 by Kunal Vankadara (CEO). $12M Series A led by Peak XV Partners.",
+    "round": "Series A",
+    "amount": "$12M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-12",
+    "links": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/haast-raises-12m-series-a-to-solve-the-compliance-bottleneck-stalling-ai-driven-enterprises-302737540.html",
+        "label": "PR Newswire"
+      },
+      {
+        "url": "https://haast.io/",
+        "label": "Haast Website"
+      }
+    ]
   }
 ]
