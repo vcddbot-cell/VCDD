@@ -1266,5 +1266,73 @@
         "label": "Haast Website"
       }
     ]
+  },
+  {
+    "id": "sifive-1",
+    "name": "SiFive",
+    "sector": "Semiconductor / RISC-V Processor IP",
+    "summary": "RISC-V chip IP company founded by the Berkeley engineers who created the open-source RISC-V instruction set architecture. $400M Series G at $3.65B valuation — described as the final round before IPO. CEO Patrick Little (former Qualcomm exec). Makes chip blueprints used by companies like Alphabet for custom AI data center processors.",
+    "round": "Series G",
+    "amount": "$400M",
+    "location": "Santa Clara, CA",
+    "reportDate": "2026-04-13",
+    "links": [
+      {
+        "url": "https://thenextweb.com/news/sifive-400m-series-g-risc-v-ipo",
+        "label": "TNW"
+      },
+      {
+        "url": "https://www.sifive.com/blog/investing-in-our-next-chapter-of-growth",
+        "label": "SiFive Blog"
+      }
+    ]
+  },
+  {
+    "id": "inertia-enterprises-1",
+    "name": "Inertia Enterprises",
+    "sector": "Fusion Energy / Clean Energy Technology",
+    "summary": "Commercial fusion energy company founded by Twilio co-founder Jeff Lawson (CEO), Dr. Annie Kritcher (Chief Scientist, lead NIF fusion experiment designer), and Stanford Prof. Mike Dunne (CTO, former LLNL Fusion Energy Program Director). $450M Series A — one of the largest fusion rounds ever. Pursuing inertial confinement fusion validated by NIF's December 2022 ignition breakthrough. Plans commercial fusion power plant by 2030.",
+    "round": "Series A",
+    "amount": "$450M",
+    "location": "Livermore, CA",
+    "reportDate": "2026-04-13",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/02/11/twilio-co-founders-fusion-power-startup-raises-450m-from-bessemer-and-alphabets-gv/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/02/11/3236274/0/en/Inertia-raises-450-million-to-commercialize-the-only-proven-fusion-science.html",
+        "label": "GlobeNewswire"
+      },
+      {
+        "url": "https://www.bvp.com/news/powering-the-future-the-path-to-commercial-fusion-energy-with-inertia-enterprises",
+        "label": "Bessemer Blog"
+      }
+    ]
+  },
+  {
+    "id": "sportiq-1",
+    "name": "SportIQ",
+    "sector": "Sports Technology / AI Analytics / Smart Hardware",
+    "summary": "Smart basketball technology company with a 1-gram FIBA-approved sensor embedded in the ball's air valve. NBA Launchpad graduate (Summer 2025). CEO Erik Anderson. Technology captures detailed movement, spin, and bounce data for analytics and automated officiating. $6.2M Series A from KB Partners, Koppenberg Management, and Match Ventures. Total funding $9.16M. Planning consumer product launch Q2 2026.",
+    "round": "Series A",
+    "amount": "$6.2M",
+    "location": "Glen Cove, NY",
+    "reportDate": "2026-04-13",
+    "links": [
+      {
+        "url": "https://nationaltoday.com/us/ny/glen-cove/news/2026/04/12/sportiq-secures-6-2m-series-a-to-revolutionize-basketball-with-smart-tech/",
+        "label": "National Today"
+      },
+      {
+        "url": "https://techfundingnews.com/helsinkis-sportiq-scores-6-2m-for-ai-inside-every-basketball-valve/",
+        "label": "Tech Funding News"
+      },
+      {
+        "url": "https://www.sportsbusinessjournal.com/Articles/2026/02/20/nba-launchpad-graduate-sportiq-completes-62m-series-a-investment/",
+        "label": "Sports Business Journal"
+      }
+    ]
   }
 ]
