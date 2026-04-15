@@ -1394,5 +1394,53 @@
         "label": "PR Newswire"
       }
     ]
+  },
+  {
+    "id": "paxos-labs-1",
+    "name": "Paxos Labs",
+    "sector": "DeFi Infrastructure / Blockchain",
+    "summary": "Spin-off from Paxos building DeFi infrastructure for enterprises. Products: Amplify — single-SDK platform for branded stablecoins, yield earning, and crypto lending. Co-founded by Bhaumik Kotecha and led by Charles Cascarilla (CEO of Paxos). On pace to break even by end of 2026. Customers include neobank Hyperbeat and developers behind Aleo blockchain.",
+    "round": "Seed",
+    "amount": "$12M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-15",
+    "links": [
+      {
+        "url": "https://fortune.com/2026/04/14/paxos-paxos-labs-fundraise-blockchain-capital/",
+        "label": "Fortune"
+      }
+    ]
+  },
+  {
+    "id": "neye-ai-1",
+    "name": "nEye.ai",
+    "sector": "AI Infrastructure / Optical Circuit Switching",
+    "summary": "Building OCS-on-a-chip: optical circuit switches built directly onto a chip for AI data centers. Combines silicon photonics, MEMS, and CMOS. Solves AI connectivity bottleneck — as AI systems grow, moving data between GPUs/CPUs/memory at speed has become the limiting factor. $80M Series C led by Sutter Hill Ventures. Total funding $152M. Market for Optical Circuit Switching projected to surpass $3B within 3 years.",
+    "round": "Series C",
+    "amount": "$80M",
+    "location": "Silicon Valley, CA",
+    "reportDate": "2026-04-15",
+    "links": [
+      {
+        "url": "https://www.neye.ai/",
+        "label": "Company Website"
+      }
+    ]
+  },
+  {
+    "id": "prefix-1",
+    "name": "Prefix",
+    "sector": "Facility Management / AI Operations",
+    "summary": "AI-powered facility management platform for multi-location restaurants and retailers. $500B market — brands spend ~$500B/year maintaining spaces. Prefix acts as coordination hub between operators and local service providers (HVAC, refrigeration, plumbing, electrical). Agentic AI handles communication, scheduling, and task tracking. Nearly 2,000 locations across 50 brands (Bojangles, Chipotle, Raising Cane's, Famous Footwear, L'Occitane). $2.5M ARR, 500% YoY growth.",
+    "round": "Seed",
+    "amount": "$7.5M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-15",
+    "links": [
+      {
+        "url": "https://www.useprefix.com/",
+        "label": "Company Website"
+      }
+    ]
   }
 ]
