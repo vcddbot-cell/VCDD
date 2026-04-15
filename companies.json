@@ -1334,5 +1334,65 @@
         "label": "Sports Business Journal"
       }
     ]
+  },
+  {
+    "id": "slate-auto-1",
+    "name": "Slate Auto",
+    "sector": "Electric Vehicles / Automotive",
+    "summary": "Jeff Bezos-backed EV startup building an affordable electric pickup truck targeting the mid-$20,000s price point. 160,000+ refundable reservations. Led by former Amazon Consumer CEO Jeff Wilke as co-founder and former Amazon Marketplace VP Peter Faricy as CEO. $650M Series C brings total funding to ~$1.4B. Manufacturing in Indiana.",
+    "round": "Series C",
+    "amount": "$650M",
+    "location": "Indiana, USA",
+    "reportDate": "2026-04-14",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/13/slate-auto-raises-650m-to-fund-its-affordable-ev-truck-plans/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://siliconangle.com/2026/04/13/electric-pickup-truck-startup-slate-auto-raises-650m-funding/",
+        "label": "SiliconANGLE"
+      }
+    ]
+  },
+  {
+    "id": "chapter-1",
+    "name": "Chapter",
+    "sector": "Healthcare AI / Medicare Navigation",
+    "summary": "AI-driven Medicare navigation platform for seniors. Surpassed $100M ARR with 3x revenue growth in 2025. Reviews every Medicare plan nationwide and pairs AI with licensed advisors for personalized, unbiased guidance. $100M Series E at $3B valuation led by Al Gore's Generation Investment Management.",
+    "round": "Series E",
+    "amount": "$100M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-14",
+    "links": [
+      {
+        "url": "https://pulse2.com/chapter-100-million-raised-by-medicare-navigation-platform-to-expand-ai-driven-retirement-solutions/",
+        "label": "Pulse2"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260409159904/en/Chapter-Raises-$100-Million-Series-E-to-Continue-Building-the-Trust-Layer-Between-Seniors-and-Technology-in-the-Age-of-AI",
+        "label": "Business Wire"
+      }
+    ]
+  },
+  {
+    "id": "remission-medical-1",
+    "name": "Remission Medical",
+    "sector": "Healthcare Technology / Virtual Specialty Care",
+    "summary": "Virtual rheumatology company partnering with health systems to deliver embedded specialty care via AI-native workforce platform RemissionOS. Addresses 54M+ Americans affected by rheumatic diseases with average 2+ month wait times for specialists. Triple-digit growth across national health system partners. Series A led by Blue Heron Capital.",
+    "round": "Series A",
+    "amount": "Undisclosed",
+    "location": "Henrico, VA",
+    "reportDate": "2026-04-14",
+    "links": [
+      {
+        "url": "https://pulse2.com/remission-medical-series-a-raised-for-virtual-rheumatology-platform-expansion/",
+        "label": "Pulse2"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/remission-medical-closes-series-a-led-by-blue-heron-capital-to-expand-virtual-rheumatology-partnerships-across-us-health-systems-302740483.html",
+        "label": "PR Newswire"
+      }
+    ]
   }
 ]
