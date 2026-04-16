@@ -1211,7 +1211,7 @@
     "id": "firmus-1",
     "name": "Firmus",
     "sector": "AI Infrastructure / Data Centers",
-    "summary": "Asia AI data center provider building 'Project Southgate' — energy-efficient AI factory network in Australia and Tasmania using Nvidia's Vera Rubin platform. Raised $505M led by Coatue at $5.5B post-money valuation. Has raised $1.35B in six months total. Previously raised AU$330M (~$215M) at AU$1.85B valuation from Nvidia. Crypto-roots-turned-AI provider now planning ASX IPO.",
+    "summary": "Asia AI data center provider building 'Project Southgate' \u2014 energy-efficient AI factory network in Australia and Tasmania using Nvidia's Vera Rubin platform. Raised $505M led by Coatue at $5.5B post-money valuation. Has raised $1.35B in six months total. Previously raised AU$330M (~$215M) at AU$1.85B valuation from Nvidia. Crypto-roots-turned-AI provider now planning ASX IPO.",
     "round": "Growth",
     "amount": "$505M",
     "location": "Singapore / Australia",
@@ -1231,7 +1231,7 @@
     "id": "patlytics-1",
     "name": "Patlytics",
     "sector": "LegalTech / AI Intellectual Property",
-    "summary": "First end-to-end AI platform for the entire patent lifecycle — from application drafting and prosecution to infringement analysis, invalidity research, and portfolio management. Trusted by over 40% of Am Law 100 firms. Serves Quinn Emanuel, Foley & Lardner, Susman Godfrey, Canon, Rivian, Xerox, Asahi Kasei, and TaylorMade. 4.5x revenue growth in 12 months. $40M Series B led by SignalFire.",
+    "summary": "First end-to-end AI platform for the entire patent lifecycle \u2014 from application drafting and prosecution to infringement analysis, invalidity research, and portfolio management. Trusted by over 40% of Am Law 100 firms. Serves Quinn Emanuel, Foley & Lardner, Susman Godfrey, Canon, Rivian, Xerox, Asahi Kasei, and TaylorMade. 4.5x revenue growth in 12 months. $40M Series B led by SignalFire.",
     "round": "Series B",
     "amount": "$40M",
     "location": "New York, NY",
@@ -1251,7 +1251,7 @@
     "id": "haast-1",
     "name": "Haast",
     "sector": "Enterprise AI / Compliance Automation",
-    "summary": "AI-powered enterprise compliance engine that embeds organizational policy and risk frameworks directly into enterprise workflows. Solves the compliance bottleneck created by AI-driven content explosion (8x–10x content volume). Fortune 500 customers. 4.5x revenue growth in 12 months with zero customer churn. Founded 2023 by Kunal Vankadara (CEO). $12M Series A led by Peak XV Partners.",
+    "summary": "AI-powered enterprise compliance engine that embeds organizational policy and risk frameworks directly into enterprise workflows. Solves the compliance bottleneck created by AI-driven content explosion (8x\u201310x content volume). Fortune 500 customers. 4.5x revenue growth in 12 months with zero customer churn. Founded 2023 by Kunal Vankadara (CEO). $12M Series A led by Peak XV Partners.",
     "round": "Series A",
     "amount": "$12M",
     "location": "New York, NY",
@@ -1271,7 +1271,7 @@
     "id": "sifive-1",
     "name": "SiFive",
     "sector": "Semiconductor / RISC-V Processor IP",
-    "summary": "RISC-V chip IP company founded by the Berkeley engineers who created the open-source RISC-V instruction set architecture. $400M Series G at $3.65B valuation — described as the final round before IPO. CEO Patrick Little (former Qualcomm exec). Makes chip blueprints used by companies like Alphabet for custom AI data center processors.",
+    "summary": "RISC-V chip IP company founded by the Berkeley engineers who created the open-source RISC-V instruction set architecture. $400M Series G at $3.65B valuation \u2014 described as the final round before IPO. CEO Patrick Little (former Qualcomm exec). Makes chip blueprints used by companies like Alphabet for custom AI data center processors.",
     "round": "Series G",
     "amount": "$400M",
     "location": "Santa Clara, CA",
@@ -1291,7 +1291,7 @@
     "id": "inertia-enterprises-1",
     "name": "Inertia Enterprises",
     "sector": "Fusion Energy / Clean Energy Technology",
-    "summary": "Commercial fusion energy company founded by Twilio co-founder Jeff Lawson (CEO), Dr. Annie Kritcher (Chief Scientist, lead NIF fusion experiment designer), and Stanford Prof. Mike Dunne (CTO, former LLNL Fusion Energy Program Director). $450M Series A — one of the largest fusion rounds ever. Pursuing inertial confinement fusion validated by NIF's December 2022 ignition breakthrough. Plans commercial fusion power plant by 2030.",
+    "summary": "Commercial fusion energy company founded by Twilio co-founder Jeff Lawson (CEO), Dr. Annie Kritcher (Chief Scientist, lead NIF fusion experiment designer), and Stanford Prof. Mike Dunne (CTO, former LLNL Fusion Energy Program Director). $450M Series A \u2014 one of the largest fusion rounds ever. Pursuing inertial confinement fusion validated by NIF's December 2022 ignition breakthrough. Plans commercial fusion power plant by 2030.",
     "round": "Series A",
     "amount": "$450M",
     "location": "Livermore, CA",
@@ -1399,7 +1399,7 @@
     "id": "paxos-labs-1",
     "name": "Paxos Labs",
     "sector": "DeFi Infrastructure / Blockchain",
-    "summary": "Spin-off from Paxos building DeFi infrastructure for enterprises. Products: Amplify — single-SDK platform for branded stablecoins, yield earning, and crypto lending. Co-founded by Bhaumik Kotecha and led by Charles Cascarilla (CEO of Paxos). On pace to break even by end of 2026. Customers include neobank Hyperbeat and developers behind Aleo blockchain.",
+    "summary": "Spin-off from Paxos building DeFi infrastructure for enterprises. Products: Amplify \u2014 single-SDK platform for branded stablecoins, yield earning, and crypto lending. Co-founded by Bhaumik Kotecha and led by Charles Cascarilla (CEO of Paxos). On pace to break even by end of 2026. Customers include neobank Hyperbeat and developers behind Aleo blockchain.",
     "round": "Seed",
     "amount": "$12M",
     "location": "New York, NY",
@@ -1415,7 +1415,7 @@
     "id": "neye-ai-1",
     "name": "nEye.ai",
     "sector": "AI Infrastructure / Optical Circuit Switching",
-    "summary": "Building OCS-on-a-chip: optical circuit switches built directly onto a chip for AI data centers. Combines silicon photonics, MEMS, and CMOS. Solves AI connectivity bottleneck — as AI systems grow, moving data between GPUs/CPUs/memory at speed has become the limiting factor. $80M Series C led by Sutter Hill Ventures. Total funding $152M. Market for Optical Circuit Switching projected to surpass $3B within 3 years.",
+    "summary": "Building OCS-on-a-chip: optical circuit switches built directly onto a chip for AI data centers. Combines silicon photonics, MEMS, and CMOS. Solves AI connectivity bottleneck \u2014 as AI systems grow, moving data between GPUs/CPUs/memory at speed has become the limiting factor. $80M Series C led by Sutter Hill Ventures. Total funding $152M. Market for Optical Circuit Switching projected to surpass $3B within 3 years.",
     "round": "Series C",
     "amount": "$80M",
     "location": "Silicon Valley, CA",
@@ -1431,7 +1431,7 @@
     "id": "prefix-1",
     "name": "Prefix",
     "sector": "Facility Management / AI Operations",
-    "summary": "AI-powered facility management platform for multi-location restaurants and retailers. $500B market — brands spend ~$500B/year maintaining spaces. Prefix acts as coordination hub between operators and local service providers (HVAC, refrigeration, plumbing, electrical). Agentic AI handles communication, scheduling, and task tracking. Nearly 2,000 locations across 50 brands (Bojangles, Chipotle, Raising Cane's, Famous Footwear, L'Occitane). $2.5M ARR, 500% YoY growth.",
+    "summary": "AI-powered facility management platform for multi-location restaurants and retailers. $500B market \u2014 brands spend ~$500B/year maintaining spaces. Prefix acts as coordination hub between operators and local service providers (HVAC, refrigeration, plumbing, electrical). Agentic AI handles communication, scheduling, and task tracking. Nearly 2,000 locations across 50 brands (Bojangles, Chipotle, Raising Cane's, Famous Footwear, L'Occitane). $2.5M ARR, 500% YoY growth.",
     "round": "Seed",
     "amount": "$7.5M",
     "location": "New York, NY",
@@ -1440,6 +1440,22 @@
       {
         "url": "https://www.useprefix.com/",
         "label": "Company Website"
+      }
+    ]
+  },
+  {
+    "id": "glydways-1",
+    "name": "Glydways",
+    "sector": "Autonomous Vehicles / Robocar Networks",
+    "summary": "San Francisco-based startup developing personal autonomous pods on dedicated 2-meter-wide lanes. $170M Series C (in talks for $250M more at $1B+ valuation). Backed by Sam Altman (Series B investor). Vinod Khosla sits on board. Three pilots launching 2026 in Atlanta, NYC, and UAE. Can move up to 10,000 people/hour/lane at 90% lower infrastructure cost vs rail. Founded 2016 by Mark Seeger and Zachary Zeliff.",
+    "round": "Series C",
+    "amount": "$170M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-04-16",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/15/this-khosla-backed-autonomous-pod-startup-just-raised-170m-now-its-aiming-for-more/",
+        "label": "TechCrunch"
       }
     ]
   }
