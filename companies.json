@@ -1464,7 +1464,7 @@
     "name": "Factory",
     "sector": "AI Coding / Enterprise Software Development",
     "summary": "AI agents for enterprise engineering teams. Customers include Morgan Stanley, Ernst & Young, and Palo Alto Networks. Key differentiator is ability to switch between foundation models (Claude, DeepSeek). Raised $150M at $1.5B valuation.",
-    "round": "Series B",
+    "round": "Series C",
     "amount": "$150M",
     "location": "San Francisco, CA",
     "reportDate": "2026-04-17",
@@ -1536,6 +1536,22 @@
       {
         "url": "https://alleywatch.com/2026/04/the-alleywatch-startup-daily-funding-report-4-16-2026/",
         "label": "AlleyWatch"
+      }
+    ]
+  },
+  {
+    "id": "loop-1",
+    "name": "Loop",
+    "sector": "Supply Chain AI / Logistics Technology",
+    "summary": "Full-stack AI platform for logistics and supply chains that predicts disruptions and provides prescriptive recommendations. Co-founders Matt McKinney (CEO) and Shaosu Liu (CTO) met at Uber. Processes fragmented operational and financial data to provide visibility, cost control, and decision-making intelligence. Positioning to become 'the intelligence layer of the entire supply chain.'",
+    "round": "Series C",
+    "amount": "$95M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-04-18",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/17/loop-raises-95m-to-build-supply-chain-ai-that-predicts-disruptions/",
+        "label": "TechCrunch"
       }
     ]
   }
