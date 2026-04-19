@@ -491,7 +491,7 @@
     "id": "harvey-1",
     "name": "Harvey",
     "sector": "Legal AI",
-    "summary": "Legal AI company offering AI tools for legal and professional services - contract analysis, compliance, due diligence, and litigation. $190M ARR (January 2026), up from $100M in August 2025. 100,000+ lawyers across 1,300 organizations. Clients include global law firms, NBCUniversal, and HSBC. Valuation $11B — one of the few AI unicorns of 2026. Total funding raised $1B+. Co-founders Winston Weinberg (CEO) and Gabe Pereyra. Plans to expand AI agents and embedded legal engineering teams globally.",
+    "summary": "Legal AI company offering AI tools for legal and professional services - contract analysis, compliance, due diligence, and litigation. $190M ARR (January 2026), up from $100M in August 2025. 100,000+ lawyers across 1,300 organizations. Clients include global law firms, NBCUniversal, and HSBC. Valuation $11B \u2014 one of the few AI unicorns of 2026. Total funding raised $1B+. Co-founders Winston Weinberg (CEO) and Gabe Pereyra. Plans to expand AI agents and embedded legal engineering teams globally.",
     "round": "Growth",
     "amount": "$200M",
     "location": "San Francisco, CA",
@@ -719,7 +719,7 @@
     "id": "lucid-bots-1",
     "name": "Lucid Bots",
     "sector": "Robotics / Industrial Drones / Building Maintenance",
-    "summary": "Full-stack robotics company manufacturing Sherpa drones (window cleaning) and Lavo robot in the US. Charlotte-based. Approaching 1,000 units sold (grew from 100 units in 5 years). Expanding from window cleaning to painting, waterproofing, and sealing. 50+ inbound leads/month for painting before marketing. Founded 2018 by Andrew Ashur (economics/liberal arts grad) who got the idea watching window washers in danger. Anti-hype approach — selling real job site performance, not demos.",
+    "summary": "Full-stack robotics company manufacturing Sherpa drones (window cleaning) and Lavo robot in the US. Charlotte-based. Approaching 1,000 units sold (grew from 100 units in 5 years). Expanding from window cleaning to painting, waterproofing, and sealing. 50+ inbound leads/month for painting before marketing. Founded 2018 by Andrew Ashur (economics/liberal arts grad) who got the idea watching window washers in danger. Anti-hype approach \u2014 selling real job site performance, not demos.",
     "round": "Series B",
     "amount": "$20M",
     "location": "Charlotte, NC",
@@ -735,7 +735,7 @@
     "id": "swish-1",
     "name": "Swish",
     "sector": "Food Delivery / Quick Commerce",
-    "summary": "Bengaluru-based full-stack 10-minute food delivery startup. Owns kitchens, supply chain, and delivery network — dense hyperlocal clusters within 1km radius. ~20,000 orders/day across 10 micro-markets in Bengaluru, up from 5,000 four months ago. Older kitchen clusters already profitable. Cofounders: Aniket Shah (CEO), Ujjwal Sukheja, Saran S. $38M Series B led by Hara Global and Bain Capital Ventures. Valued at $139M post-money (more than 2x valuation from a year ago). Total funding: $54M.",
+    "summary": "Bengaluru-based full-stack 10-minute food delivery startup. Owns kitchens, supply chain, and delivery network \u2014 dense hyperlocal clusters within 1km radius. ~20,000 orders/day across 10 micro-markets in Bengaluru, up from 5,000 four months ago. Older kitchen clusters already profitable. Cofounders: Aniket Shah (CEO), Ujjwal Sukheja, Saran S. $38M Series B led by Hara Global and Bain Capital Ventures. Valued at $139M post-money (more than 2x valuation from a year ago). Total funding: $54M.",
     "round": "Series B",
     "amount": "$38M",
     "location": "Bengaluru, India",
@@ -771,7 +771,7 @@
     "id": "saronic-1",
     "name": "Saronic",
     "sector": "Defense Tech / Autonomous Maritime Vessels",
-    "summary": "Austin-based defense tech startup building autonomous surface vessels (ASVs) for the U.S. military. Makes 6 vessel iterations including Spyglass (6-foot), Cutlass, Corsair (24-foot), and Marauder (180-foot, 40-metric-ton). Signed $392M Navy contract. $1.75B Series D led by Kleiner Perkins at $9.25B valuation — up from $4B last year. New investors: Advent International and Bessemer Venture Partners. Building Port Alpha facility 10x larger than Franklin, Louisiana shipyard. Plans 20+ ships/year by 2027. Ranked 19th on CNBC Disruptor 50.",
+    "summary": "Austin-based defense tech startup building autonomous surface vessels (ASVs) for the U.S. military. Makes 6 vessel iterations including Spyglass (6-foot), Cutlass, Corsair (24-foot), and Marauder (180-foot, 40-metric-ton). Signed $392M Navy contract. $1.75B Series D led by Kleiner Perkins at $9.25B valuation \u2014 up from $4B last year. New investors: Advent International and Bessemer Venture Partners. Building Port Alpha facility 10x larger than Franklin, Louisiana shipyard. Plans 20+ ships/year by 2027. Ranked 19th on CNBC Disruptor 50.",
     "round": "Series D",
     "amount": "$1.75B",
     "location": "Austin, TX",
@@ -847,7 +847,7 @@
     "id": "alcatraz-1",
     "name": "Alcatraz",
     "sector": "AI Physical Security / Biometrics",
-    "summary": "AI-powered face recognition access control for buildings. Founded by ex-Apple Face ID engineer Vince Gaydarzhiev. The only biometric system that authenticates WITHOUT storing faces — uses privacy-first facial authentication vs. surveillance. Customers include top AI data centers, major U.S. airports, Fortune 100 companies. 300%+ YoY growth in data center adoption. $50M Series B led by BlackPeak Capital, Cogito Capital, Taiwania Capital.",
+    "summary": "AI-powered face recognition access control for buildings. Founded by ex-Apple Face ID engineer Vince Gaydarzhiev. The only biometric system that authenticates WITHOUT storing faces \u2014 uses privacy-first facial authentication vs. surveillance. Customers include top AI data centers, major U.S. airports, Fortune 100 companies. 300%+ YoY growth in data center adoption. $50M Series B led by BlackPeak Capital, Cogito Capital, Taiwania Capital.",
     "round": "Series B",
     "amount": "$50M",
     "location": "Cupertino, CA",
@@ -931,9 +931,9 @@
     "id": "reju-1",
     "name": "Reju",
     "sector": "Sustainability / Textile Regeneration",
-    "summary": "French textile-to-textile regeneration company spun out from Technip Energies JV with IBM and Under Armour. Awarded €135M Dutch NIKI grant to build industrial-scale regeneration hub at Chemelot Industrial Park, Netherlands. Creates Reju Polyester from 100% textile waste at 50% lower carbon emissions vs virgin polyester. CEO Patrik Frisk. Partnership with Circle-8 Textile Ecosystems (UK).",
+    "summary": "French textile-to-textile regeneration company spun out from Technip Energies JV with IBM and Under Armour. Awarded \u20ac135M Dutch NIKI grant to build industrial-scale regeneration hub at Chemelot Industrial Park, Netherlands. Creates Reju Polyester from 100% textile waste at 50% lower carbon emissions vs virgin polyester. CEO Patrik Frisk. Partnership with Circle-8 Textile Ecosystems (UK).",
     "round": "Grant",
-    "amount": "€135M",
+    "amount": "\u20ac135M",
     "location": "Paris, France",
     "reportDate": "2026-04-04",
     "links": [
@@ -947,7 +947,7 @@
     "id": "whoop-1",
     "name": "WHOOP",
     "sector": "Health & Fitness Wearables / Human Performance",
-    "summary": "Human performance and health tracking wearable company. $575M Series G at $10.1B valuation — nearly 3x its $3.6B previous valuation. Led by Collaborative Fund with participation from Abbott, Mayo Clinic, Qatar Investment Authority, Mubadala, IVP, Foundry, and celebrity investors including Cristiano Ronaldo, LeBron James, Rory McIlroy. Exited 2025 at $1.1B bookings run rate, up 103% YoY. ~$900M total raised since founding in 2012. IPO rumored.",
+    "summary": "Human performance and health tracking wearable company. $575M Series G at $10.1B valuation \u2014 nearly 3x its $3.6B previous valuation. Led by Collaborative Fund with participation from Abbott, Mayo Clinic, Qatar Investment Authority, Mubadala, IVP, Foundry, and celebrity investors including Cristiano Ronaldo, LeBron James, Rory McIlroy. Exited 2025 at $1.1B bookings run rate, up 103% YoY. ~$900M total raised since founding in 2012. IPO rumored.",
     "round": "Series G",
     "amount": "$575M",
     "location": "Boston, MA",
@@ -967,7 +967,7 @@
     "id": "starcloud-1",
     "name": "Starcloud",
     "sector": "Space Infrastructure / Orbital AI Data Centers",
-    "summary": "Building solar-powered data centers in space. $170M Series A at $1.1B valuation — fastest Y Combinator startup to reach unicorn in 17 months. Led by Benchmark and EQT Ventures. First satellite (Starcloud-1) launched Nov 2025 with Nvidia H100 GPU — first terrestrial GPU in orbit; trained an AI model and ran Gemini from space. $200M total funding. Starcloud-2 launching 2026 with Nvidia Blackwell chip. Starcloud-3 (200kW spacecraft for Starship) aims to be cost-competitive with Earth-based data centers at ~$0.05/kw/hr.",
+    "summary": "Building solar-powered data centers in space. $170M Series A at $1.1B valuation \u2014 fastest Y Combinator startup to reach unicorn in 17 months. Led by Benchmark and EQT Ventures. First satellite (Starcloud-1) launched Nov 2025 with Nvidia H100 GPU \u2014 first terrestrial GPU in orbit; trained an AI model and ran Gemini from space. $200M total funding. Starcloud-2 launching 2026 with Nvidia Blackwell chip. Starcloud-3 (200kW spacecraft for Starship) aims to be cost-competitive with Earth-based data centers at ~$0.05/kw/hr.",
     "round": "Series A",
     "amount": "$170M",
     "location": "Seattle, WA",
@@ -1211,7 +1211,7 @@
     "id": "firmus-1",
     "name": "Firmus",
     "sector": "AI Infrastructure / Data Centers",
-    "summary": "Asia AI data center provider building 'Project Southgate' — energy-efficient AI factory network in Australia and Tasmania using Nvidia's Vera Rubin platform. Raised $505M led by Coatue at $5.5B post-money valuation. Has raised $1.35B in six months total. Previously raised AU$330M (~$215M) at AU$1.85B valuation from Nvidia. Crypto-roots-turned-AI provider now planning ASX IPO.",
+    "summary": "Asia AI data center provider building 'Project Southgate' \u2014 energy-efficient AI factory network in Australia and Tasmania using Nvidia's Vera Rubin platform. Raised $505M led by Coatue at $5.5B post-money valuation. Has raised $1.35B in six months total. Previously raised AU$330M (~$215M) at AU$1.85B valuation from Nvidia. Crypto-roots-turned-AI provider now planning ASX IPO.",
     "round": "Growth",
     "amount": "$505M",
     "location": "Singapore / Australia",
@@ -1231,7 +1231,7 @@
     "id": "patlytics-1",
     "name": "Patlytics",
     "sector": "LegalTech / AI Intellectual Property",
-    "summary": "First end-to-end AI platform for the entire patent lifecycle — from application drafting and prosecution to infringement analysis, invalidity research, and portfolio management. Trusted by over 40% of Am Law 100 firms. Serves Quinn Emanuel, Foley & Lardner, Susman Godfrey, Canon, Rivian, Xerox, Asahi Kasei, and TaylorMade. 4.5x revenue growth in 12 months. $40M Series B led by SignalFire.",
+    "summary": "First end-to-end AI platform for the entire patent lifecycle \u2014 from application drafting and prosecution to infringement analysis, invalidity research, and portfolio management. Trusted by over 40% of Am Law 100 firms. Serves Quinn Emanuel, Foley & Lardner, Susman Godfrey, Canon, Rivian, Xerox, Asahi Kasei, and TaylorMade. 4.5x revenue growth in 12 months. $40M Series B led by SignalFire.",
     "round": "Series B",
     "amount": "$40M",
     "location": "New York, NY",
@@ -1251,7 +1251,7 @@
     "id": "haast-1",
     "name": "Haast",
     "sector": "Enterprise AI / Compliance Automation",
-    "summary": "AI-powered enterprise compliance engine that embeds organizational policy and risk frameworks directly into enterprise workflows. Solves the compliance bottleneck created by AI-driven content explosion (8x–10x content volume). Fortune 500 customers. 4.5x revenue growth in 12 months with zero customer churn. Founded 2023 by Kunal Vankadara (CEO). $12M Series A led by Peak XV Partners.",
+    "summary": "AI-powered enterprise compliance engine that embeds organizational policy and risk frameworks directly into enterprise workflows. Solves the compliance bottleneck created by AI-driven content explosion (8x\u201310x content volume). Fortune 500 customers. 4.5x revenue growth in 12 months with zero customer churn. Founded 2023 by Kunal Vankadara (CEO). $12M Series A led by Peak XV Partners.",
     "round": "Series A",
     "amount": "$12M",
     "location": "New York, NY",
@@ -1271,7 +1271,7 @@
     "id": "sifive-1",
     "name": "SiFive",
     "sector": "Semiconductor / RISC-V Processor IP",
-    "summary": "RISC-V chip IP company founded by the Berkeley engineers who created the open-source RISC-V instruction set architecture. $400M Series G at $3.65B valuation — described as the final round before IPO. CEO Patrick Little (former Qualcomm exec). Makes chip blueprints used by companies like Alphabet for custom AI data center processors.",
+    "summary": "RISC-V chip IP company founded by the Berkeley engineers who created the open-source RISC-V instruction set architecture. $400M Series G at $3.65B valuation \u2014 described as the final round before IPO. CEO Patrick Little (former Qualcomm exec). Makes chip blueprints used by companies like Alphabet for custom AI data center processors.",
     "round": "Series G",
     "amount": "$400M",
     "location": "Santa Clara, CA",
@@ -1291,7 +1291,7 @@
     "id": "inertia-enterprises-1",
     "name": "Inertia Enterprises",
     "sector": "Fusion Energy / Clean Energy Technology",
-    "summary": "Commercial fusion energy company founded by Twilio co-founder Jeff Lawson (CEO), Dr. Annie Kritcher (Chief Scientist, lead NIF fusion experiment designer), and Stanford Prof. Mike Dunne (CTO, former LLNL Fusion Energy Program Director). $450M Series A — one of the largest fusion rounds ever. Pursuing inertial confinement fusion validated by NIF's December 2022 ignition breakthrough. Plans commercial fusion power plant by 2030.",
+    "summary": "Commercial fusion energy company founded by Twilio co-founder Jeff Lawson (CEO), Dr. Annie Kritcher (Chief Scientist, lead NIF fusion experiment designer), and Stanford Prof. Mike Dunne (CTO, former LLNL Fusion Energy Program Director). $450M Series A \u2014 one of the largest fusion rounds ever. Pursuing inertial confinement fusion validated by NIF's December 2022 ignition breakthrough. Plans commercial fusion power plant by 2030.",
     "round": "Series A",
     "amount": "$450M",
     "location": "Livermore, CA",
@@ -1399,7 +1399,7 @@
     "id": "paxos-labs-1",
     "name": "Paxos Labs",
     "sector": "DeFi Infrastructure / Blockchain",
-    "summary": "Spin-off from Paxos building DeFi infrastructure for enterprises. Products: Amplify — single-SDK platform for branded stablecoins, yield earning, and crypto lending. Co-founded by Bhaumik Kotecha and led by Charles Cascarilla (CEO of Paxos). On pace to break even by end of 2026. Customers include neobank Hyperbeat and developers behind Aleo blockchain.",
+    "summary": "Spin-off from Paxos building DeFi infrastructure for enterprises. Products: Amplify \u2014 single-SDK platform for branded stablecoins, yield earning, and crypto lending. Co-founded by Bhaumik Kotecha and led by Charles Cascarilla (CEO of Paxos). On pace to break even by end of 2026. Customers include neobank Hyperbeat and developers behind Aleo blockchain.",
     "round": "Seed",
     "amount": "$12M",
     "location": "New York, NY",
@@ -1415,7 +1415,7 @@
     "id": "neye-ai-1",
     "name": "nEye.ai",
     "sector": "AI Infrastructure / Optical Circuit Switching",
-    "summary": "Building OCS-on-a-chip: optical circuit switches built directly onto a chip for AI data centers. Combines silicon photonics, MEMS, and CMOS. Solves AI connectivity bottleneck — as AI systems grow, moving data between GPUs/CPUs/memory at speed has become the limiting factor. $80M Series C led by Sutter Hill Ventures. Total funding $152M. Market for Optical Circuit Switching projected to surpass $3B within 3 years.",
+    "summary": "Building OCS-on-a-chip: optical circuit switches built directly onto a chip for AI data centers. Combines silicon photonics, MEMS, and CMOS. Solves AI connectivity bottleneck \u2014 as AI systems grow, moving data between GPUs/CPUs/memory at speed has become the limiting factor. $80M Series C led by Sutter Hill Ventures. Total funding $152M. Market for Optical Circuit Switching projected to surpass $3B within 3 years.",
     "round": "Series C",
     "amount": "$80M",
     "location": "Silicon Valley, CA",
@@ -1431,7 +1431,7 @@
     "id": "prefix-1",
     "name": "Prefix",
     "sector": "Facility Management / AI Operations",
-    "summary": "AI-powered facility management platform for multi-location restaurants and retailers. $500B market — brands spend ~$500B/year maintaining spaces. Prefix acts as coordination hub between operators and local service providers (HVAC, refrigeration, plumbing, electrical). Agentic AI handles communication, scheduling, and task tracking. Nearly 2,000 locations across 50 brands (Bojangles, Chipotle, Raising Cane's, Famous Footwear, L'Occitane). $2.5M ARR, 500% YoY growth.",
+    "summary": "AI-powered facility management platform for multi-location restaurants and retailers. $500B market \u2014 brands spend ~$500B/year maintaining spaces. Prefix acts as coordination hub between operators and local service providers (HVAC, refrigeration, plumbing, electrical). Agentic AI handles communication, scheduling, and task tracking. Nearly 2,000 locations across 50 brands (Bojangles, Chipotle, Raising Cane's, Famous Footwear, L'Occitane). $2.5M ARR, 500% YoY growth.",
     "round": "Seed",
     "amount": "$7.5M",
     "location": "New York, NY",
@@ -1552,6 +1552,62 @@
       {
         "url": "https://techcrunch.com/2026/04/17/loop-raises-95m-to-build-supply-chain-ai-that-predicts-disruptions/",
         "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "id": "insightfinder-1",
+    "name": "InsightFinder",
+    "sector": "AI / AI Observability & Reliability",
+    "summary": "AI-driven observability platform that monitors and ensures reliability of AI models and entire tech stacks. Founded by CEO Helen Gu (NC State CS professor, ex-IBM/Google), uses unsupervised ML, LLMs, predictive AI, and causal inference to detect, diagnose, remediate, and prevent AI model failures. Customers include UBS, NBCUniversal, Lenovo, Dell, Google Cloud, Comcast. Revenue grew 3x+ in past year. Won seven-figure Fortune 50 deal in 3 months prompting this raise.",
+    "round": "Series B",
+    "amount": "$15M",
+    "location": "New York, NY / North Carolina",
+    "reportDate": "2026-04-19",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "id": "hilbert-ai-1",
+    "name": "Hilbert AI",
+    "sector": "AI / Autonomous Business Growth Agents",
+    "summary": "Building AI growth agents that autonomously make commercial decisions for consumer companies: pricing, promotion timing, product assortment, and marketing spend allocation. Starts with solving the 'data plumbing' problem \u2014 structuring and labeling customer data schemas so agents can execute. Co-founders Nazli Tan (CEO, ex-Getir Head of Growth) and Ceyda Erten (CSO, ex-Getir Head of Transformation) built and scaled Getir's growth function across 9 countries. Works with major retailers and fast-growing AI-native startups.",
+    "round": "Series A",
+    "amount": "$28M",
+    "location": "US (co-founders ex-Turkey/Getir)",
+    "reportDate": "2026-04-19",
+    "links": [
+      {
+        "url": "https://www.axios.com/2026/04/15/exclusive-a16z-backed-hilbert-raises-28-million",
+        "label": "Axios"
+      },
+      {
+        "url": "https://a16z.com/announcement/investing-in-hilbert/",
+        "label": "a16z Blog"
+      }
+    ]
+  },
+  {
+    "id": "synera-1",
+    "name": "Synera",
+    "sector": "AI / Agentic Industrial Engineering Platform",
+    "summary": "Agentic AI platform orchestrating the full industrial engineering value chain \u2014 described as 'JARVIS for engineers.' Deploys teams of AI agents that autonomously execute complex workflows across the product lifecycle, connecting 80+ CAx tools, data, knowledge, and processes into a unified orchestrated system. Serves NASA, Airbus, BMW, Volvo Trucks, Brose, L'Oreal, Miele, STIHL across 60+ enterprise customers in 15 countries. Doubled ARR in 2025; 60% of new business from AI offering. Founded by Dr. Moritz Maier (CEO).",
+    "round": "Series B",
+    "amount": "$40M",
+    "location": "Bremen, Germany",
+    "reportDate": "2026-04-19",
+    "links": [
+      {
+        "url": "https://www.synera.io/press/synera-raises-40m-series-b-to-scale-agentic-ai-engineering-for-global-manufacturers",
+        "label": "Synera PR"
+      },
+      {
+        "url": "https://siliconangle.com/2026/04/14/german-startup-synera-lands-40-million-automate-engineering-workflows-ai-agents/",
+        "label": "SiliconANGLE"
       }
     ]
   }
