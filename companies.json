@@ -1610,5 +1610,45 @@
         "label": "SiliconANGLE"
       }
     ]
+  },
+  {
+    "id": "artemis-2",
+    "name": "Artemis",
+    "sector": "Cybersecurity / AI Defense",
+    "summary": "AI-native defense system fighting AI-powered attacks at machine speed. Constantly watches log-ins, cloud activity, apps across organizations, learns 'normal' patterns, spots anomalies in real-time, connects dots into clear attack stories, and can automatically shut down attacks before they spread. Founded by former AWS product leader (Shachar Hirshberg, CEO) and former head of AI at Abnormal Security (Dan Shiebler, CTO). Positioned as next-gen alternative to Splunk for AI-driven threat environment. Several seven-figure deals closed, expecting multimillion-dollar ARR before end of 2026. Clients include Mercury, Wix, Lemonade, and Abnormal AI.",
+    "round": "Series A",
+    "amount": "$70M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-20",
+    "links": [
+      {
+        "url": "https://fortune.com/2026/04/15/exclusive-artemis-raises-70m-to-help-fight-ai-powered-attacks-with-ai/",
+        "label": "Fortune"
+      },
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/h1eagbt311x",
+        "label": "CTech"
+      }
+    ]
+  },
+  {
+    "id": "gizmo-2",
+    "name": "Gizmo",
+    "sector": "EdTech / AI Learning",
+    "summary": "AI-powered learning platform transforming students' notes into interactive study materials (quizzes, flashcards) using game mechanics. 13M+ users across 120+ countries (up from 300K in 2023). Founded by three Cambridge University alumni (Petros Christodoulou as CEO, Paul Evangelou as CPO, Robin Jack as CTO). Targets teenagers and young adults with leaderboards, streaks, limited daily lives, and friend challenges. Addressing declining US academic performance and reduced attention spans. Competing with Anki, Quizlet, Nibble, Yuno, and Knowt.",
+    "round": "Series A",
+    "amount": "$22M",
+    "location": "London, UK",
+    "reportDate": "2026-04-20",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://tech.eu/2026/04/15/gizmo-secures-22m-series-a-to-advance-ai-powered-education/",
+        "label": "Tech.eu"
+      }
+    ]
   }
 ]
