@@ -1650,5 +1650,53 @@
         "label": "Tech.eu"
       }
     ]
+  },
+  {
+    "id": "pillar-1",
+    "name": "Pillar",
+    "sector": "Financial Risk Management / Fintech",
+    "summary": "AI-powered financial risk management platform automating hedging for commodity-driven businesses. Ingests data from contracts, cash flows, inventories, ERP software, spreadsheets, and WhatsApp messages to continuously analyze exposure across commodities, FX, and freight. Founded by Harsha Ramesh (CEO) and Chinmay Deshpande (CTO). Clients include Shibuya Sakura Industries, Sigma Recycling, and United Metal Solutions Group.",
+    "round": "Seed",
+    "amount": "$20M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-04-21",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/14/financial-risk-management-platform-pillar-raises-20m-seed-in-round-led-by-a16z/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "id": "factory-1",
+    "name": "Factory",
+    "sector": "AI Coding / Enterprise Software Development",
+    "summary": "AI agents for enterprise engineering teams. Develops 'Droids' that autonomously execute software engineering tasks. Key differentiator: ability to switch between foundation models (Claude, DeepSeek). Revenue doubled month over month for 6 consecutive months. Customers include Morgan Stanley, Ernst & Young, and Palo Alto Networks. Founded by Matan Grinberg (CEO, ex-UC Berkeley PhD student) and Eno Reyes (CTO). Keith Rabois (Khosla Ventures) joined board.",
+    "round": "Series C",
+    "amount": "$150M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-04-21",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "id": "recursive-superintelligence-1",
+    "name": "Recursive Superintelligence",
+    "sector": "AI / Recursive Self-Improving AI",
+    "summary": "Building AI systems that autonomously improve their own code and architecture \u2014 eliminating human intervention from the AI training process. Core thesis: 'The bottleneck for AI progress is no longer just compute or data, but human intervention.' If successful, model improvements could take 18 hours instead of 18 months. Four-month-old London-incorporated startup. Co-founded by ex-Google DeepMind and ex-OpenAI researchers Tim Rockt\u00e4schel, Josh Tobin, Jeff Clune, and Tim Shi. Plans first 'Level 1' autonomous training run later this year.",
+    "round": "Funding Round",
+    "amount": "$500M",
+    "location": "London, UK",
+    "reportDate": "2026-04-21",
+    "links": [
+      {
+        "url": "https://ventureburn.com/recursive-superintelligence-raises-500m-funding-round/",
+        "label": "Ventureburn"
+      }
+    ]
   }
 ]
