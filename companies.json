@@ -1698,5 +1698,61 @@
         "label": "Ventureburn"
       }
     ]
+  },
+  {
+    "id": "reliable-robotics-1",
+    "name": "Reliable Robotics",
+    "sector": "Aviation Autonomy",
+    "summary": "Autonomous aircraft systems developer. Building the Reliable Autonomy System (RAS) for fully automated aircraft operation. M funding at ~B valuation. 200+ system commitments from commercial and military customers. FAA certification in progress.",
+    "round": "Private Round",
+    "amount": "M",
+    "location": "Mountain View, CA",
+    "reportDate": "2026-04-22",
+    "links": [
+      {
+        "url": "https://reliable.co/pr/reliable-robotics-160m-funding",
+        "label": "PR Newswire"
+      },
+      {
+        "url": "https://finance.yahoo.com/sectors/technology/articles/reliable-robotics-announces-160m-investment-130000745.html",
+        "label": "Yahoo Finance"
+      }
+    ]
+  },
+  {
+    "id": "ray-therapeutics-1",
+    "name": "Ray Therapeutics",
+    "sector": "Biotechnology / Vision Restoration",
+    "summary": "Optogenetic vision restoration therapies for severe retinal degenerative diseases. Lead program RTx-021 has RMAT designation. M Series B for retinitis pigmentosa, Stargardt disease, and geographic atrophy programs. ~M total raised.",
+    "round": "Series B",
+    "amount": "M",
+    "location": "USA (biotech)",
+    "reportDate": "2026-04-22",
+    "links": [
+      {
+        "url": "https://www.businesswire.com/news/home/20260421096801/en/Ray-Therapeutics-Announces-Upsized-and-Oversubscribed-125-Million-Series-B-Financing-for-Vision-Restoration-Treatments",
+        "label": "Business Wire"
+      }
+    ]
+  },
+  {
+    "id": "cursor-anysphere-1",
+    "name": "Cursor (Anysphere)",
+    "sector": "AI Coding Tools",
+    "summary": "AI-powered code editor - one of fastest-growing startups in history. B run rate as of Feb 2026, forecast to hit B by year-end. In talks for B at B+ valuation. SpaceX has option to buy for B. Co-founders all MIT students. YC graduate.",
+    "round": "Series E (in talks)",
+    "amount": "B (in talks)",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-04-22",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/04/19/cursor-ai-2-billion-funding-round.html",
+        "label": "CNBC"
+      }
+    ]
   }
 ]
