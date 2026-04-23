@@ -1754,5 +1754,25 @@
         "label": "CNBC"
       }
     ]
+  },
+  {
+    "id": "project-prometheus-1",
+    "name": "Project Prometheus",
+    "sector": "Physical AI / Industrial Intelligence",
+    "summary": "Jeff Bezos's physical AI lab focused on real-world industrial processes — manufacturing, aerospace engineering, and semiconductor production. Co-founded with Vik Bajaj (ex-Google X, Stanford professor). Raised ~$10B at $38B valuation. Competing against OpenAI, Google DeepMind, xAI, Anthropic. Also exploring $100B fund for AI ecosystem investments.",
+    "round": "Growth",
+    "amount": "$10B",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-04-23",
+    "links": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-04-21/jeff-bezos-nears-10-billion-funding-round-for-ai-lab-ft-says",
+        "label": "Bloomberg"
+      },
+      {
+        "url": "https://www.businessinsider.com/jeff-bezos-project-prometheus-valued-at-38-billion-2026-4",
+        "label": "Business Insider"
+      }
+    ]
   }
 ]
