@@ -1759,7 +1759,7 @@
     "id": "project-prometheus-1",
     "name": "Project Prometheus",
     "sector": "Physical AI / Industrial Intelligence",
-    "summary": "Jeff Bezos's physical AI lab focused on real-world industrial processes — manufacturing, aerospace engineering, and semiconductor production. Co-founded with Vik Bajaj (ex-Google X, Stanford professor). Raised ~$10B at $38B valuation. Competing against OpenAI, Google DeepMind, xAI, Anthropic. Also exploring $100B fund for AI ecosystem investments.",
+    "summary": "Jeff Bezos's physical AI lab focused on real-world industrial processes \u2014 manufacturing, aerospace engineering, and semiconductor production. Co-founded with Vik Bajaj (ex-Google X, Stanford professor). Raised ~$10B at $38B valuation. Competing against OpenAI, Google DeepMind, xAI, Anthropic. Also exploring $100B fund for AI ecosystem investments.",
     "round": "Growth",
     "amount": "$10B",
     "location": "San Francisco, CA",
@@ -1772,6 +1772,54 @@
       {
         "url": "https://www.businessinsider.com/jeff-bezos-project-prometheus-valued-at-38-billion-2026-4",
         "label": "Business Insider"
+      }
+    ]
+  },
+  {
+    "id": "lucra-1",
+    "name": "Lucra",
+    "sector": "B2B Gamification / Esports Loyalty",
+    "summary": "B2B esports loyalty platform enabling brands to run interactive tournaments and gamified loyalty programs. Customers include Five Iron Golf, Chess Kings, and Dave & Buster's. ARK Invest's first-ever lead investment.",
+    "round": "Series B",
+    "amount": "$20M",
+    "location": "USA",
+    "reportDate": "2026-04-24",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/22/cathie-woods-ark-makes-its-first-lead-investment-in-startup-lucra-and-it-isnt-ai/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "id": "monk-1",
+    "name": "Monk",
+    "sector": "AI Accounts Receivable / FinTech",
+    "summary": "AI-native accounts receivable platform automating the full contract-to-cash lifecycle for B2B companies. Customers include ElevenLabs and Profound. Manages over $1B in receivables. Delivers 40% DSO reduction, 25+ hours/month saved for AR teams.",
+    "round": "Series A",
+    "amount": "$25M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-24",
+    "links": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/monk-raises-25m-series-a-to-automate-accounts-receivable-with-ai-302748872.html",
+        "label": "PR Newswire"
+      }
+    ]
+  },
+  {
+    "id": "univity-1",
+    "name": "Univity",
+    "sector": "Satellite Telecommunications / Space Tech",
+    "summary": "Paris-based startup building VLEO (very low Earth orbit) satellite constellation for 5G connectivity. Targeting 1,600+ satellites to help telecom operators extend coverage from space. Founded 2022 by Charles Delfieux. Total secured funding: \u20ac68M.",
+    "round": "Series A",
+    "amount": "\u20ac27M ($32M)",
+    "location": "Paris, France",
+    "reportDate": "2026-04-24",
+    "links": [
+      {
+        "url": "https://www.reuters.com/business/media-telecom/satellite-startup-univity-raises-32-million-push-become-europes-largest-operator-2026-04-23/",
+        "label": "Reuters"
       }
     ]
   }
