@@ -1822,5 +1822,53 @@
         "label": "Reuters"
       }
     ]
+  },
+  {
+    "id": "comfyui-1",
+    "name": "ComfyUI",
+    "sector": "AI Creative Tools / Diffusion Workflow",
+    "summary": "Node-based workflow platform giving creators granular control over AI image/video/audio generation from diffusion models. 4M+ users. Addresses the '60-80% there' problem where standard prompt-based AI requires 'slot machine' approach for final refinements. Used for visual effects, animation, advertising, industrial design.",
+    "round": "Series B",
+    "amount": "$30M",
+    "location": "Open Source / Global",
+    "reportDate": "2026-04-25",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "id": "neocognition-1",
+    "name": "NeoCognition",
+    "sector": "AI Research Lab / Self-Learning AI Agents",
+    "summary": "AI research lab developing self-learning agents that can specialize in any domain like humans. Current AI agents complete tasks only ~50% of the time. NeoCognition builds agents that mirror human rapid specialization. Founded by Ohio State professor Yu Su (Sloan Research Fellow). 15 employees, majority with PhDs.",
+    "round": "Seed",
+    "amount": "$40M",
+    "location": "Ohio, USA",
+    "reportDate": "2026-04-25",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "id": "era-1",
+    "name": "Era",
+    "sector": "AI Gadgets / Software Platform for AI Hardware",
+    "summary": "Software platform enabling hardware makers to create AI agents and orchestrations for AI devices. Platform provides 130+ LLMs from 14+ providers for different AI gadget form factors. Replaces app layer with intelligence layer. Founders from Humane, HP, and io project.",
+    "round": "Seed",
+    "amount": "$11M",
+    "location": "USA",
+    "reportDate": "2026-04-25",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
+        "label": "TechCrunch"
+      }
+    ]
   }
 ]
