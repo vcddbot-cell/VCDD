@@ -1779,15 +1779,19 @@
     "id": "lucra-1",
     "name": "Lucra",
     "sector": "B2B Gamification / Esports Loyalty",
-    "summary": "B2B esports loyalty platform enabling brands to run interactive tournaments and gamified loyalty programs. Customers include Five Iron Golf, Chess Kings, and Dave & Buster's. ARK Invest's first-ever lead investment.",
+    "summary": "B2B esports loyalty platform enabling brands to run interactive tournaments and peer-to-peer competitions with real stakes. Platform used by Five Iron Golf, Puttshack, Backyard Sports, ChessKings, and TouchTunes. On pace to surpass 1M unique tournament signups in 2026. ARK Invest Venture Fund's first-ever lead investment.",
     "round": "Series B",
     "amount": "$20M",
-    "location": "USA",
-    "reportDate": "2026-04-24",
+    "location": "New York, NY",
+    "reportDate": "2026-04-27",
     "links": [
       {
         "url": "https://techcrunch.com/2026/04/22/cathie-woods-ark-makes-its-first-lead-investment-in-startup-lucra-and-it-isnt-ai/",
         "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.seventysixcapital.com/portfolio-news/lucra-raises-20-million",
+        "label": "SeventySix Capital"
       }
     ]
   },
@@ -1843,15 +1847,47 @@
     "id": "neocognition-1",
     "name": "NeoCognition",
     "sector": "AI Research Lab / Self-Learning AI Agents",
-    "summary": "AI research lab developing self-learning agents that can specialize in any domain like humans. Current AI agents complete tasks only ~50% of the time. NeoCognition builds agents that mirror human rapid specialization. Founded by Ohio State professor Yu Su (Sloan Research Fellow). 15 employees, majority with PhDs.",
+    "summary": "AI research lab developing self-learning agents that can specialize in any domain like humans. Core problem: current AI agents (Claude Code, OpenClaw, Perplexity) only successfully complete tasks ~50% of time. NeoCognition builds agents that mirror human rapid specialization — self-learning to build world models for any environment. Founded by Ohio State professor Yu Su (Sloan Research Fellow). 15 employees, majority with PhDs. Selling enterprise agent systems for building agent workers or enhancing existing products.",
     "round": "Seed",
     "amount": "$40M",
-    "location": "Ohio, USA",
-    "reportDate": "2026-04-25",
+    "location": "Palo Alto, CA / San Francisco, CA",
+    "reportDate": "2026-04-27",
     "links": [
       {
         "url": "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/",
         "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.morningstar.com/news/pr-newswire/20260421sf39689/neocognition-emerges-from-stealth-with-40-million-seed-round-to-advance-specialized-intelligence-and-expert-agents",
+        "label": "Morningstar"
+      }
+    ]
+  },
+  {
+    "id": "humble-robotics-1",
+    "name": "Humble Robotics",
+    "sector": "Autonomous Freight / Electric Vehicles / Physical AI",
+    "summary": "San Francisco startup building fully electric, cabless autonomous freight vehicle called Humble Hauler. Founded by Eyal Cohen (20-year career spanning Apple, Uber ATG, Waabi, Spark AI — co-founded, acquired by John Deere 2023). Designed for 40-foot and 53-foot shipping containers, operating dock-to-dock (vs Aurora's hub-to-hub, Kodiak's fixed launch/landing zones). Autonomy stack built on vision-language-action models vs rule-based systems. $906B US truck freight industry. Autonomous freight segment $575.7M in 2026, projected $3.25B by 2035. Self Drive Act 2026 proposes unified federal framework.",
+    "round": "Seed",
+    "amount": "$24M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-04-27",
+    "links": [
+      {
+        "url": "https://thenextweb.com/news/humble-24m-seed-cabless-autonomous-electric-truck",
+        "label": "The Next Web"
+      },
+      {
+        "url": "https://www.roboticstomorrow.com/news/2026/04/21/humble-emerges-from-stealth-to-bring-autonomous-electric-haulers-to-real-world-freight/26454/",
+        "label": "Robotics Tomorrow"
+      },
+      {
+        "url": "https://www.freightwaves.com/news/humble-hauler-cabless-autonomous-truck",
+        "label": "FreightWaves"
+      },
+      {
+        "url": "https://theaiinsider.tech/2026/04/22/humble-emerges-from-stealth-with-24m-in-seed-funding-for-autonomous-cabless-electric-freight-hauling/",
+        "label": "The AI Insider"
       }
     ]
   },
@@ -1859,11 +1895,11 @@
     "id": "era-1",
     "name": "Era",
     "sector": "AI Gadgets / Software Platform for AI Hardware",
-    "summary": "Software platform enabling hardware makers to create AI agents and orchestrations for AI devices. Platform provides 130+ LLMs from 14+ providers for different AI gadget form factors. Replaces app layer with intelligence layer. Founders from Humane, HP, and io project.",
+    "summary": "Software platform enabling hardware makers to create AI agents and orchestrations for AI devices. Platform provides 130+ LLMs from 14+ providers for different AI gadget form factors. Replaces app layer with intelligence layer. Founded by CEO Liz Dorman (ex-Humane/HPM), CTO Alex Ollman (ex-HP), CPO Megan Gole (ex-Jony Ive/Altman io project). Angel investors include Flickr co-founder Caterina Fake, iPhone keyboard creator Ken Kocienda.",
     "round": "Seed",
     "amount": "$11M",
     "location": "USA",
-    "reportDate": "2026-04-25",
+    "reportDate": "2026-04-27",
     "links": [
       {
         "url": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
