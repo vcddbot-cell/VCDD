@@ -1906,5 +1906,47 @@
         "label": "TechCrunch"
       }
     ]
+  },
+  {
+    "id": "true-anomaly-1",
+    "name": "True Anomaly",
+    "sector": "Defense Tech / Space Security",
+    "summary": "The ONLY space startup exclusively focused on orbital defense. Building space interceptor spacecraft and software for U.S. national security missions. $650M funding at $2.2B valuation — total funding exceeds $1B. Benefiting from heightened investor interest ahead of Trump administration's Golden Dome project. US must have operational space defense capabilities by 2026 or risk ceding strategic domain to rivals. Investors include Eclipse, Riot Ventures, VanEck, Accel, Menlo Ventures, Meritech.",
+    "round": "Growth",
+    "amount": "$650M",
+    "location": "Colorado, USA",
+    "reportDate": "2026-04-28",
+    "links": [
+      {"url": "https://www.cnbc.com/2026/04/28/true-anomaly-trump-golden-dome.html", "label": "CNBC"},
+      {"url": "https://thenextweb.com/news/true-anomaly-650m-space-defense-golden-dome", "label": "TNW"}
+    ]
+  },
+  {
+    "id": "sereact-1",
+    "name": "Sereact",
+    "sector": "AI Robotics / Warehouse Automation",
+    "summary": "German AI robotics software company making any robot adaptable to new tasks using LLM + robotics combination. PickGPT gives warehouse robots 'brains' — robots act situationally rather than following rigidly programmed sequences, adapting to dynamic tasks in real-time. Partners include BMW and PepsiCo. $5M seed (2023) → $26M Series A (Jan 2025) → $110M Series B (April 2026). Now scaling US expansion. Co-founded by Ralf Gulde (CEO).",
+    "round": "Series B",
+    "amount": "$110M",
+    "location": "Stuttgart, Germany",
+    "reportDate": "2026-04-28",
+    "links": [
+      {"url": "https://siliconangle.com/2026/04/27/sereact-raises-110m-scale-ai-robotic-brain-expand-us/", "label": "SiliconANGLE"},
+      {"url": "https://www.eu-startups.com/2026/04/bmw-and-pepsico-robotics-partner-sereact-raises-e93-million-series-b-to-scale-across-the-us/", "label": "EU-Startups"}
+    ]
+  },
+  {
+    "id": "monk-1",
+    "name": "Monk",
+    "sector": "Fintech / AI Accounts Receivable Automation",
+    "summary": "AI-native accounts receivable platform that goes beyond automated email reminders to actually resolving B2B payment blockers. Platform identifies WHY invoices aren't being paid and resolves those issues. Co-founded by George Kurdin and Joe Zhou. Traction: 25+ hours saved per month for AR teams, 24% improvement in collections response rates, significant DSO reduction. After running two previous startups that he shut down, co-founders were deliberate about this move. Total funding: $29M.",
+    "round": "Series A",
+    "amount": "$25M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-28",
+    "links": [
+      {"url": "https://www.prnewswire.com/news-releases/monk-raises-25m-series-a-to-automate-accounts-receivable-with-ai-302748872.html", "label": "PR Newswire"},
+      {"url": "https://fintech.global/2026/04/22/monk-raises-25m-series-a-to-automate-receivables/", "label": "Fintech Global"}
+    ]
   }
 ]
