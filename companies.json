@@ -1847,7 +1847,7 @@
     "id": "neocognition-1",
     "name": "NeoCognition",
     "sector": "AI Research Lab / Self-Learning AI Agents",
-    "summary": "AI research lab developing self-learning agents that can specialize in any domain like humans. Core problem: current AI agents (Claude Code, OpenClaw, Perplexity) only successfully complete tasks ~50% of time. NeoCognition builds agents that mirror human rapid specialization — self-learning to build world models for any environment. Founded by Ohio State professor Yu Su (Sloan Research Fellow). 15 employees, majority with PhDs. Selling enterprise agent systems for building agent workers or enhancing existing products.",
+    "summary": "AI research lab developing self-learning agents that can specialize in any domain like humans. Core problem: current AI agents (Claude Code, OpenClaw, Perplexity) only successfully complete tasks ~50% of time. NeoCognition builds agents that mirror human rapid specialization \u2014 self-learning to build world models for any environment. Founded by Ohio State professor Yu Su (Sloan Research Fellow). 15 employees, majority with PhDs. Selling enterprise agent systems for building agent workers or enhancing existing products.",
     "round": "Seed",
     "amount": "$40M",
     "location": "Palo Alto, CA / San Francisco, CA",
@@ -1867,7 +1867,7 @@
     "id": "humble-robotics-1",
     "name": "Humble Robotics",
     "sector": "Autonomous Freight / Electric Vehicles / Physical AI",
-    "summary": "San Francisco startup building fully electric, cabless autonomous freight vehicle called Humble Hauler. Founded by Eyal Cohen (20-year career spanning Apple, Uber ATG, Waabi, Spark AI — co-founded, acquired by John Deere 2023). Designed for 40-foot and 53-foot shipping containers, operating dock-to-dock (vs Aurora's hub-to-hub, Kodiak's fixed launch/landing zones). Autonomy stack built on vision-language-action models vs rule-based systems. $906B US truck freight industry. Autonomous freight segment $575.7M in 2026, projected $3.25B by 2035. Self Drive Act 2026 proposes unified federal framework.",
+    "summary": "San Francisco startup building fully electric, cabless autonomous freight vehicle called Humble Hauler. Founded by Eyal Cohen (20-year career spanning Apple, Uber ATG, Waabi, Spark AI \u2014 co-founded, acquired by John Deere 2023). Designed for 40-foot and 53-foot shipping containers, operating dock-to-dock (vs Aurora's hub-to-hub, Kodiak's fixed launch/landing zones). Autonomy stack built on vision-language-action models vs rule-based systems. $906B US truck freight industry. Autonomous freight segment $575.7M in 2026, projected $3.25B by 2035. Self Drive Act 2026 proposes unified federal framework.",
     "round": "Seed",
     "amount": "$24M",
     "location": "San Francisco, CA",
@@ -1911,28 +1911,40 @@
     "id": "true-anomaly-1",
     "name": "True Anomaly",
     "sector": "Defense Tech / Space Security",
-    "summary": "The ONLY space startup exclusively focused on orbital defense. Building space interceptor spacecraft and software for U.S. national security missions. $650M funding at $2.2B valuation — total funding exceeds $1B. Benefiting from heightened investor interest ahead of Trump administration's Golden Dome project. US must have operational space defense capabilities by 2026 or risk ceding strategic domain to rivals. Investors include Eclipse, Riot Ventures, VanEck, Accel, Menlo Ventures, Meritech.",
+    "summary": "The ONLY space startup exclusively focused on orbital defense. Building space interceptor spacecraft and software for U.S. national security missions. $650M funding at $2.2B valuation \u2014 total funding exceeds $1B. Benefiting from heightened investor interest ahead of Trump administration's Golden Dome project. US must have operational space defense capabilities by 2026 or risk ceding strategic domain to rivals. Investors include Eclipse, Riot Ventures, VanEck, Accel, Menlo Ventures, Meritech.",
     "round": "Growth",
     "amount": "$650M",
     "location": "Colorado, USA",
     "reportDate": "2026-04-28",
     "links": [
-      {"url": "https://www.cnbc.com/2026/04/28/true-anomaly-trump-golden-dome.html", "label": "CNBC"},
-      {"url": "https://thenextweb.com/news/true-anomaly-650m-space-defense-golden-dome", "label": "TNW"}
+      {
+        "url": "https://www.cnbc.com/2026/04/28/true-anomaly-trump-golden-dome.html",
+        "label": "CNBC"
+      },
+      {
+        "url": "https://thenextweb.com/news/true-anomaly-650m-space-defense-golden-dome",
+        "label": "TNW"
+      }
     ]
   },
   {
     "id": "sereact-1",
     "name": "Sereact",
     "sector": "AI Robotics / Warehouse Automation",
-    "summary": "German AI robotics software company making any robot adaptable to new tasks using LLM + robotics combination. PickGPT gives warehouse robots 'brains' — robots act situationally rather than following rigidly programmed sequences, adapting to dynamic tasks in real-time. Partners include BMW and PepsiCo. $5M seed (2023) → $26M Series A (Jan 2025) → $110M Series B (April 2026). Now scaling US expansion. Co-founded by Ralf Gulde (CEO).",
+    "summary": "German AI robotics software company making any robot adaptable to new tasks using LLM + robotics combination. PickGPT gives warehouse robots 'brains' \u2014 robots act situationally rather than following rigidly programmed sequences, adapting to dynamic tasks in real-time. Partners include BMW and PepsiCo. $5M seed (2023) \u2192 $26M Series A (Jan 2025) \u2192 $110M Series B (April 2026). Now scaling US expansion. Co-founded by Ralf Gulde (CEO).",
     "round": "Series B",
     "amount": "$110M",
     "location": "Stuttgart, Germany",
     "reportDate": "2026-04-28",
     "links": [
-      {"url": "https://siliconangle.com/2026/04/27/sereact-raises-110m-scale-ai-robotic-brain-expand-us/", "label": "SiliconANGLE"},
-      {"url": "https://www.eu-startups.com/2026/04/bmw-and-pepsico-robotics-partner-sereact-raises-e93-million-series-b-to-scale-across-the-us/", "label": "EU-Startups"}
+      {
+        "url": "https://siliconangle.com/2026/04/27/sereact-raises-110m-scale-ai-robotic-brain-expand-us/",
+        "label": "SiliconANGLE"
+      },
+      {
+        "url": "https://www.eu-startups.com/2026/04/bmw-and-pepsico-robotics-partner-sereact-raises-e93-million-series-b-to-scale-across-the-us/",
+        "label": "EU-Startups"
+      }
     ]
   },
   {
@@ -1945,8 +1957,30 @@
     "location": "New York, NY",
     "reportDate": "2026-04-28",
     "links": [
-      {"url": "https://www.prnewswire.com/news-releases/monk-raises-25m-series-a-to-automate-accounts-receivable-with-ai-302748872.html", "label": "PR Newswire"},
-      {"url": "https://fintech.global/2026/04/22/monk-raises-25m-series-a-to-automate-receivables/", "label": "Fintech Global"}
+      {
+        "url": "https://www.prnewswire.com/news-releases/monk-raises-25m-series-a-to-automate-accounts-receivable-with-ai-302748872.html",
+        "label": "PR Newswire"
+      },
+      {
+        "url": "https://fintech.global/2026/04/22/monk-raises-25m-series-a-to-automate-receivables/",
+        "label": "Fintech Global"
+      }
+    ]
+  },
+  {
+    "id": "series-1",
+    "name": "Series",
+    "sector": "AI Social Networking",
+    "summary": "AI social network built entirely through iMessage. Users text a phone number describing who they are and who they want to meet; Series AI responds with shares \u2014 carousels of 10 photos of matching users. Press and hold to start a private conversation without sharing your number. Cofounders are Yale seniors Nathaneo Johnson (CEO) and Sean Hargrow (neuroscience). 750+ campuses, 82% D30 retention \u2014 higher than early Facebook. $5.1M pre-seed from Venmo cofounder, Pear VC, Reddit CEO, and GPTZero founder.",
+    "round": "Pre-Seed",
+    "amount": "$5.1M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-29",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/24/two-college-kids-raise-a-5-1-million-pre-seed-to-build-an-ai-social-network-in-imessage/",
+        "label": "TechCrunch"
+      }
     ]
   }
 ]
