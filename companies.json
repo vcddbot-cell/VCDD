@@ -1982,5 +1982,61 @@
         "label": "TechCrunch"
       }
     ]
+  },
+  {
+    "id": "rogo-1",
+    "name": "Rogo",
+    "sector": "AI Platform for Financial Services",
+    "summary": "AI platform for financial services delivering agentic intelligence and autonomous workflow execution. 35,000+ financial professionals at 250+ institutions including Rothschild & Co, Jefferies, Lazard, Moelis, Nomura. New product 'Felix' handles complex high-finance workflows \u2014 auto-generates presentations, models, documents, deal screening, CIM generation, buyer outreach, data room diligence. Acquired Plux AI and Offset to strengthen European operations and agentic capabilities. Tasks that took teams of junior bankers now take minutes.",
+    "round": "Series D",
+    "amount": "$160M",
+    "location": "New York, NY",
+    "reportDate": "2026-04-30",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/29/rogo-raises-160m-to-build-the-ai-operating-system-for-investment-banking/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/rogo-raises-160m-series-d-to-scale-the-agentic-platform-for-finance-302756546.html",
+        "label": "PR Newswire"
+      }
+    ]
+  },
+  {
+    "id": "dex-1",
+    "name": "Dex",
+    "sector": "AI Recruiting / Talent Agent",
+    "summary": "AI talent agent for tech companies. Conversational AI agent asks open-ended questions about experience, motivations, ambitions; surfaces curated job openings; benchmarks compensation; prepares candidates for interviews. Built on Google, Anthropic, and OpenAI models. Charges employers 20-30% of hired candidate's salary (same as traditional executive search firms). 15,000+ engineers signed up, 50+ customers including Lovable, ElevenLabs, Synthesia, Granola, Fyxer. $1.8M annualized revenue run rate. Plans to open NYC and SF offices later 2026.",
+    "round": "Seed",
+    "amount": "$5.3M",
+    "location": "London, UK (opening NYC/SF)",
+    "reportDate": "2026-04-30",
+    "links": [
+      {
+        "url": "https://fortune.com/2026/04/28/exclusive-dex-ai-powered-recruiting-startup-raises-seed-round-notion-capital/",
+        "label": "Fortune"
+      }
+    ]
+  },
+  {
+    "id": "ineffable-intelligence-1",
+    "name": "Ineffable Intelligence",
+    "sector": "AI / Reinforcement Learning / Superlearner",
+    "summary": "British AI lab founded by former DeepMind researcher David Silver (lead reinforcement learning team, 10+ years). Building 'superlearner' that discovers knowledge without human data using reinforcement learning \u2014 same technique that produced AlphaZero which defeated world top computer programs in chess and Go by learning purely from experience. If successful, claims it will be 'a scientific breakthrough of comparable magnitude to Darwin.' $1.1B seed at $5.1B valuation. Investors: Sequoia Capital, Lightspeed Venture Partners, Index Ventures, Google, Nvidia, British Business Bank, Sovereign AI.",
+    "round": "Seed",
+    "amount": "$1.1B",
+    "location": "London, UK",
+    "reportDate": "2026-04-30",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-04-27/sequoia-and-nvidia-back-ex-deepmind-researcher-at-5-1-billion-value",
+        "label": "Bloomberg"
+      }
+    ]
   }
 ]
