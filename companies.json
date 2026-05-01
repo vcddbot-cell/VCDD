@@ -2038,5 +2038,25 @@
         "label": "Bloomberg"
       }
     ]
+  },
+  {
+    "id": "manifest-os-1",
+    "name": "Manifest OS",
+    "sector": "Legal AI / AI-Native Law Firm",
+    "summary": "AI-native law firm model with fixed-fee and outcomes-based pricing (no billable hours). Running Manifest Law brand as Arizona ABS law firms. Focused on business immigration, expanding to global immigration. $60M Series A at $750M valuation \u2014 largest Series A in legal tech history. 18 months since founding. Combining proprietary AI platform + centralized back-office + shared brand. 80% of American businesses and consumers cannot afford legal help; billing rates rose 7.4% in 2025.",
+    "round": "Series A",
+    "amount": "$60M",
+    "location": "New York, NY",
+    "reportDate": "2026-05-01",
+    "links": [
+      {
+        "url": "https://legaltechnology.com/2026/04/28/manifest-os-raises-60m-series-a-to-build-ai-native-law-firm-model/",
+        "label": "Legal IT Insider"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-04-28/ai-legal-startup-manifest-raises-funds-at-750-million-valuation",
+        "label": "Bloomberg"
+      }
+    ]
   }
 ]
