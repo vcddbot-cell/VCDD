@@ -2058,5 +2058,45 @@
         "label": "Bloomberg"
       }
     ]
+  },
+  {
+    "id": "avoca-1",
+    "name": "Avoca",
+    "sector": "AI / Services Economy Automation",
+    "summary": "AI agents for service businesses (HVAC, plumbing, roofing, electrical, moving, junk removal) handling chat, email, voice calls, and SMS across entire customer journey. Raised $125M+ across Seed, Series A, Series B at $1B valuation. On track to book $1B in jobs this year. Surpassed eight figures ARR in 2025. 800+ customers including Turnpoint, 1-800-GOT-JUNK?, Goettl, Sila Services. Partnerships with ServiceTitan, Nexstar, Clover. Founded after chance encounter at Texas restaurant conference.",
+    "round": "Series B",
+    "amount": "$125M",
+    "location": "New York, NY",
+    "reportDate": "2026-05-02",
+    "links": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/avoca-raises-125m-at-1b-valuation-to-power-americas-services-economy-with-ai-302753962.html",
+        "label": "PR Newswire"
+      },
+      {
+        "url": "https://fortune.com/2026/04/27/avoca-ai-agents-missed-calls-hvac-plumbing-roofing-kleiner-perkins-chen-shrivastava-braswell/",
+        "label": "Fortune"
+      }
+    ]
+  },
+  {
+    "id": "fun-1",
+    "name": "Fun",
+    "sector": "Fintech / Payments Infrastructure",
+    "summary": "Payments infrastructure enabling enterprise platforms to move money across crypto and traditional financial systems. Processes $18B yearly payments volume. Clients include Polymarket, Lighter (crypto derivatives), Aave (lending). $72M Series A led by Multicoin Capital and SignalFire. 26-year-old Stanford dropout founder Alex Fine. Nearly 30 employees. Previously raised $3.9M seed in 2022. Total funding: $85.9M.",
+    "round": "Series A",
+    "amount": "$72M",
+    "location": "United States",
+    "reportDate": "2026-05-02",
+    "links": [
+      {
+        "url": "https://fortune.com/2026/05/01/fun-series-a-fundraise-multicoin-capital-signalfire/",
+        "label": "Fortune"
+      },
+      {
+        "url": "https://www.alleywatch.com/2026/05/the-alleywatch-startup-daily-funding-report-5-1-2026/",
+        "label": "AlleyWatch"
+      }
+    ]
   }
 ]
