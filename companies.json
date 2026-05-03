@@ -2098,5 +2098,21 @@
         "label": "AlleyWatch"
       }
     ]
+  },
+  {
+    "id": "firestorm-labs-1",
+    "name": "Firestorm Labs",
+    "sector": "Defense Tech / Autonomous Drones",
+    "summary": "Containerized drone factory in a shipping container. xCell platform can 3D print drone systems in under 24 hours. Drones configurable for surveillance or electronic warfare. Two xCell units deployed with Air Force. $100M Air Force contract ceiling.",
+    "round": "Series B",
+    "amount": "$82M",
+    "location": "San Diego, CA",
+    "reportDate": "2026-05-03",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/29/firestorm-labs-raises-82m-to-take-drone-factories-into-the-field/",
+        "label": "TechCrunch"
+      }
+    ]
   }
 ]
