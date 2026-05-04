@@ -1,5 +1,25 @@
 [
   {
+    "id": "scout-ai-1",
+    "name": "Scout AI",
+    "sector": "Aerospace & Defense / AI Foundation Models",
+    "summary": "Building Fury, an AI foundation model for unmanned warfare that coordinates autonomous military systems across domains (ground, air, sea). Released Fury model in 2026. Leadership team includes veterans from SpaceX, Blue Origin, and intelligence community. M Series A was oversubscribed. M seed raised January 2026.",
+    "round": "Series A",
+    "amount": "M",
+    "location": "Sunnyvale, CA",
+    "reportDate": "2026-05-04",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/scout-ai-raises-100m-series-a-to-build-the-ai-brain-for-unmanned-warfare-302756871.html",
+        "label": "PR Newswire"
+      }
+    ]
+  },
+  {
     "id": "ami-labs-1",
     "name": "AMI Labs",
     "sector": "AI",
