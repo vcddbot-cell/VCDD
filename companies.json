@@ -2134,5 +2134,73 @@
         "label": "TechCrunch"
       }
     ]
+  },
+  {
+    "id": "sierra-1",
+    "name": "Sierra",
+    "sector": "Enterprise AI / Customer Experience Agents",
+    "summary": "AI agent platform for enterprise customer experiences, co-founded by Bret Taylor (OpenAI Chairman, ex-Salesforce co-CEO) and Clay Bavor (ex-Google). Handles billions of interactions from mortgage refinancing to insurance claims processing. Launched Ghostwriter (agent-as-a-service). 40%+ of Fortune 50 as clients. Hit $150M ARR in under 2 years. Acquired YC-backed workflow startup Fragment in April 2026.",
+    "round": "Series E",
+    "amount": "$950M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-05-05",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://sierra.ai/blog/better-customer-experiences-built-on-sierra",
+        "label": "Sierra Blog"
+      }
+    ]
+  },
+  {
+    "id": "panthalassa-1",
+    "name": "Panthalassa",
+    "sector": "Clean Energy / Ocean Technology / AI Infrastructure",
+    "summary": "Building floating ocean nodes that convert wave energy into continuous electricity to power AI data centers at sea. Ocean-3 series nodes perform AI inference computing using wave-generated power, bypassing transmission costs entirely. Founders: Garth Sheldon-Coulson (ex-Bridgewater, MIT MS/JD) and Brian Moffat. Pilot manufacturing facility near Portland, Oregon.",
+    "round": "Series B",
+    "amount": "$140M",
+    "location": "Portland, OR",
+    "reportDate": "2026-05-05",
+    "links": [
+      {
+        "url": "https://www.businesswire.com/news/home/20260504552400/en/Panthalassa-Raises-$140-Million-to-Power-AI-at-Sea",
+        "label": "Business Wire"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/panthalassa-raises-140-million-to-power-ai-at-sea-302761078.html",
+        "label": "PR Newswire"
+      },
+      {
+        "url": "https://www.esgtoday.com/peter-thiel-leads-140-million-capital-raise-for-panthalassa-to-power-ai-computing-using-ocean-waves/",
+        "label": "ESG Today"
+      }
+    ]
+  },
+  {
+    "id": "zyg-1",
+    "name": "ZyG",
+    "sector": "AI / E-commerce / Agentic Commerce Platform",
+    "summary": "AI operating system for e-commerce scale, founded by ex-ironSource alumni (Tomer Bar-Zeev as Chairman, Omer Kaplan as CEO, Assaf Ben Ami as CFO/COO, plus Nadav Ashkenazy, Daniel Shinar, and cybersecurity/AI experts from Unit 81). Platform identifies high-potential products using proprietary 'ZyG Score', then manages full lifecycle including building stores, brands, ad campaigns, influencer marketing, logistics. Agentic infrastructure handles all scaling elements. 65 employees. Total funding: $118M.",
+    "round": "Series A",
+    "amount": "$60M",
+    "location": "Tel Aviv, Israel",
+    "reportDate": "2026-05-05",
+    "links": [
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/bkzm3rw0wl",
+        "label": "Calcalistech"
+      },
+      {
+        "url": "https://ventureburn.com/zyg-raises-60m-to-build-ai-operating-system-for-ecommerce-scale/",
+        "label": "Ventureburn"
+      },
+      {
+        "url": "https://techfundingnews.com/zyg-60m-series-a-accel-ironsource-agentic-ecommerce/",
+        "label": "Tech Funding News"
+      }
+    ]
   }
 ]
