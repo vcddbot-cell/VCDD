@@ -260,6 +260,26 @@
     ]
   },
   {
+    "id": "parallel-web-systems-1",
+    "name": "Parallel Web Systems",
+    "sector": "AI Infrastructure / Web Search for Agents",
+    "summary": "AI agent web infrastructure startup founded by former Twitter CEO Parag Agrawal. Builds web search and research APIs specifically for AI agents. Customers include Harvey, Notion, Clay, Opendoor, Attio, Modal, Rogo, and major banks and hedge funds. Over 100,000 developers using its products. Two P&C insurers using the platform reduced claims processing times by 50%. Raised $100M Series B at $2B valuation led by Sequoia — 2.7x valuation jump from $740M just 5 months prior. Total raised: $230M.",
+    "round": "Series B",
+    "amount": "$100M",
+    "location": "Palo Alto, CA",
+    "reportDate": "2026-05-06",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/04/29/parallel-web-systems-hits-2b-valuation-five-months-after-its-last-big-raise/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/parallel-raises-at-2-billion-valuation-to-scale-web-infrastructure-for-agents-302756350.html",
+        "label": "PR Newswire"
+      }
+    ]
+  },
+  {
     "id": "busright-1",
     "name": "BusRight",
     "sector": "EdTech / Student Transportation",
