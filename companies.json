@@ -2222,5 +2222,25 @@
         "label": "Tech Funding News"
       }
     ]
+  },
+  {
+    "id": "corgi-insurance-1",
+    "name": "Corgi",
+    "sector": "AI Insurance / InsurTech",
+    "summary": "AI-native insurance company for startups and SMBs. Offers general liability, cyber liability, and tech & AI liability coverage. Co-founded by Nico Laqua (CEO) and Emily Yuan (COO), YC S24. 4 months between Series A ($108M) and Series B ($160M). YC's latest unicorn. Total raised $268M. Also enables startups to sell insurance to their own customers. Running 24/7 cafe as customer engagement strategy.",
+    "round": "Series B",
+    "amount": "$160M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-05-07",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/05/06/insurance-startup-corgi-hits-1-3b-valuation-4-months-after-its-series-a/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.corgi.insure/press-releases/series-b",
+        "label": "Corgi Press Release"
+      }
+    ]
   }
 ]
