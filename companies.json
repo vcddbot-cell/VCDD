@@ -263,7 +263,7 @@
     "id": "parallel-web-systems-1",
     "name": "Parallel Web Systems",
     "sector": "AI Infrastructure / Web Search for Agents",
-    "summary": "AI agent web infrastructure startup founded by former Twitter CEO Parag Agrawal. Builds web search and research APIs specifically for AI agents. Customers include Harvey, Notion, Clay, Opendoor, Attio, Modal, Rogo, and major banks and hedge funds. Over 100,000 developers using its products. Two P&C insurers using the platform reduced claims processing times by 50%. Raised $100M Series B at $2B valuation led by Sequoia — 2.7x valuation jump from $740M just 5 months prior. Total raised: $230M.",
+    "summary": "AI agent web infrastructure startup founded by former Twitter CEO Parag Agrawal. Builds web search and research APIs specifically for AI agents. Customers include Harvey, Notion, Clay, Opendoor, Attio, Modal, Rogo, and major banks and hedge funds. Over 100,000 developers using its products. Two P&C insurers using the platform reduced claims processing times by 50%. Raised $100M Series B at $2B valuation led by Sequoia \u2014 2.7x valuation jump from $740M just 5 months prior. Total raised: $230M.",
     "round": "Series B",
     "amount": "$100M",
     "location": "Palo Alto, CA",
@@ -2240,6 +2240,58 @@
       {
         "url": "https://www.corgi.insure/press-releases/series-b",
         "label": "Corgi Press Release"
+      }
+    ]
+  },
+  {
+    "id": "moment-energy-1",
+    "name": "Moment Energy",
+    "sector": "Energy Tech / Second-Life Battery Storage",
+    "summary": "North America's largest second-life battery platform. Builds battery energy storage systems from repurposed end-of-life EV batteries. Addresses AI power bottleneck with 164 MWh/acre density. Total funding over $100M. Manufacturing facilities in Texas and British Columbia. Luna BESS product scalable to 10MWh for data centers, hospitals, factories, and microgrids.",
+    "round": "Series B",
+    "amount": "$40M",
+    "location": "Coquitlam, B.C., Canada",
+    "reportDate": "2026-05-08",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/05/05/moment-energy-raises-40m-to-meet-infinite-demand-for-power-with-ev-batteries/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.momentenergy.com/news/series-b",
+        "label": "Company Press Release"
+      }
+    ]
+  },
+  {
+    "id": "kanvas-biosciences-1",
+    "name": "Kanvas Biosciences",
+    "sector": "Biotech / Microbiome & Spatial Biology",
+    "summary": "Full-stack microbiome therapeutics company developing novel cancer treatments. Acquired two active therapeutics programs, a microbial library, and IP from Federation Bio. Total capital raised $78M. Spatial biology platform maps host-microbiome interactions for engineered microbial consortia. Lead program in clinical trials for MSI-H cancers. Data presented at SITC annual meeting.",
+    "round": "Series A",
+    "amount": "$48M",
+    "location": "Princeton, NJ",
+    "reportDate": "2026-05-08",
+    "links": [
+      {
+        "url": "https://www.businesswire.com/news/home/20260506062784/en/Kanvas-Biosciences-Secures-$48M-Series-A-to-Deliver-Novel-Microbiome-Therapeutics-to-Cancer-Patients",
+        "label": "Business Wire"
+      }
+    ]
+  },
+  {
+    "id": "lithosquare-1",
+    "name": "Lithosquare",
+    "sector": "Cleantech / AI-Driven Mineral Exploration",
+    "summary": "AI-powered mineral exploration platform combining foundational AI, geological expertise, and real-world data. Founded 2024. Addresses critical minerals shortage \u2014 over 1,000 new mineral deposits must be found by 2040 for energy transition (copper, lithium for EVs, solar, wind, grid storage). \u20ac21.4M seed round. Paris-based with global ambitions.",
+    "round": "Seed",
+    "amount": "$25M",
+    "location": "Paris, France",
+    "reportDate": "2026-05-08",
+    "links": [
+      {
+        "url": "https://www.eu-startups.com/2026/05/paris-based-lithosquare-raises-e21-4-million-to-accelerate-transition-critical-mineral-discovery-with-geology-ai/",
+        "label": "EU-Startups"
       }
     ]
   }
