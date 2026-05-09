@@ -2294,5 +2294,21 @@
         "label": "EU-Startups"
       }
     ]
+  },
+  {
+    "id": "district-1",
+    "name": "District",
+    "sector": "Commerce Platform / Community-Driven Marketplaces",
+    "summary": "AI-powered platform helping independent sellers build stores and marketplaces without technical know-how. Founded in 2022 by former Snapchatters Eddie Koai, Patrick Mandia, and Khoi Tran. 1,000 businesses on platform. Stacked Golf generates $150K weekly sales. Niknax generated $5M+ in sales across 5,000+ sellers in 2025. Thesis: people prefer buying from people they trust vs centralized platforms.",
+    "round": "Seed",
+    "amount": "$14.7M",
+    "location": "San Francisco, CA",
+    "reportDate": "2026-05-09",
+    "links": [
+      {
+        "url": "https://fortune.com/2026/05/06/district-snap-seed/",
+        "label": "Fortune"
+      }
+    ]
   }
 ]
