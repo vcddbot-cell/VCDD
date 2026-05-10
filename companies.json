@@ -2310,5 +2310,61 @@
         "label": "Fortune"
       }
     ]
+  },
+  {
+    "id": "copilotkit-1",
+    "name": "CopilotKit",
+    "sector": "AI / Enterprise Agent Infrastructure",
+    "summary": "Building the interface layer between humans and AI agents. Their AG-UI protocol standardizes how AI agents connect to and communicate with user interfaces, enabling agents to live inside applications, understand context, take actions, and show dynamic interactive UIs instead of returning long blocks of text. Protocol adopted by Google, Microsoft, Amazon, Oracle, LangChain, Mastra, PydanticAI, and Agno. Millions of installs per week. Large portion of Fortune 500 using in production. Enterprise customers include Deutsche Telekom, Docusign, Cisco, and S&P Global. Founded by Israeli brothers Atai Barkai (CEO) and Uli Barkai (head of growth).",
+    "round": "Series A",
+    "amount": "$27M",
+    "location": "Seattle, WA",
+    "reportDate": "2026-05-10",
+    "links": [
+      {
+        "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "id": "panthalassa-1",
+    "name": "Panthalassa",
+    "sector": "CleanTech / Ocean Energy for AI Data Centers",
+    "summary": "Building floating wave-powered AI data centers. Their Ocean-3 series nodes generate electricity from ocean waves and use that power to run AI inference computing, bypassing transmission costs. Seawater cooling reduces energy overhead. Massive M Series B led by Peter Thiel. Notable investors include John Doerr, Marc Benioff, Reid Hoffman, and Safra Adelson. Pilot manufacturing facility near Portland, Oregon. Plans to deploy nodes in northern Pacific Ocean in 2026.",
+    "round": "Series B",
+    "amount": "$140M",
+    "location": "Portland, OR",
+    "reportDate": "2026-05-10",
+    "links": [
+      {
+        "url": "https://www.geekwire.com/2026/data-centers-at-sea-oregons-panthalassa-nets-140m-led-by-peter-thiel-for-wave-powered-ai/",
+        "label": "GeekWire"
+      },
+      {
+        "url": "https://arstechnica.com/ai/2026/05/silicon-valley-bets-on-floating-ai-data-centers-powered-by-ocean-waves/",
+        "label": "Ars Technica"
+      }
+    ]
+  },
+  {
+    "id": "radixark-1",
+    "name": "RadixArk",
+    "sector": "AI Infrastructure / Open Source Inference",
+    "summary": "Democratizing access to frontier AI infrastructure. Core product is SGLang, the open-source inference engine that has become foundational for running large language models efficiently. Also building Miles, an open training infrastructure system. Founded by Ying Sheng and Banghua Zhu, AI infrastructure and modeling veterans from xAI and NVIDIA. $100M seed at $400M post-money valuation led by Accel. Goal: make frontier AI infrastructure accessible to more organizations.",
+    "round": "Seed",
+    "amount": "$100M",
+    "location": "Palo Alto, CA",
+    "reportDate": "2026-05-10",
+    "links": [
+      {
+        "url": "https://www.businesswire.com/news/home/20260505077157/en/RadixArk-Launches-with-$100-Million-in-Seed-Funding-Led-by-Accel-to-Grow-SGLang-and-Democratize-Frontier-AI-Infrastructure",
+        "label": "Business Wire"
+      },
+      {
+        "url": "https://www.radixark.com/blog/radixark-launches-100m-seed",
+        "label": "RadixArk Blog"
+      }
+    ]
   }
 ]
